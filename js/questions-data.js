@@ -1,0 +1,8166 @@
+// 360° PLACEMENT & INDUSTRY IQ - Offline Questions Dataset
+// Powered by SarlaYash Mission
+window.QUESTIONS_DATA = [
+  {
+    "id": 1,
+    "difficulty": 1,
+    "category": "Workplace",
+    "scenario": "You receive an urgent request from a peer at 4:30 PM requesting help with an unexpected data format issue, while you have a scheduled task due for your own supervisor tomorrow at 9:00 AM.",
+    "question": "How do you address this immediate clash in expectations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quickly review their data issue for 15 minutes to estimate complexity, then either offer a quick fix or schedule morning support.",
+        "scores": {
+          "time_priority_iq": 90,
+          "teamwork_iq": 85,
+          "problem_solving_iq": 80,
+          "communication_iq": 80
+        },
+        "risk": "moderate",
+        "actionType": "analytical_triage"
+      },
+      {
+        "key": "B",
+        "text": "Immediately set aside your own task and stay late until both your peer's issue and your morning deliverable are fully resolved.",
+        "scores": {
+          "teamwork_iq": 85,
+          "time_priority_iq": 50,
+          "job_readiness_iq": 65,
+          "eq": 70
+        },
+        "risk": "high",
+        "actionType": "overextension"
+      },
+      {
+        "key": "C",
+        "text": "Politely explain that your own deadline is locked for 9:00 AM, advising them to escalate to the team lead if they cannot wait.",
+        "scores": {
+          "time_priority_iq": 85,
+          "communication_iq": 70,
+          "teamwork_iq": 55,
+          "eq": 60
+        },
+        "risk": "low",
+        "actionType": "boundary_setting"
+      },
+      {
+        "key": "D",
+        "text": "Share a standard documentation guide or previous template that might help them debug it independently this evening.",
+        "scores": {
+          "problem_solving_iq": 80,
+          "communication_iq": 75,
+          "time_priority_iq": 85,
+          "teamwork_iq": 70
+        },
+        "risk": "low",
+        "actionType": "resource_sharing"
+      }
+    ],
+    "dimensionWeights": {
+      "time_priority_iq": 40,
+      "teamwork_iq": 30,
+      "communication_iq": 20,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Balancing peer solidarity with strict deliverable accountability requires rapid triage rather than automatic over-commitment.",
+    "developmentInsight": "Prioritize clarifying scope and timeline impact before accepting unmanaged spillover work.",
+    "industryTags": [
+      "Corporate",
+      "IT",
+      "Consulting",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 2,
+    "difficulty": 1,
+    "category": "Internship",
+    "scenario": "During your first month as an intern, you notice that a spreadsheet calculation methodology your mentor taught you appears to yield a 4% variance compared to the newly updated company guidelines.",
+    "question": "What is your immediate course of action?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quietly adjust your sheet to match the new company guideline without bringing it up to avoid questioning your mentor's expertise.",
+        "scores": {
+          "ethics_judgment_iq": 60,
+          "communication_iq": 50,
+          "job_readiness_iq": 55,
+          "eq": 60
+        },
+        "risk": "low",
+        "actionType": "silent_correction"
+      },
+      {
+        "key": "B",
+        "text": "Schedule a brief 1-on-1 with your mentor, sharing your side-by-side comparison respectfully to ask for their perspective on the discrepancy.",
+        "scores": {
+          "communication_iq": 95,
+          "critical_thinking_iq": 90,
+          "learning_agility_iq": 90,
+          "eq": 85
+        },
+        "risk": "moderate",
+        "actionType": "respectful_inquiry"
+      },
+      {
+        "key": "C",
+        "text": "Raise the issue in the upcoming departmental all-hands meeting so everyone is made aware of the guideline discrepancy.",
+        "scores": {
+          "communication_iq": 45,
+          "eq": 40,
+          "leadership_iq": 50,
+          "job_readiness_iq": 45
+        },
+        "risk": "high",
+        "actionType": "public_escalation"
+      },
+      {
+        "key": "D",
+        "text": "Re-run the calculations with historical data sets first to verify whether this variance produces material business impact before speaking up.",
+        "scores": {
+          "critical_thinking_iq": 90,
+          "problem_solving_iq": 90,
+          "business_iq": 80,
+          "job_readiness_iq": 85
+        },
+        "risk": "low",
+        "actionType": "data_verification"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 35,
+      "critical_thinking_iq": 30,
+      "learning_agility_iq": 20,
+      "eq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Constructive validation coupled with private, respectful dialogue builds trust while safeguarding analytical rigor.",
+    "developmentInsight": "When finding potential errors in senior guidance, verify the facts calmly and frame the inquiry around clarification.",
+    "industryTags": [
+      "Banking",
+      "Education",
+      "Consulting",
+      "Retail"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 3,
+    "difficulty": 1,
+    "category": "AI",
+    "scenario": "An AI language model generates an articulate, comprehensive market summary for your project. However, two citations reference market research reports you cannot verify through public search engines.",
+    "question": "How do you handle this unverified AI output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Include the AI citations directly since the narrative reasoning and numerical projections seem completely credible.",
+        "scores": {
+          "aiq": 35,
+          "critical_thinking_iq": 30,
+          "ethics_judgment_iq": 40,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "blind_trust"
+      },
+      {
+        "key": "B",
+        "text": "Remove the unverified citations and cross-check the underlying claims against primary, reputable industry sources before inclusion.",
+        "scores": {
+          "aiq": 95,
+          "critical_thinking_iq": 95,
+          "ethics_judgment_iq": 90,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "rigorous_verification"
+      },
+      {
+        "key": "C",
+        "text": "Add a disclaimer at the bottom stating 'Data generated by AI and may contain hallucinated references.'",
+        "scores": {
+          "aiq": 65,
+          "job_readiness_iq": 60,
+          "communication_iq": 65,
+          "critical_thinking_iq": 60
+        },
+        "risk": "moderate",
+        "actionType": "disclaimer_offload"
+      },
+      {
+        "key": "D",
+        "text": "Prompt the AI again asking it to re-confirm whether the sources are genuine or synthetic.",
+        "scores": {
+          "aiq": 60,
+          "critical_thinking_iq": 60,
+          "problem_solving_iq": 65,
+          "learning_agility_iq": 60
+        },
+        "risk": "moderate",
+        "actionType": "recursive_prompting"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 45,
+      "critical_thinking_iq": 30,
+      "ethics_judgment_iq": 15,
+      "job_readiness_iq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "AI output requires human-in-the-loop verification. Hallucinated citations must never enter professional deliverables.",
+    "developmentInsight": "Always isolate assertions made by AI models and validate against primary, authoritative sources.",
+    "industryTags": [
+      "IT",
+      "Marketing",
+      "Consulting",
+      "Education"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 4,
+    "difficulty": 1,
+    "category": "Interview",
+    "scenario": "During a final-round job interview, the interviewer asks a technical question about a framework or protocol you have read about briefly but have never actually used in practice.",
+    "question": "How do you frame your response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confidently claim you used it during a capstone project and attempt to infer answers from general principles.",
+        "scores": {
+          "interview_iq": 40,
+          "ethics_judgment_iq": 35,
+          "eq": 40,
+          "communication_iq": 45
+        },
+        "risk": "high",
+        "actionType": "bluffing"
+      },
+      {
+        "key": "B",
+        "text": "State clearly that you have theoretical familiarity but haven't implemented it in production, then explain how your related experience enables rapid adoption.",
+        "scores": {
+          "interview_iq": 95,
+          "communication_iq": 90,
+          "learning_agility_iq": 95,
+          "ethics_judgment_iq": 90
+        },
+        "risk": "moderate",
+        "actionType": "authentic_transfer"
+      },
+      {
+        "key": "C",
+        "text": "Simply answer 'I do not know' and remain quiet until the interviewer moves to the next question.",
+        "scores": {
+          "interview_iq": 55,
+          "communication_iq": 50,
+          "job_readiness_iq": 50,
+          "learning_agility_iq": 45
+        },
+        "risk": "low",
+        "actionType": "passive_surrender"
+      },
+      {
+        "key": "D",
+        "text": "Pivot immediately to discuss a different tool that you know thoroughly without acknowledging the framework they asked about.",
+        "scores": {
+          "interview_iq": 60,
+          "communication_iq": 60,
+          "critical_thinking_iq": 55,
+          "eq": 60
+        },
+        "risk": "moderate",
+        "actionType": "unacknowledged_deflection"
+      }
+    ],
+    "dimensionWeights": {
+      "interview_iq": 40,
+      "communication_iq": 25,
+      "learning_agility_iq": 20,
+      "ethics_judgment_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Interviewers value authentic self-awareness combined with cognitive flexibility and clear conceptual mapping.",
+    "developmentInsight": "Frame knowledge gaps as active learning bridges by showing how your current skills map to unfamiliar domains.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 5,
+    "difficulty": 1,
+    "category": "Teamwork",
+    "scenario": "In a student or project team of four, one peer consistently fails to attend sprint check-ins and delivers their assigned slides late, forcing others to format them at midnight.",
+    "question": "What is your first step as a proactive teammate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Report the individual immediately to the project evaluator or professor to seek a grade penalty.",
+        "scores": {
+          "teamwork_iq": 45,
+          "eq": 50,
+          "leadership_iq": 45,
+          "communication_iq": 50
+        },
+        "risk": "high",
+        "actionType": "early_escalation"
+      },
+      {
+        "key": "B",
+        "text": "Initiate a private, non-judgmental conversation to understand if they face unexpected blockers, while clarifying the downstream impact on the team.",
+        "scores": {
+          "teamwork_iq": 95,
+          "eq": 95,
+          "communication_iq": 90,
+          "leadership_iq": 85
+        },
+        "risk": "moderate",
+        "actionType": "empathetic_dialogue"
+      },
+      {
+        "key": "C",
+        "text": "Take over their portion entirely to safeguard the team's submission quality without confronting them.",
+        "scores": {
+          "teamwork_iq": 60,
+          "eq": 55,
+          "time_priority_iq": 60,
+          "leadership_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "martyrdom"
+      },
+      {
+        "key": "D",
+        "text": "Call them out in the group chat so peer transparency forces them to honor their commitments.",
+        "scores": {
+          "teamwork_iq": 50,
+          "eq": 40,
+          "communication_iq": 50,
+          "leadership_iq": 45
+        },
+        "risk": "high",
+        "actionType": "public_pressure"
+      }
+    ],
+    "dimensionWeights": {
+      "teamwork_iq": 35,
+      "eq": 30,
+      "communication_iq": 20,
+      "leadership_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Direct empathetic inquiry uncovers hidden friction points before frustration metastasizes into team breakdown.",
+    "developmentInsight": "Address interpersonal accountability privately first; preserve dignity while maintaining project standards.",
+    "industryTags": [
+      "Education",
+      "Startups",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "During your private conversation, your peer confides that a family medical crisis has overwhelmed their focus and they feel embarrassed to ask for help.",
+      "followUpQuestion": "How do you navigate this newly revealed constraint?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Help redistribute their tasks into smaller modular chunks, agree on specific check-in dates, and inform the team lead on adjusted timelines without exposing private details.",
+          "score": 95,
+          "trait": "empathetic_leader"
+        },
+        {
+          "key": "B",
+          "text": "Advise them to drop out of the project immediately so the team's timeline is not jeopardized.",
+          "score": 45,
+          "trait": "rigid_expulsion"
+        },
+        {
+          "key": "C",
+          "text": "Offer to do all of their remaining work secretly so no one else finds out.",
+          "score": 60,
+          "trait": "untenable_cover"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "difficulty": 1,
+    "category": "College",
+    "scenario": "Your final semester capstone project server crashes 18 hours before demonstration day, and the most recent database backup is 48 hours old.",
+    "question": "What is your immediate priority?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Panic and draft an email requesting an extension from the examination committee.",
+        "scores": {
+          "problem_solving_iq": 40,
+          "adaptability_iq": 45,
+          "job_readiness_iq": 40,
+          "iq": 45
+        },
+        "risk": "high",
+        "actionType": "defeatist"
+      },
+      {
+        "key": "B",
+        "text": "Isolate the root cause of the crash in logs first, assess data loss delta, and formulate a rollback versus hotfix plan with estimated times.",
+        "scores": {
+          "problem_solving_iq": 95,
+          "critical_thinking_iq": 95,
+          "adaptability_iq": 90,
+          "iq": 90
+        },
+        "risk": "moderate",
+        "actionType": "structured_triage"
+      },
+      {
+        "key": "C",
+        "text": "Immediately restore the 48-hour backup without investigating what triggered the crash.",
+        "scores": {
+          "problem_solving_iq": 65,
+          "critical_thinking_iq": 55,
+          "risk": "high",
+          "iq": 60
+        },
+        "risk": "high",
+        "actionType": "premature_reversion"
+      },
+      {
+        "key": "D",
+        "text": "Split the team into two: one pair recreates missing data manually while the other rewrites the demo script.",
+        "scores": {
+          "problem_solving_iq": 75,
+          "leadership_iq": 80,
+          "time_priority_iq": 70,
+          "adaptability_iq": 75
+        },
+        "risk": "moderate",
+        "actionType": "parallel_recovery"
+      }
+    ],
+    "dimensionWeights": {
+      "problem_solving_iq": 40,
+      "critical_thinking_iq": 30,
+      "adaptability_iq": 20,
+      "iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Systemic crisis requires disciplined triage: understand the failure mode before executing irreversible rollback actions.",
+    "developmentInsight": "Under high time pressure, separate symptom mitigation from root-cause identification.",
+    "industryTags": [
+      "IT",
+      "Engineering",
+      "Education"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 7,
+    "difficulty": 1,
+    "category": "Customer",
+    "scenario": "A client reaches out visibly upset because an onboarding training session started 15 minutes late due to an audiovisual connectivity failure on your end.",
+    "question": "How do you address the client's frustration?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Explain in detail that the hotel Wi-Fi was experiencing unprecedented network latency outside your personal control.",
+        "scores": {
+          "communication_iq": 50,
+          "eq": 45,
+          "job_readiness_iq": 50,
+          "sales_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "defensive_blame"
+      },
+      {
+        "key": "B",
+        "text": "Acknowledge the inconvenience sincerely, apologize for the lost time, summarize what was delivered, and offer a dedicated supplementary session.",
+        "scores": {
+          "communication_iq": 95,
+          "eq": 95,
+          "sales_iq": 85,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "empathetic_ownership"
+      },
+      {
+        "key": "C",
+        "text": "Offer an immediate 20% refund on the service fee without discussing the underlying concerns.",
+        "scores": {
+          "eq": 60,
+          "business_iq": 55,
+          "sales_iq": 60,
+          "job_readiness_iq": 60
+        },
+        "risk": "moderate",
+        "actionType": "financial_appeasement"
+      },
+      {
+        "key": "D",
+        "text": "Remind the client that the contractual agreement permits a grace period for technical setup delays.",
+        "scores": {
+          "communication_iq": 40,
+          "eq": 35,
+          "job_readiness_iq": 40,
+          "sales_iq": 40
+        },
+        "risk": "high",
+        "actionType": "legalistic_rigidity"
+      }
+    ],
+    "dimensionWeights": {
+      "eq": 40,
+      "communication_iq": 35,
+      "job_readiness_iq": 15,
+      "sales_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Customer reassurance requires empathetic ownership of the experience rather than technical rationalization of the failure.",
+    "developmentInsight": "Own the setback, validate their frustration, and proactively offer value-restoring next steps.",
+    "industryTags": [
+      "Retail",
+      "Consulting",
+      "Hospitality",
+      "Customer Service"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 8,
+    "difficulty": 1,
+    "category": "Ethical",
+    "scenario": "You accidentally discover a spreadsheet left open on a shared printer containing prospective salary bands and performance ratings for your department peers.",
+    "question": "What do you do with this sensitive document?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Read through it quickly to gauge where your own compensation stands relative to teammates.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "job_readiness_iq": 35,
+          "eq": 40,
+          "promotion_readiness_iq": 30
+        },
+        "risk": "high",
+        "actionType": "opportunistic_breach"
+      },
+      {
+        "key": "B",
+        "text": "Take a smartphone photo of the document in case management treats you unfairly in future evaluations.",
+        "scores": {
+          "ethics_judgment_iq": 25,
+          "job_readiness_iq": 25,
+          "risk": "high",
+          "communication_iq": 30
+        },
+        "risk": "high",
+        "actionType": "covert_exploitation"
+      },
+      {
+        "key": "C",
+        "text": "Secure the document immediately, deliver it directly to the HR manager or document owner, and refrain from browsing or discussing it.",
+        "scores": {
+          "ethics_judgment_iq": 98,
+          "job_readiness_iq": 95,
+          "leadership_iq": 90,
+          "promotion_readiness_iq": 85
+        },
+        "risk": "low",
+        "actionType": "confidentiality_champion"
+      },
+      {
+        "key": "D",
+        "text": "Shred the document on the spot so nobody else can read it.",
+        "scores": {
+          "ethics_judgment_iq": 70,
+          "job_readiness_iq": 65,
+          "critical_thinking_iq": 60,
+          "problem_solving_iq": 65
+        },
+        "risk": "moderate",
+        "actionType": "unilateral_destruction"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 50,
+      "job_readiness_iq": 25,
+      "leadership_iq": 15,
+      "promotion_readiness_iq": 10
+    },
+    "timeRecommendation": 35,
+    "explanation": "Professional integrity is defined by what you do when confidential data is within easy reach and unmonitored.",
+    "developmentInsight": "Respect information boundaries rigorously; safeguard organizational privacy without curiosity breaches.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 9,
+    "difficulty": 1,
+    "category": "Programming",
+    "scenario": "A automated process runs fine for standard monthly invoices, but whenever a customer has a credit balance or zero billing amount, the workflow silently stops without generating error alerts.",
+    "question": "What diagnostic approach best identifies the structural defect?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase server memory and CPU capacity since processes often hang under heavy calculation loads.",
+        "scores": {
+          "programming_iq": 40,
+          "iq": 45,
+          "problem_solving_iq": 45,
+          "critical_thinking_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "resource_shotgun"
+      },
+      {
+        "key": "B",
+        "text": "Examine conditional branch logic handling boundary values (<= 0) and verify whether unhandled null or negative values terminate the execution pipeline.",
+        "scores": {
+          "programming_iq": 95,
+          "iq": 95,
+          "problem_solving_iq": 95,
+          "critical_thinking_iq": 90
+        },
+        "risk": "low",
+        "actionType": "boundary_inspection"
+      },
+      {
+        "key": "C",
+        "text": "Manually delete all zero-balance records from the database before running the script each month.",
+        "scores": {
+          "programming_iq": 35,
+          "problem_solving_iq": 40,
+          "job_readiness_iq": 40,
+          "iq": 40
+        },
+        "risk": "high",
+        "actionType": "crude_workaround"
+      },
+      {
+        "key": "D",
+        "text": "Rewrite the entire invoicing pipeline from scratch in a different language.",
+        "scores": {
+          "programming_iq": 55,
+          "time_priority_iq": 40,
+          "problem_solving_iq": 50,
+          "business_iq": 45
+        },
+        "risk": "high",
+        "actionType": "premature_rebuild"
+      }
+    ],
+    "dimensionWeights": {
+      "programming_iq": 45,
+      "problem_solving_iq": 25,
+      "iq": 20,
+      "critical_thinking_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Robust algorithmic reasoning isolates edge-case condition statements (zero, negative, null) before proposing infrastructure changes.",
+    "developmentInsight": "Always test boundary conditions and verify exit paths when silent failures occur.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 10,
+    "difficulty": 1,
+    "category": "Communication",
+    "scenario": "You are presenting a quarterly progress update to senior stakeholders who have only 10 minutes of attention before their next board meeting.",
+    "question": "How do you organize your presentation delivery?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Walk through every slide methodically from background methodology to detailed implementation steps, speeding up your speech.",
+        "scores": {
+          "communication_iq": 45,
+          "time_priority_iq": 40,
+          "eq": 45,
+          "leadership_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "chronological_rush"
+      },
+      {
+        "key": "B",
+        "text": "Lead with executive outcomes, critical metrics, and key decisions required, keeping technical appendix slides ready only if asked.",
+        "scores": {
+          "communication_iq": 95,
+          "time_priority_iq": 95,
+          "leadership_iq": 90,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "minto_pyramid_executive"
+      },
+      {
+        "key": "C",
+        "text": "Skip slides altogether and invite open questions immediately without presenting any baseline context.",
+        "scores": {
+          "communication_iq": 65,
+          "eq": 60,
+          "job_readiness_iq": 60,
+          "business_iq": 60
+        },
+        "risk": "moderate",
+        "actionType": "unstructured_qna"
+      },
+      {
+        "key": "D",
+        "text": "Hand them a 15-page printed packet and ask them to email their questions later.",
+        "scores": {
+          "communication_iq": 40,
+          "job_readiness_iq": 40,
+          "eq": 45,
+          "business_iq": 40
+        },
+        "risk": "high",
+        "actionType": "passive_distribution"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 40,
+      "time_priority_iq": 25,
+      "business_iq": 20,
+      "leadership_iq": 15
+    },
+    "timeRecommendation": 40,
+    "explanation": "Senior executive communication demands bottom-line first: deliver decisive findings and clear call-to-actions upfront.",
+    "developmentInsight": "Structure high-stakes brevity using top-down synthesis: Headline -> Impact -> Required Decision.",
+    "industryTags": [
+      "Corporate",
+      "Consulting",
+      "Finance",
+      "Sales"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 11,
+    "difficulty": 1,
+    "category": "Learning",
+    "scenario": "A core software tool or internal system your organization relied on for three years is replaced overnight with a radically different platform.",
+    "question": "How do you approach mastering the transition?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Continue using the deprecated legacy tool through workarounds until the company completely terminates access.",
+        "scores": {
+          "learning_agility_iq": 35,
+          "adaptability_iq": 35,
+          "job_readiness_iq": 40,
+          "iq": 40
+        },
+        "risk": "high",
+        "actionType": "change_resistance"
+      },
+      {
+        "key": "B",
+        "text": "Audit your core recurring daily workflows, map them to the new tool's capabilities, review vendor best-practice modules, and document tip sheets for peers.",
+        "scores": {
+          "learning_agility_iq": 95,
+          "adaptability_iq": 95,
+          "leadership_iq": 85,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "systematic_upskilling"
+      },
+      {
+        "key": "C",
+        "text": "Wait for the company to organize formal mandatory training sessions before trying any features.",
+        "scores": {
+          "learning_agility_iq": 50,
+          "adaptability_iq": 50,
+          "job_readiness_iq": 55,
+          "leadership_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "passive_waiting"
+      },
+      {
+        "key": "D",
+        "text": "Send feedback complaining that the previous tool had superior UI shortcuts.",
+        "scores": {
+          "learning_agility_iq": 40,
+          "communication_iq": 45,
+          "eq": 40,
+          "adaptability_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "unconstructive_critique"
+      }
+    ],
+    "dimensionWeights": {
+      "learning_agility_iq": 40,
+      "adaptability_iq": 35,
+      "job_readiness_iq": 15,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "High learning agility is demonstrated through proactive workflow translation and sharing emerging insights with peers.",
+    "developmentInsight": "Embrace technological shifts as opportunities to modernize your personal workflow architecture.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 12,
+    "difficulty": 1,
+    "category": "Sales",
+    "scenario": "During an initial discovery conversation, a prospective business client says: 'Your competitor offers almost the exact same service at 25% lower pricing.'",
+    "question": "What is your most constructive strategic response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Match the competitor's 25% discount immediately to secure the deal on the spot.",
+        "scores": {
+          "sales_iq": 50,
+          "business_iq": 45,
+          "negotiation_iq": 50,
+          "critical_thinking_iq": 45
+        },
+        "risk": "high",
+        "actionType": "margin_erosion"
+      },
+      {
+        "key": "B",
+        "text": "Acknowledge price importance, then ask clarifying questions about their specific SLA, security, and support requirements to uncover total cost of ownership differences.",
+        "scores": {
+          "sales_iq": 95,
+          "business_iq": 90,
+          "communication_iq": 90,
+          "critical_thinking_iq": 85
+        },
+        "risk": "low",
+        "actionType": "value_differentiation"
+      },
+      {
+        "key": "C",
+        "text": "Argue that the competitor's product is unreliable and that cheap providers always deliver inferior quality.",
+        "scores": {
+          "sales_iq": 45,
+          "communication_iq": 45,
+          "eq": 40,
+          "job_readiness_iq": 45
+        },
+        "risk": "high",
+        "actionType": "competitor_bashing"
+      },
+      {
+        "key": "D",
+        "text": "State firmly that premium quality commands premium price and refuse further price discussion.",
+        "scores": {
+          "sales_iq": 55,
+          "communication_iq": 50,
+          "eq": 50,
+          "business_iq": 55
+        },
+        "risk": "moderate",
+        "actionType": "rigid_dismissal"
+      }
+    ],
+    "dimensionWeights": {
+      "sales_iq": 45,
+      "business_iq": 25,
+      "communication_iq": 20,
+      "critical_thinking_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Mastery in sales focuses on uncovering the total value equation rather than reacting emotionally to superficial price anchors.",
+    "developmentInsight": "Probe deeper into business outcomes and risk exposure to reframe price comparisons into value comparisons.",
+    "industryTags": [
+      "Sales",
+      "Consulting",
+      "Retail",
+      "Startups"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 13,
+    "difficulty": 1,
+    "category": "Marketing",
+    "scenario": "A social media recruitment campaign generates 100,000 video impressions and high click counts, but only 3 candidates submit actual completed job applications.",
+    "question": "What does this data discrepancy most clearly indicate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The video content is terrible and should be taken down immediately.",
+        "scores": {
+          "marketing_iq": 45,
+          "critical_thinking_iq": 45,
+          "problem_solving_iq": 45,
+          "iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "premature_conclusion"
+      },
+      {
+        "key": "B",
+        "text": "There is a severe conversion funnel friction: the hook attracts attention, but the landing page or application form has excessive friction or misaligned expectations.",
+        "scores": {
+          "marketing_iq": 95,
+          "critical_thinking_iq": 95,
+          "problem_solving_iq": 90,
+          "iq": 85
+        },
+        "risk": "low",
+        "actionType": "funnel_diagnostics"
+      },
+      {
+        "key": "C",
+        "text": "Double the advertising budget to push impressions to 200,000 to increase raw application numbers.",
+        "scores": {
+          "marketing_iq": 30,
+          "business_iq": 30,
+          "critical_thinking_iq": 35,
+          "problem_solving_iq": 35
+        },
+        "risk": "high",
+        "actionType": "wasteful_scaling"
+      },
+      {
+        "key": "D",
+        "text": "Assume the target audience has zero interest in working at your company.",
+        "scores": {
+          "marketing_iq": 40,
+          "critical_thinking_iq": 40,
+          "eq": 45,
+          "business_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "fatalistic_generalization"
+      }
+    ],
+    "dimensionWeights": {
+      "marketing_iq": 45,
+      "critical_thinking_iq": 25,
+      "problem_solving_iq": 20,
+      "iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Effective marketing analyzes the whole conversion funnel; high top-of-funnel traffic with zero conversions highlights landing page friction.",
+    "developmentInsight": "Always isolate drop-off stages in user journeys before diagnosing the entire campaign as flawed.",
+    "industryTags": [
+      "Marketing",
+      "Startups",
+      "Corporate",
+      "HR"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 14,
+    "difficulty": 1,
+    "category": "Critical Thinking",
+    "scenario": "A colleague presents a chart showing that customer satisfaction scores rose simultaneously in the months after free snacks were added to the breakroom, claiming the snacks boosted client happiness.",
+    "question": "What logical error or analytical step should you address first?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Congratulate them and request buying even more snacks for higher customer ratings.",
+        "scores": {
+          "critical_thinking_iq": 35,
+          "iq": 40,
+          "business_iq": 35,
+          "problem_solving_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "gullible_agreement"
+      },
+      {
+        "key": "B",
+        "text": "Note that correlation does not establish causation, and investigate whether concurrent product releases or seasonal factors drove the satisfaction gain.",
+        "scores": {
+          "critical_thinking_iq": 98,
+          "iq": 95,
+          "problem_solving_iq": 90,
+          "business_iq": 85
+        },
+        "risk": "low",
+        "actionType": "confounding_variable_analysis"
+      },
+      {
+        "key": "C",
+        "text": "Publicly ridicule the hypothesis as completely unscientific.",
+        "scores": {
+          "critical_thinking_iq": 60,
+          "eq": 30,
+          "communication_iq": 35,
+          "teamwork_iq": 35
+        },
+        "risk": "high",
+        "actionType": "combative_mockery"
+      },
+      {
+        "key": "D",
+        "text": "Conduct a blind taste test of the snacks among clients to prove the correlation.",
+        "scores": {
+          "critical_thinking_iq": 50,
+          "problem_solving_iq": 55,
+          "time_priority_iq": 45,
+          "business_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "misdirected_experimentation"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 45,
+      "iq": 30,
+      "business_iq": 15,
+      "eq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "Critical thinkers systematically disentangle incidental correlation from true causal mechanisms.",
+    "developmentInsight": "Look for lurking variables and external seasonal cycles before accepting convenient causal narratives.",
+    "industryTags": [
+      "Finance",
+      "Consulting",
+      "Healthcare",
+      "IT"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 15,
+    "difficulty": 1,
+    "category": "Adaptability",
+    "scenario": "Halfway through a two-week sprint, your team's primary client drastically alters their regulatory requirements, making 40% of your completed work redundant.",
+    "question": "How do you personally react and align with the shift?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Express open frustration during standup and argue against adopting the new regulatory requirements.",
+        "scores": {
+          "adaptability_iq": 40,
+          "job_readiness_iq": 45,
+          "eq": 40,
+          "leadership_iq": 40
+        },
+        "risk": "high",
+        "actionType": "resistance"
+      },
+      {
+        "key": "B",
+        "text": "Conduct a rapid salvage audit to identify reusable modular components, archive redundant work neatly, and recalibrate milestone sprint goals.",
+        "scores": {
+          "adaptability_iq": 95,
+          "problem_solving_iq": 95,
+          "time_priority_iq": 90,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "resilient_reorientation"
+      },
+      {
+        "key": "C",
+        "text": "Silently discard all past files and restart everything from square one without checking reusable assets.",
+        "scores": {
+          "adaptability_iq": 65,
+          "time_priority_iq": 55,
+          "business_iq": 55,
+          "problem_solving_iq": 60
+        },
+        "risk": "moderate",
+        "actionType": "wasteful_reset"
+      },
+      {
+        "key": "D",
+        "text": "Freeze all progress until senior management promises this will be the final change.",
+        "scores": {
+          "adaptability_iq": 45,
+          "job_readiness_iq": 45,
+          "communication_iq": 50,
+          "time_priority_iq": 40
+        },
+        "risk": "high",
+        "actionType": "work_stoppage"
+      }
+    ],
+    "dimensionWeights": {
+      "adaptability_iq": 40,
+      "problem_solving_iq": 25,
+      "time_priority_iq": 20,
+      "job_readiness_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Professional adaptability combines emotional calm with rigorous salvage analysis and rapid scope re-alignment.",
+    "developmentInsight": "Separate the sunk cost from future value; isolate reusable work and pivot toward the new regulatory standard.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 16,
+    "difficulty": 1,
+    "category": "Leadership",
+    "scenario": "You are coordinating a small volunteer or project sub-committee where two capable members strongly disagree on whether to use a physical showcase or a digital portal for the annual showcase.",
+    "question": "How do you facilitate alignment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Make an executive decision immediately based on your personal preference to avoid debating.",
+        "scores": {
+          "leadership_iq": 55,
+          "eq": 50,
+          "teamwork_iq": 50,
+          "communication_iq": 55
+        },
+        "risk": "moderate",
+        "actionType": "autocratic_cutoff"
+      },
+      {
+        "key": "B",
+        "text": "Frame the decision around objective evaluation criteria (budget, attendee profile, timeline, reach) and invite both members to score both options against these metrics.",
+        "scores": {
+          "leadership_iq": 95,
+          "communication_iq": 90,
+          "critical_thinking_iq": 90,
+          "eq": 85
+        },
+        "risk": "low",
+        "actionType": "objective_criteria_alignment"
+      },
+      {
+        "key": "C",
+        "text": "Let them debate endlessly until one of them concedes from exhaustion.",
+        "scores": {
+          "leadership_iq": 35,
+          "time_priority_iq": 30,
+          "eq": 40,
+          "teamwork_iq": 35
+        },
+        "risk": "high",
+        "actionType": "abdication"
+      },
+      {
+        "key": "D",
+        "text": "Split the committee into two rival groups and produce both simultaneously.",
+        "scores": {
+          "leadership_iq": 50,
+          "time_priority_iq": 45,
+          "business_iq": 40,
+          "teamwork_iq": 50
+        },
+        "risk": "high",
+        "actionType": "resource_duplication"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "communication_iq": 25,
+      "eq": 20,
+      "critical_thinking_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Authentic leadership resolves interpersonal conflict by replacing subjective opinions with agreed objective decision frameworks.",
+    "developmentInsight": "Anchor contentious debates to shared mission criteria to defuse personal friction.",
+    "industryTags": [
+      "Education",
+      "Corporate",
+      "Nonprofit"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "After establishing criteria, the scores tie 50-50, and time to launch has narrowed to two weeks.",
+      "followUpQuestion": "With a deadlock and ticking clock, what is your next leadership move?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Propose a hybrid pilot: launch the digital portal first, with a compact physical pop-up exhibit, establishing an unambiguous lead owner for each.",
+          "score": 95,
+          "trait": "pragmatic_synthesizer"
+        },
+        {
+          "key": "B",
+          "text": "Cancel the showcase entirely because consensus could not be reached.",
+          "score": 30,
+          "trait": "paralysis"
+        },
+        {
+          "key": "C",
+          "text": "Flip a coin to decide.",
+          "score": 45,
+          "trait": "arbitrary_gambler"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "difficulty": 1,
+    "category": "Business",
+    "scenario": "A startup team wants to add 15 complex features to an MVP (Minimum Viable Product) before launching, pushing their launch date back by 8 months.",
+    "question": "From a core business perspective, what advice is most critical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Support the delay because a product must be completely feature-complete to avoid bad reviews.",
+        "scores": {
+          "business_iq": 45,
+          "critical_thinking_iq": 45,
+          "creativity_iq": 50,
+          "problem_solving_iq": 45
+        },
+        "risk": "high",
+        "actionType": "perfectionism_trap"
+      },
+      {
+        "key": "B",
+        "text": "Prioritize the core value hypothesis into a lean feature set, launch early to real users, and use actual customer usage data to guide subsequent releases.",
+        "scores": {
+          "business_iq": 95,
+          "critical_thinking_iq": 90,
+          "time_priority_iq": 90,
+          "learning_agility_iq": 85
+        },
+        "risk": "low",
+        "actionType": "lean_validation"
+      },
+      {
+        "key": "C",
+        "text": "Add 10 more features to ensure all competitor angles are also covered.",
+        "scores": {
+          "business_iq": 30,
+          "time_priority_iq": 30,
+          "critical_thinking_iq": 35,
+          "problem_solving_iq": 30
+        },
+        "risk": "high",
+        "actionType": "scope_bloat"
+      },
+      {
+        "key": "D",
+        "text": "Launch immediately today with whatever incomplete broken features currently exist.",
+        "scores": {
+          "business_iq": 50,
+          "job_readiness_iq": 45,
+          "time_priority_iq": 60,
+          "critical_thinking_iq": 45
+        },
+        "risk": "high",
+        "actionType": "reckless_release"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 45,
+      "critical_thinking_iq": 25,
+      "time_priority_iq": 20,
+      "learning_agility_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Commercial success stems from rapid hypothesis validation in real market environments rather than isolated theoretical feature accumulation.",
+    "developmentInsight": "Minimize cycle time to customer feedback; avoid speculative multi-month roadmaps unanchored to user behavior.",
+    "industryTags": [
+      "Startups",
+      "IT",
+      "Consulting",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 18,
+    "difficulty": 1,
+    "category": "Creativity",
+    "scenario": "Your team must organize a customer appreciation event on a budget that was abruptly cut by 70% due to company-wide austerity measures.",
+    "question": "How do you harness creative problem-solving?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cancel the event entirely because an event with 30% budget will look cheap and embarrass the brand.",
+        "scores": {
+          "creativity_iq": 40,
+          "problem_solving_iq": 40,
+          "adaptability_iq": 45,
+          "business_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "resignation"
+      },
+      {
+        "key": "B",
+        "text": "Reimagine the format: replace an expensive banquet hall with an intimate, high-impact virtual masterclass with top industry thought-leaders and personalized digital gifts.",
+        "scores": {
+          "creativity_iq": 95,
+          "problem_solving_iq": 90,
+          "adaptability_iq": 95,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "inventive_pivot"
+      },
+      {
+        "key": "C",
+        "text": "Overspend the budget anyway and ask for retroactive forgiveness after the invoices arrive.",
+        "scores": {
+          "creativity_iq": 35,
+          "ethics_judgment_iq": 30,
+          "job_readiness_iq": 30,
+          "business_iq": 35
+        },
+        "risk": "high",
+        "actionType": "budgetary_insubordination"
+      },
+      {
+        "key": "D",
+        "text": "Keep the exact same banquet hall plan but cut food and drink portions down to almost nothing.",
+        "scores": {
+          "creativity_iq": 45,
+          "marketing_iq": 45,
+          "eq": 45,
+          "problem_solving_iq": 40
+        },
+        "risk": "high",
+        "actionType": "degraded_experience"
+      }
+    ],
+    "dimensionWeights": {
+      "creativity_iq": 45,
+      "adaptability_iq": 25,
+      "problem_solving_iq": 20,
+      "business_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Creative leadership reframes budget constraints into format innovations rather than delivering degraded legacy experiences.",
+    "developmentInsight": "When resources shrink, challenge the medium, not the mission.",
+    "industryTags": [
+      "Marketing",
+      "Hospitality",
+      "Consulting",
+      "Retail"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 19,
+    "difficulty": 1,
+    "category": "Workplace",
+    "scenario": "You are attending your first company town hall where senior executives invite questions from any employee. You have a burning question regarding career progression paths.",
+    "question": "What is the most professional conduct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Grab the mic and passionately complain that freshers don't get promoted fast enough in your department.",
+        "scores": {
+          "job_readiness_iq": 35,
+          "communication_iq": 40,
+          "eq": 35,
+          "promotion_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "emotional_venting"
+      },
+      {
+        "key": "B",
+        "text": "Frame a structured, constructive question regarding company skill frameworks and upcoming capability programs that benefit the broader junior cohort.",
+        "scores": {
+          "job_readiness_iq": 95,
+          "communication_iq": 95,
+          "leadership_iq": 85,
+          "promotion_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "strategic_inquiry"
+      },
+      {
+        "key": "C",
+        "text": "Remain completely silent and avoid participating in any public forum throughout your tenure.",
+        "scores": {
+          "job_readiness_iq": 55,
+          "communication_iq": 50,
+          "leadership_iq": 45,
+          "promotion_readiness_iq": 50
+        },
+        "risk": "low",
+        "actionType": "invisible_retraction"
+      },
+      {
+        "key": "D",
+        "text": "Post an anonymous spicy critique in the internal chat room during the livestream.",
+        "scores": {
+          "job_readiness_iq": 30,
+          "ethics_judgment_iq": 35,
+          "eq": 30,
+          "communication_iq": 35
+        },
+        "risk": "high",
+        "actionType": "cynical_sniping"
+      }
+    ],
+    "dimensionWeights": {
+      "job_readiness_iq": 40,
+      "communication_iq": 30,
+      "promotion_readiness_iq": 15,
+      "eq": 15
+    },
+    "timeRecommendation": 40,
+    "explanation": "High-visibility corporate interactions reflect your organizational maturity; frame personal aspirations within collective strategic growth.",
+    "developmentInsight": "In all-hands forums, elevate personal questions into collective, forward-looking capability themes.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 20,
+    "difficulty": 1,
+    "category": "Promotion",
+    "scenario": "You successfully finish all assigned tasks two hours ahead of schedule almost every day, but your manager hasn't noticed your extra capacity.",
+    "question": "What is the most constructive way to demonstrate promotion readiness?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quietly browse social media or play games at your desk while pretending to be busy.",
+        "scores": {
+          "promotion_readiness_iq": 30,
+          "job_readiness_iq": 35,
+          "ethics_judgment_iq": 35,
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "slacking"
+      },
+      {
+        "key": "B",
+        "text": "Proactively approach your lead, present the completed tasks, and propose taking on an internal tooling or documentation enhancement project during spare capacity.",
+        "scores": {
+          "promotion_readiness_iq": 95,
+          "job_readiness_iq": 95,
+          "leadership_iq": 90,
+          "business_iq": 85
+        },
+        "risk": "low",
+        "actionType": "proactive_value_creation"
+      },
+      {
+        "key": "C",
+        "text": "Demand an immediate salary increase on the grounds that you work twice as fast as your peers.",
+        "scores": {
+          "promotion_readiness_iq": 40,
+          "eq": 40,
+          "communication_iq": 45,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "entitled_demand"
+      },
+      {
+        "key": "D",
+        "text": "Slow your work pace down intentionally so every task stretches to fill the full eight hours.",
+        "scores": {
+          "promotion_readiness_iq": 35,
+          "job_readiness_iq": 40,
+          "learning_agility_iq": 35,
+          "business_iq": 35
+        },
+        "risk": "moderate",
+        "actionType": "artificial_drag"
+      }
+    ],
+    "dimensionWeights": {
+      "promotion_readiness_iq": 40,
+      "job_readiness_iq": 30,
+      "leadership_iq": 20,
+      "business_iq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "Promotion signals are forged by turning excess capacity into institutional leverage, process improvement, and cross-functional support.",
+    "developmentInsight": "Do not conceal velocity; channel spare cycles into high-visibility, proactive organizational contributions.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 21,
+    "difficulty": 2,
+    "category": "Workplace",
+    "scenario": "The Marketing department promises clients a feature launch date for next month, but the Engineering team informs you that security audits require an extra six weeks.",
+    "question": "As the project coordinator, how do you resolve this standoff?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Side with Marketing and pressure Engineering to bypass optional penetration tests.",
+        "scores": {
+          "critical_thinking_iq": 40,
+          "ethics_judgment_iq": 40,
+          "leadership_iq": 45,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "security_compromise"
+      },
+      {
+        "key": "B",
+        "text": "Bring both team leads together to analyze release scope: identify whether a secure 'phase one' subset can launch on time while the remaining features release post-audit.",
+        "scores": {
+          "problem_solving_iq": 95,
+          "leadership_iq": 95,
+          "communication_iq": 90,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "phased_compromise"
+      },
+      {
+        "key": "C",
+        "text": "Side with Engineering and let Marketing handle the client fallout on their own without communication assistance.",
+        "scores": {
+          "teamwork_iq": 50,
+          "communication_iq": 55,
+          "leadership_iq": 55,
+          "eq": 50
+        },
+        "risk": "moderate",
+        "actionType": "siloed_isolation"
+      },
+      {
+        "key": "D",
+        "text": "Draft a memo to the CEO claiming both departments are failing to cooperate.",
+        "scores": {
+          "communication_iq": 45,
+          "leadership_iq": 40,
+          "eq": 40,
+          "job_readiness_iq": 45
+        },
+        "risk": "high",
+        "actionType": "premature_escalation"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 35,
+      "problem_solving_iq": 30,
+      "communication_iq": 20,
+      "business_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Professional cross-functional leadership seeks non-zero-sum solutions: explore phased modular releases to maintain customer momentum without violating security gates.",
+    "developmentInsight": "Break binary deadlocks by dissecting monolithic milestones into phased deliverable tiers.",
+    "industryTags": [
+      "IT",
+      "Marketing",
+      "Consulting",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 22,
+    "difficulty": 2,
+    "category": "Communication",
+    "scenario": "Your project is trending 2 weeks behind schedule. Your manager is known for having a short temper when hearing bad news.",
+    "question": "How and when do you deliver the progress update?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conceal the delay until the official delivery day and hope your team works miracles over the final weekend.",
+        "scores": {
+          "communication_iq": 30,
+          "job_readiness_iq": 30,
+          "ethics_judgment_iq": 35,
+          "time_priority_iq": 30
+        },
+        "risk": "high",
+        "actionType": "crisis_concealment"
+      },
+      {
+        "key": "B",
+        "text": "Schedule an urgent 15-minute briefing now: state the 2-week projection clearly, present root causes, and offer two evaluated mitigation options with trade-offs.",
+        "scores": {
+          "communication_iq": 95,
+          "eq": 90,
+          "leadership_iq": 90,
+          "time_priority_iq": 90
+        },
+        "risk": "low",
+        "actionType": "solution_oriented_transparency"
+      },
+      {
+        "key": "C",
+        "text": "Send a casual Slack message on Friday night after your manager has left the office.",
+        "scores": {
+          "communication_iq": 45,
+          "eq": 40,
+          "job_readiness_iq": 45,
+          "leadership_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "conflict_avoidance"
+      },
+      {
+        "key": "D",
+        "text": "Ask a junior teammate to deliver the status report during the team sync.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 30,
+          "leadership_iq": 25,
+          "ethics_judgment_iq": 35
+        },
+        "risk": "high",
+        "actionType": "scapegoating"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 40,
+      "eq": 25,
+      "leadership_iq": 20,
+      "time_priority_iq": 15
+    },
+    "timeRecommendation": 40,
+    "explanation": "Bad news does not improve with age. Delivering bad news early accompanied by clear recovery paths is the hallmark of leadership maturity.",
+    "developmentInsight": "Deliver bad news with immediate remedy options: Problem -> Root Cause -> 2 Evaluated Paths forward.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 23,
+    "difficulty": 2,
+    "category": "AI",
+    "scenario": "Your department is piloting an automated AI customer support responder. During weekend runs, the model gave contradictory refund guidelines to five enterprise accounts.",
+    "question": "What is your immediate technical and operational response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keep the AI running live because it handled hundreds of other inquiries successfully and 5 errors is within normal error tolerance.",
+        "scores": {
+          "aiq": 40,
+          "business_iq": 40,
+          "critical_thinking_iq": 45,
+          "ethics_judgment_iq": 45
+        },
+        "risk": "high",
+        "actionType": "reputational_risk"
+      },
+      {
+        "key": "B",
+        "text": "Pause automated responses for refund-related intents immediately, route them to human agents, and audit prompt system instructions and guardrail constraints.",
+        "scores": {
+          "aiq": 95,
+          "critical_thinking_iq": 95,
+          "business_iq": 90,
+          "problem_solving_iq": 90
+        },
+        "risk": "low",
+        "actionType": "guardrail_containment"
+      },
+      {
+        "key": "C",
+        "text": "Send an automated blast email blaming AI beta testing for all errors.",
+        "scores": {
+          "communication_iq": 40,
+          "marketing_iq": 40,
+          "eq": 45,
+          "business_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "public_deflection"
+      },
+      {
+        "key": "D",
+        "text": "Permanently scrap the entire AI automation initiative across the enterprise.",
+        "scores": {
+          "aiq": 45,
+          "adaptability_iq": 40,
+          "problem_solving_iq": 45,
+          "business_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "overreaction"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 40,
+      "critical_thinking_iq": 30,
+      "business_iq": 20,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Responsible AI operations require instant circuit breakers on high-risk intents (e.g. monetary commitments) while preserving human fallback channels.",
+    "developmentInsight": "Implement guardrails and human verification loops before scaling autonomous LLM actions to financial touchpoints.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "Retail",
+      "Customer Service"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 24,
+    "difficulty": 2,
+    "category": "Critical Thinking",
+    "scenario": "A vendor presents an analytics dashboard showing that their onboarding software increased employee retention by 40% across their pilot cohort of 20 hand-picked volunteer employees.",
+    "question": "What methodological flaw should you challenge before signing an enterprise contract?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accept the metric because a 40% gain clearly justifies the software licensing cost.",
+        "scores": {
+          "critical_thinking_iq": 35,
+          "business_iq": 40,
+          "iq": 45,
+          "problem_solving_iq": 40
+        },
+        "risk": "high",
+        "actionType": "credulous_acceptance"
+      },
+      {
+        "key": "B",
+        "text": "Highlight selection bias: hand-picked volunteers are inherently more motivated than the broader employee population, requiring a randomized control trial.",
+        "scores": {
+          "critical_thinking_iq": 98,
+          "iq": 95,
+          "business_iq": 90,
+          "problem_solving_iq": 85
+        },
+        "risk": "low",
+        "actionType": "selection_bias_critique"
+      },
+      {
+        "key": "C",
+        "text": "Reject the vendor solely because you personally dislike automated onboarding tools.",
+        "scores": {
+          "critical_thinking_iq": 40,
+          "eq": 40,
+          "business_iq": 45,
+          "communication_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "subjective_bias"
+      },
+      {
+        "key": "D",
+        "text": "Ask them to increase the font size of the chart to verify the numbers.",
+        "scores": {
+          "critical_thinking_iq": 30,
+          "iq": 30,
+          "job_readiness_iq": 40,
+          "problem_solving_iq": 35
+        },
+        "risk": "high",
+        "actionType": "superficial_focus"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 45,
+      "business_iq": 25,
+      "iq": 20,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Rigorous professional judgment interrogates sampling methodology and selection bias before committing enterprise capital.",
+    "developmentInsight": "Scrutinize pilot sample selection: voluntary self-selected cohorts rarely mirror representative organizational realities.",
+    "industryTags": [
+      "Consulting",
+      "HR",
+      "Finance",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 25,
+    "difficulty": 2,
+    "category": "Leadership",
+    "scenario": "A talented team member with deep domain knowledge has recently started turning in incomplete work and appears disengaged during planning sessions.",
+    "question": "What is your leadership approach to re-engaging them?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Place them on a formal performance improvement plan (PIP) without prior discussion.",
+        "scores": {
+          "leadership_iq": 45,
+          "eq": 40,
+          "communication_iq": 50,
+          "job_readiness_iq": 50
+        },
+        "risk": "high",
+        "actionType": "bureaucratic_hammer"
+      },
+      {
+        "key": "B",
+        "text": "Conduct a private, open-ended 1-on-1: share specific observations about their work pattern, listen for underlying blockers or career plateau fatigue, and co-design a renewal plan.",
+        "scores": {
+          "leadership_iq": 95,
+          "eq": 95,
+          "communication_iq": 90,
+          "promotion_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "supportive_coaching"
+      },
+      {
+        "key": "C",
+        "text": "Reassign their complex work to other peers silently so deadlines are met.",
+        "scores": {
+          "leadership_iq": 50,
+          "eq": 50,
+          "teamwork_iq": 55,
+          "time_priority_iq": 55
+        },
+        "risk": "moderate",
+        "actionType": "silent_sidelining"
+      },
+      {
+        "key": "D",
+        "text": "Wait another three months to see if their motivation naturally returns.",
+        "scores": {
+          "leadership_iq": 40,
+          "time_priority_iq": 40,
+          "job_readiness_iq": 45,
+          "eq": 45
+        },
+        "risk": "high",
+        "actionType": "neglectful_delay"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "eq": 30,
+      "communication_iq": 20,
+      "promotion_readiness_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "True leadership addresses disengagement early through empathetic curiosity, seeking to understand whether burnout, ambiguity, or skill mismatch is at play.",
+    "developmentInsight": "Treat sudden disengagement as a diagnostic signal; address root causes before escalating to disciplinary protocols.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "During the discussion, the team member reveals they feel their career has stalled because their daily operational tasks leave no time to learn modern cloud architecture.",
+      "followUpQuestion": "How do you strategically address their career stagnation while maintaining team deliverables?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Carve out 10% protected learning time tied to automating their routine tasks, with an agreement to lead an upcoming cloud migration pilot.",
+          "score": 95,
+          "trait": "empowering_strategist"
+        },
+        {
+          "key": "B",
+          "text": "Tell them career growth must happen strictly outside office hours on their personal time.",
+          "score": 45,
+          "trait": "unsympathetic_gatekeeper"
+        },
+        {
+          "key": "C",
+          "text": "Promote them immediately without any change in responsibilities.",
+          "score": 40,
+          "trait": "unmerited_appeasement"
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "difficulty": 2,
+    "category": "Programming",
+    "scenario": "During a code review for an urgent production hotfix, you notice that a senior developer introduced a hardcoded credentials secret and skipped unit tests to hit a 6:00 PM release.",
+    "question": "How do you handle this critical architectural risk?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Approve the review silently since the author is more senior and understands the urgency.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "programming_iq": 35,
+          "job_readiness_iq": 35,
+          "critical_thinking_iq": 35
+        },
+        "risk": "high",
+        "actionType": "deferential_negligence"
+      },
+      {
+        "key": "B",
+        "text": "Block the release politely: clearly cite the security compliance violation, suggest extracting the secret to environment variables, and offer to help write the minimal test harness.",
+        "scores": {
+          "ethics_judgment_iq": 95,
+          "programming_iq": 95,
+          "communication_iq": 90,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "principled_safeguard"
+      },
+      {
+        "key": "C",
+        "text": "Post a screenshot of the secret on an open public Slack channel to embarrass the developer.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 25,
+          "teamwork_iq": 25,
+          "job_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "toxic_confrontation"
+      },
+      {
+        "key": "D",
+        "text": "Approve it now, but add a calendar reminder to fix it sometime next quarter.",
+        "scores": {
+          "programming_iq": 50,
+          "ethics_judgment_iq": 45,
+          "time_priority_iq": 45,
+          "critical_thinking_iq": 45
+        },
+        "risk": "high",
+        "actionType": "technical_debt_recklessness"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 35,
+      "programming_iq": 35,
+      "communication_iq": 20,
+      "job_readiness_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Security and architectural integrity must never be traded off for release velocity, regardless of seniority.",
+    "developmentInsight": "Stand firm on non-negotiable security standards while offering collaborative assistance to clear the bottleneck.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "Cybersecurity"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 27,
+    "difficulty": 2,
+    "category": "Business",
+    "scenario": "Your department has $50,000 remaining in the annual budget. The team wants to use it for a luxury team retreat, while customer support is severely under-tooled and causing customer churn.",
+    "question": "What recommendation reflects the soundest business judgment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Spend the entire $50,000 on the luxury retreat because team morale is all that matters.",
+        "scores": {
+          "business_iq": 40,
+          "critical_thinking_iq": 40,
+          "time_priority_iq": 45,
+          "leadership_iq": 45
+        },
+        "risk": "high",
+        "actionType": "fiduciary_myopia"
+      },
+      {
+        "key": "B",
+        "text": "Allocate $35,000 to modernize support tooling to curb churn, and dedicate $15,000 to a focused, meaningful regional team celebration.",
+        "scores": {
+          "business_iq": 95,
+          "critical_thinking_iq": 90,
+          "leadership_iq": 90,
+          "eq": 85
+        },
+        "risk": "low",
+        "actionType": "balanced_capital_allocation"
+      },
+      {
+        "key": "C",
+        "text": "Return the entire $50,000 unspent to corporate finance so management thinks you save money.",
+        "scores": {
+          "business_iq": 60,
+          "leadership_iq": 50,
+          "teamwork_iq": 45,
+          "job_readiness_iq": 55
+        },
+        "risk": "moderate",
+        "actionType": "budget_surrender"
+      },
+      {
+        "key": "D",
+        "text": "Hide the surplus in miscellaneous expenses until next fiscal year.",
+        "scores": {
+          "business_iq": 30,
+          "ethics_judgment_iq": 25,
+          "job_readiness_iq": 30,
+          "critical_thinking_iq": 35
+        },
+        "risk": "high",
+        "actionType": "unethical_accounting"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 45,
+      "leadership_iq": 25,
+      "critical_thinking_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Strategic business orientation balances top-line retention drivers with human team engagement through balanced capital allocation.",
+    "developmentInsight": "Align departmental spending with customer retention and employee engagement without excessive binary extremes.",
+    "industryTags": [
+      "Corporate",
+      "Finance",
+      "Operations",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 28,
+    "difficulty": 2,
+    "category": "Marketing",
+    "scenario": "A competitor launches a viral advertising campaign humorously parodying your company's product reliability, generating millions of views and trending hashtags.",
+    "question": "What is your strategic marketing response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "File an immediate defamation lawsuit and issue threatening cease-and-desist press statements.",
+        "scores": {
+          "marketing_iq": 40,
+          "communication_iq": 45,
+          "business_iq": 40,
+          "eq": 40
+        },
+        "risk": "high",
+        "actionType": "streisand_effect"
+      },
+      {
+        "key": "B",
+        "text": "Evaluate audience sentiment data first: if playful, craft a witty, confident, brand-affirming rebuttal showcasing real customer testimonials and audited uptime metrics.",
+        "scores": {
+          "marketing_iq": 95,
+          "communication_iq": 90,
+          "critical_thinking_iq": 90,
+          "creativity_iq": 90
+        },
+        "risk": "low",
+        "actionType": "measured_brand_counter"
+      },
+      {
+        "key": "C",
+        "text": "Completely ignore it and pretend the viral campaign doesn't exist.",
+        "scores": {
+          "marketing_iq": 55,
+          "communication_iq": 50,
+          "critical_thinking_iq": 55,
+          "adaptability_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "passive_detachment"
+      },
+      {
+        "key": "D",
+        "text": "Launch an aggressive smear campaign attacking the personal life of the competitor's CEO.",
+        "scores": {
+          "marketing_iq": 25,
+          "ethics_judgment_iq": 20,
+          "communication_iq": 25,
+          "eq": 25
+        },
+        "risk": "high",
+        "actionType": "brand_suicide"
+      }
+    ],
+    "dimensionWeights": {
+      "marketing_iq": 40,
+      "communication_iq": 25,
+      "critical_thinking_iq": 20,
+      "creativity_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Brand defense in modern media requires emotional poise: analyze sentiment trends and leverage high-visibility moments to reinforce authentic brand strengths.",
+    "developmentInsight": "Never react defensively to competitive satire; redirect viral attention toward your verified value propositions.",
+    "industryTags": [
+      "Marketing",
+      "Media",
+      "Startups",
+      "Retail"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "Your witty response gains strong traction, but an industry influencer calls out a single legacy outage from two years ago in the comment section.",
+      "followUpQuestion": "How do you address the influencer's pointed call-out?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Own the historical incident candidly, link to the published post-mortem report, and highlight the architectural redundancy investments built since.",
+          "score": 95,
+          "trait": "radically_transparent"
+        },
+        {
+          "key": "B",
+          "text": "Block the influencer immediately and delete their comment.",
+          "score": 30,
+          "trait": "censorship_backfire"
+        },
+        {
+          "key": "C",
+          "text": "Deny that the outage ever occurred.",
+          "score": 25,
+          "trait": "blatant_untruth"
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "difficulty": 2,
+    "category": "Time & Priority",
+    "scenario": "A key corporate client sends a series of 'small quick change requests' every other day, which individually take 2 hours but collectively have expanded project scope by 35%.",
+    "question": "How do you regain control over the project timeline?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accept all requests without comment and make your team work unpaid weekends to absorb the overhead.",
+        "scores": {
+          "time_priority_iq": 35,
+          "teamwork_iq": 40,
+          "job_readiness_iq": 45,
+          "business_iq": 40
+        },
+        "risk": "high",
+        "actionType": "burnout_absorption"
+      },
+      {
+        "key": "B",
+        "text": "Compile a consolidated change-impact matrix: show the cumulative timeline and budget variance, and establish a formal Change Request sign-off process.",
+        "scores": {
+          "time_priority_iq": 95,
+          "business_iq": 95,
+          "communication_iq": 90,
+          "leadership_iq": 85
+        },
+        "risk": "low",
+        "actionType": "scope_governance"
+      },
+      {
+        "key": "C",
+        "text": "Abruptly stop replying to the client's emails.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 30,
+          "job_readiness_iq": 35,
+          "sales_iq": 30
+        },
+        "risk": "high",
+        "actionType": "unprofessional_ghosting"
+      },
+      {
+        "key": "D",
+        "text": "Complain to your team members in private while continuing to say yes to the client.",
+        "scores": {
+          "leadership_iq": 40,
+          "eq": 40,
+          "communication_iq": 40,
+          "job_readiness_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "passive_resentment"
+      }
+    ],
+    "dimensionWeights": {
+      "time_priority_iq": 40,
+      "business_iq": 30,
+      "communication_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Scope creep is neutralized by transparent data: visualize cumulative impact and introduce structured change controls with cost/schedule trade-offs.",
+    "developmentInsight": "Educate clients on trade-offs through systematic impact logs rather than emotional pushback.",
+    "industryTags": [
+      "Consulting",
+      "IT",
+      "Operations",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 30,
+    "difficulty": 2,
+    "category": "Adaptability",
+    "scenario": "A sudden economic downturn causes three prospective enterprise deals to freeze, placing your team's quarterly revenue target in severe jeopardy.",
+    "question": "What is your immediate adaptability strategy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Wait until the next quarter to see if macroeconomic conditions naturally improve.",
+        "scores": {
+          "adaptability_iq": 40,
+          "business_iq": 40,
+          "problem_solving_iq": 45,
+          "sales_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "paralyzed_inertia"
+      },
+      {
+        "key": "B",
+        "text": "Pivot focus toward existing account retention, upsell modular high-ROI add-ons, and package smaller pilot contracts with shorter evaluation cycles.",
+        "scores": {
+          "adaptability_iq": 95,
+          "business_iq": 95,
+          "sales_iq": 90,
+          "problem_solving_iq": 90
+        },
+        "risk": "low",
+        "actionType": "counter_cyclical_pivot"
+      },
+      {
+        "key": "C",
+        "text": "Blame the sales reps publicly for not closing deals faster before the downturn.",
+        "scores": {
+          "eq": 30,
+          "leadership_iq": 30,
+          "teamwork_iq": 30,
+          "communication_iq": 35
+        },
+        "risk": "high",
+        "actionType": "punitive_blame"
+      },
+      {
+        "key": "D",
+        "text": "Slash list prices by 70% across the board without margin analysis.",
+        "scores": {
+          "business_iq": 40,
+          "critical_thinking_iq": 40,
+          "sales_iq": 45,
+          "problem_solving_iq": 40
+        },
+        "risk": "high",
+        "actionType": "panic_discounting"
+      }
+    ],
+    "dimensionWeights": {
+      "adaptability_iq": 40,
+      "business_iq": 30,
+      "sales_iq": 20,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Commercial resilience under macroeconomic headwind requires pivoting from large capital-intensive deals to rapid-value, lower-friction retention and expansion offerings.",
+    "developmentInsight": "When macro tailwinds stall, fortify core accounts and lower deal friction with modular entry options.",
+    "industryTags": [
+      "Sales",
+      "Business",
+      "Startups",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 31,
+    "difficulty": 2,
+    "category": "Ethical",
+    "scenario": "A newly hired colleague brings proprietary client databases and presentation decks from their prior employer, suggesting your team use them to prospect new leads.",
+    "question": "What is your ethical and professional duty?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use the databases immediately since gaining a competitive edge is the purpose of hiring industry veterans.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "job_readiness_iq": 25,
+          "critical_thinking_iq": 30,
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "ip_theft_complicity"
+      },
+      {
+        "key": "B",
+        "text": "Decline to touch or use the material, remind the colleague of non-disclosure and trade secret legal obligations, and escalate the matter to Legal/Compliance.",
+        "scores": {
+          "ethics_judgment_iq": 98,
+          "job_readiness_iq": 95,
+          "leadership_iq": 90,
+          "critical_thinking_iq": 85
+        },
+        "risk": "low",
+        "actionType": "compliance_fortress"
+      },
+      {
+        "key": "C",
+        "text": "Browse the slides out of personal curiosity but don't share them with clients.",
+        "scores": {
+          "ethics_judgment_iq": 45,
+          "job_readiness_iq": 45,
+          "eq": 50,
+          "critical_thinking_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "passive_compromise"
+      },
+      {
+        "key": "D",
+        "text": "Encourage them to rebrand the slides with your company logo to disguise their origin.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "job_readiness_iq": 20,
+          "business_iq": 20,
+          "critical_thinking_iq": 25
+        },
+        "risk": "high",
+        "actionType": "willful_fraud"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 50,
+      "job_readiness_iq": 25,
+      "leadership_iq": 15,
+      "critical_thinking_iq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "Intellectual property integrity is a strict legal and ethical boundary; utilizing a competitor's confidential data exposes the company to severe litigation.",
+    "developmentInsight": "Protect organizational immunity by rejecting contaminated IP immediately and engaging legal counsel.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 32,
+    "difficulty": 2,
+    "category": "Sales",
+    "scenario": "A prospective B2B buyer remarks: 'Your product looks good, but my team is already overwhelmed and we simply do not have the bandwidth to learn another tool right now.'",
+    "question": "How do you address this adoption-friction objection?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tell them that if they don't modernize now, their business will become obsolete.",
+        "scores": {
+          "sales_iq": 45,
+          "communication_iq": 45,
+          "eq": 40,
+          "business_iq": 45
+        },
+        "risk": "high",
+        "actionType": "fear_mongering"
+      },
+      {
+        "key": "B",
+        "text": "Validate their bandwidth concern, then demonstrate how your team provides turnkey migration, automated data import, and a 15-minute onboarding curve that saves 6 hours/week immediately.",
+        "scores": {
+          "sales_iq": 95,
+          "communication_iq": 95,
+          "eq": 90,
+          "business_iq": 85
+        },
+        "risk": "low",
+        "actionType": "friction_removal"
+      },
+      {
+        "key": "C",
+        "text": "Offer to delay the contract by two years until they have more time.",
+        "scores": {
+          "sales_iq": 40,
+          "business_iq": 40,
+          "time_priority_iq": 45,
+          "problem_solving_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "premature_surrender"
+      },
+      {
+        "key": "D",
+        "text": "Insist that learning the tool is actually extremely easy and they shouldn't complain.",
+        "scores": {
+          "sales_iq": 35,
+          "communication_iq": 40,
+          "eq": 30,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "dismissive_invalidation"
+      }
+    ],
+    "dimensionWeights": {
+      "sales_iq": 40,
+      "communication_iq": 30,
+      "eq": 20,
+      "business_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Elite objection handling validates human friction (switching costs and fatigue) and actively de-risks implementation effort.",
+    "developmentInsight": "Do not deny the customer's transition pain; provide concrete friction-mitigation structures.",
+    "industryTags": [
+      "Sales",
+      "Consulting",
+      "Tech",
+      "Healthcare"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 33,
+    "difficulty": 2,
+    "category": "Interview",
+    "scenario": "You are interviewing a candidate who has flawless technical answers memorized from popular online cheat sheets, but stumbles completely when asked to explain how they handled an unexpected failure in real life.",
+    "question": "How do you evaluate their potential?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Give them a top rating because their technical memorization was 100% accurate.",
+        "scores": {
+          "interview_iq": 40,
+          "critical_thinking_iq": 40,
+          "job_readiness_iq": 45,
+          "iq": 50
+        },
+        "risk": "high",
+        "actionType": "rote_bias"
+      },
+      {
+        "key": "B",
+        "text": "Probe deeper with adaptive behavioral micro-scenarios: ask them to reason through an ambiguous, unscripted edge case to assess problem-solving adaptability over memorization.",
+        "scores": {
+          "interview_iq": 95,
+          "critical_thinking_iq": 95,
+          "problem_solving_iq": 90,
+          "eq": 85
+        },
+        "risk": "low",
+        "actionType": "depth_evaluation"
+      },
+      {
+        "key": "C",
+        "text": "Immediately terminate the interview and tell them they are unprepared.",
+        "scores": {
+          "interview_iq": 45,
+          "eq": 35,
+          "communication_iq": 40,
+          "job_readiness_iq": 45
+        },
+        "risk": "high",
+        "actionType": "premature_abrasiveness"
+      },
+      {
+        "key": "D",
+        "text": "Ask them to recite more textbook definitions to confirm their memory.",
+        "scores": {
+          "interview_iq": 35,
+          "critical_thinking_iq": 35,
+          "learning_agility_iq": 35,
+          "iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "surface_fixation"
+      }
+    ],
+    "dimensionWeights": {
+      "interview_iq": 45,
+      "critical_thinking_iq": 30,
+      "eq": 15,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Authentic capability shines in unscripted navigation of failure, not memorized theoretical regurgitation.",
+    "developmentInsight": "Shift candidate evaluation from static recall to interactive problem decomposition under novel constraints.",
+    "industryTags": [
+      "HR",
+      "IT",
+      "Consulting",
+      "Management"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 34,
+    "difficulty": 2,
+    "category": "Promotion",
+    "scenario": "You are technically the top individual producer on your team, but in your mid-year review your manager notes: 'Your individual output is stellar, but your organizational influence and mentorship footprint remain limited.'",
+    "question": "What strategic shift elevates your readiness for promotion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work even longer hours to double your individual code or sales output.",
+        "scores": {
+          "promotion_readiness_iq": 45,
+          "leadership_iq": 40,
+          "business_iq": 45,
+          "critical_thinking_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "linear_doubling"
+      },
+      {
+        "key": "B",
+        "text": "Shift focus from purely personal production to institutional multiplier: host weekly technical office hours, author re-usable process blueprints, and actively mentor two junior colleagues.",
+        "scores": {
+          "promotion_readiness_iq": 98,
+          "leadership_iq": 98,
+          "business_iq": 90,
+          "teamwork_iq": 90
+        },
+        "risk": "low",
+        "actionType": "multiplier_leadership"
+      },
+      {
+        "key": "C",
+        "text": "Argue that mentorship is the manager's sole responsibility, not yours.",
+        "scores": {
+          "promotion_readiness_iq": 35,
+          "eq": 30,
+          "communication_iq": 35,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "role_rigidity"
+      },
+      {
+        "key": "D",
+        "text": "Apply for jobs at competitor firms where managers supposedly only care about individual stats.",
+        "scores": {
+          "promotion_readiness_iq": 40,
+          "eq": 40,
+          "adaptability_iq": 45,
+          "job_readiness_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "evasion"
+      }
+    ],
+    "dimensionWeights": {
+      "promotion_readiness_iq": 45,
+      "leadership_iq": 35,
+      "business_iq": 10,
+      "teamwork_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Promotion from individual contributor to senior leadership requires evolving from an individual performer into a team force multiplier.",
+    "developmentInsight": "Senior promotions measure how much better everyone else performs because of your systemic enablement.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 35,
+    "difficulty": 2,
+    "category": "Crisis",
+    "scenario": "At 11:00 AM on a high-volume trading or sales day, a critical database synchronization service stalls, causing transaction backlogs across 2,000 pending orders.",
+    "question": "What is the first protocol you initiate as incident manager?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Start messaging team members to find out who made the last commit and assign blame.",
+        "scores": {
+          "problem_solving_iq": 35,
+          "leadership_iq": 35,
+          "eq": 35,
+          "crisis_iq": 30
+        },
+        "risk": "high",
+        "actionType": "witch_hunt"
+      },
+      {
+        "key": "B",
+        "text": "Establish a dedicated incident war-room, assign an incident commander and communications lead, isolate incoming traffic to prevent queue saturation, and begin telemetry analysis.",
+        "scores": {
+          "problem_solving_iq": 95,
+          "leadership_iq": 95,
+          "time_priority_iq": 95,
+          "crisis_iq": 95
+        },
+        "risk": "low",
+        "actionType": "structured_incident_protocol"
+      },
+      {
+        "key": "C",
+        "text": "Shut down all servers instantly without alerting clients or customer support.",
+        "scores": {
+          "problem_solving_iq": 45,
+          "business_iq": 40,
+          "communication_iq": 40,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "reckless_shutdown"
+      },
+      {
+        "key": "D",
+        "text": "Post a tweet saying the company has been attacked by mysterious international hackers.",
+        "scores": {
+          "ethics_judgment_iq": 25,
+          "communication_iq": 25,
+          "business_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "sensationalist_fabrication"
+      }
+    ],
+    "dimensionWeights": {
+      "problem_solving_iq": 35,
+      "leadership_iq": 30,
+      "time_priority_iq": 20,
+      "communication_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Incident management demands disciplined process: isolate blast radius, assign distinct operational and communication roles, and defer root-cause finger-pointing until stabilization.",
+    "developmentInsight": "Under operational fire, maintain strict role segregation: technical triage, customer comms, executive updates.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "Logistics",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "While diagnosing the backlog, the Vice President of Sales calls your cell phone demanding you restore the service immediately regardless of data corruption risks.",
+      "followUpQuestion": "How do you handle the VP's high-pressure demand?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Calmly explain that skipping integrity checks could corrupt 2,000 existing transactions permanently, provide a firm 20-minute checkpoint, and ask the comms lead to send the executive status bulletin.",
+          "score": 95,
+          "trait": "composed_integrity"
+        },
+        {
+          "key": "B",
+          "text": "Capitulate to the VP's pressure and force restart the database immediately.",
+          "score": 35,
+          "trait": "pressure_collapse"
+        },
+        {
+          "key": "C",
+          "text": "Hang up on the VP abruptly.",
+          "score": 30,
+          "trait": "insubordinate_hostility"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "difficulty": 2,
+    "category": "Learning",
+    "scenario": "Generative AI tools emerge that automate 60% of the manual reporting and synthesis tasks that previously occupied the majority of your weekly work hours.",
+    "question": "How do you position your role for the future?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ban the tools in your department and advocate for strictly manual spreadsheet compilation.",
+        "scores": {
+          "learning_agility_iq": 35,
+          "adaptability_iq": 35,
+          "aiq": 30,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "luddite_resistance"
+      },
+      {
+        "key": "B",
+        "text": "Embrace the automation tools to execute routine synthesis in minutes, while redirecting your freed time toward strategic advisory, anomaly detection, and stakeholder relationship building.",
+        "scores": {
+          "learning_agility_iq": 98,
+          "aiq": 95,
+          "adaptability_iq": 95,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "value_chain_elevation"
+      },
+      {
+        "key": "C",
+        "text": "Keep using the tools secretly, finish your work in 1 hour, and sleep for the remaining 7 hours of the workday.",
+        "scores": {
+          "ethics_judgment_iq": 35,
+          "job_readiness_iq": 35,
+          "promotion_readiness_iq": 35,
+          "learning_agility_iq": 45
+        },
+        "risk": "high",
+        "actionType": "deceptive_slacking"
+      },
+      {
+        "key": "D",
+        "text": "Assume your career is finished and begin searching for an entirely unrelated blue-collar trade.",
+        "scores": {
+          "learning_agility_iq": 45,
+          "adaptability_iq": 45,
+          "eq": 40,
+          "critical_thinking_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "fatalistic_surrender"
+      }
+    ],
+    "dimensionWeights": {
+      "learning_agility_iq": 35,
+      "aiq": 35,
+      "adaptability_iq": 20,
+      "business_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Technological disruption automates mechanical execution; elite professionals shift up the cognitive stack toward judgment, orchestration, and relationship capital.",
+    "developmentInsight": "Automate the commodity layer of your tasks so you can dominate the strategic advisory layer.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 37,
+    "difficulty": 2,
+    "category": "Teamwork",
+    "scenario": "During a team sprint retro, everyone nods in silent agreement to a proposed architecture plan that you know from prior benchmarks will fail under peak holiday traffic.",
+    "question": "How do you voice your objection constructively?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keep quiet to avoid disrupting the positive team consensus, since group harmony is paramount.",
+        "scores": {
+          "teamwork_iq": 45,
+          "critical_thinking_iq": 40,
+          "communication_iq": 45,
+          "job_readiness_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "groupthink_compliance"
+      },
+      {
+        "key": "B",
+        "text": "Acknowledge the elegance of the proposed plan, then share the specific load benchmark data, framing it as an edge-case stress test: 'Let us see how this holds at 50,000 concurrent requests.'",
+        "scores": {
+          "teamwork_iq": 95,
+          "critical_thinking_iq": 95,
+          "communication_iq": 95,
+          "eq": 90
+        },
+        "risk": "low",
+        "actionType": "data_grounded_inquiry"
+      },
+      {
+        "key": "C",
+        "text": "Tell the team lead in front of everyone that the architecture shows total technical incompetence.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 25,
+          "teamwork_iq": 30,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "abrasive_attack"
+      },
+      {
+        "key": "D",
+        "text": "Wait until the holiday traffic crash occurs so you can tell everyone 'I told you so.'",
+        "scores": {
+          "teamwork_iq": 25,
+          "eq": 25,
+          "ethics_judgment_iq": 30,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "sabotage_satisfaction"
+      }
+    ],
+    "dimensionWeights": {
+      "teamwork_iq": 35,
+      "critical_thinking_iq": 35,
+      "communication_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "Psychological safety is not harmony; it is the freedom to challenge flawed assumptions constructively with empirical evidence.",
+    "developmentInsight": "Dissent with data and curiosity: test the boundary condition rather than attacking the proposal author.",
+    "industryTags": [
+      "IT",
+      "Engineering",
+      "Consulting",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 38,
+    "difficulty": 2,
+    "category": "Creativity",
+    "scenario": "A legacy manufacturing or service process requires employees to manually cross-reference paper invoices with digital logs, causing a perpetual 3-day backlog.",
+    "question": "What creative optimization methodology do you introduce?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Demand that employees work overtime each evening until the paper backlog clears.",
+        "scores": {
+          "creativity_iq": 35,
+          "problem_solving_iq": 40,
+          "leadership_iq": 40,
+          "time_priority_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "brute_force_exhaustion"
+      },
+      {
+        "key": "B",
+        "text": "Map the complete step-by-step value stream, identify the redundant manual checkpoints, and prototype an OCR (Optical Character Recognition) pipeline to automate reconciliation.",
+        "scores": {
+          "creativity_iq": 95,
+          "problem_solving_iq": 95,
+          "business_iq": 90,
+          "learning_agility_iq": 90
+        },
+        "risk": "low",
+        "actionType": "process_innovation"
+      },
+      {
+        "key": "C",
+        "text": "Stop checking paper invoices altogether and hope no financial discrepancies occur.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "risk": "high",
+          "critical_thinking_iq": 35,
+          "job_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "reckless_abandonment"
+      },
+      {
+        "key": "D",
+        "text": "Hire 10 additional temporary interns to handle the paper filing.",
+        "scores": {
+          "business_iq": 50,
+          "creativity_iq": 45,
+          "problem_solving_iq": 50,
+          "time_priority_iq": 55
+        },
+        "risk": "moderate",
+        "actionType": "headcount_bandaid"
+      }
+    ],
+    "dimensionWeights": {
+      "creativity_iq": 40,
+      "problem_solving_iq": 30,
+      "business_iq": 20,
+      "learning_agility_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "True process innovation rethinks the fundamental workflow rather than adding more human toil to broken manual pipes.",
+    "developmentInsight": "Map the value stream first; eliminate non-value checkpoints before automating what remains.",
+    "industryTags": [
+      "Manufacturing",
+      "Operations",
+      "Logistics",
+      "Healthcare"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 39,
+    "difficulty": 2,
+    "category": "Workplace",
+    "scenario": "A manager frequently sends non-urgent work-related messages on messaging apps at 11:30 PM on weekend nights, creating chronic anxiety among the team.",
+    "question": "How do you professionally address this pattern?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reply immediately at midnight to prove your absolute devotion to the job.",
+        "scores": {
+          "job_readiness_iq": 50,
+          "time_priority_iq": 45,
+          "eq": 50,
+          "leadership_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "anxiety_enabling"
+      },
+      {
+        "key": "B",
+        "text": "Set clear notification schedules, and during your regular 1-on-1, initiate a calm discussion: 'I want to ensure critical emergencies are never missed—what criteria distinguish a true off-hours emergency from items for Monday morning?'",
+        "scores": {
+          "job_readiness_iq": 95,
+          "communication_iq": 95,
+          "eq": 90,
+          "time_priority_iq": 90
+        },
+        "risk": "low",
+        "actionType": "boundary_negotiation"
+      },
+      {
+        "key": "C",
+        "text": "Block your manager's phone number without saying anything.",
+        "scores": {
+          "communication_iq": 35,
+          "job_readiness_iq": 35,
+          "eq": 35,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "passive_aggressive_block"
+      },
+      {
+        "key": "D",
+        "text": "Send angry messages back in all capital letters demanding they respect labor laws.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 30,
+          "job_readiness_iq": 30,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "volatile_escalation"
+      }
+    ],
+    "dimensionWeights": {
+      "job_readiness_iq": 35,
+      "communication_iq": 35,
+      "eq": 15,
+      "time_priority_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Professional boundaries are forged through collaborative definition of emergency thresholds rather than silent resentment or abrupt confrontation.",
+    "developmentInsight": "Clarify emergency protocols explicitly to decouple routine off-hours brain-dumps from urgent response requirements.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 40,
+    "difficulty": 2,
+    "category": "Interview",
+    "scenario": "When interviewing for a senior role, the hiring manager asks: 'Tell me about a time you led a strategic initiative that completely failed.'",
+    "question": "What narrative structure demonstrates executive maturity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Claim that you have never failed because your strategic preparation is always 100% thorough.",
+        "scores": {
+          "interview_iq": 35,
+          "eq": 30,
+          "learning_agility_iq": 30,
+          "critical_thinking_iq": 35
+        },
+        "risk": "high",
+        "actionType": "fabricated_perfection"
+      },
+      {
+        "key": "B",
+        "text": "Structure the narrative around accountability: describe the strategic premise, the unexpected failure point, the immediate containment actions, and the concrete institutional learnings adopted since.",
+        "scores": {
+          "interview_iq": 98,
+          "learning_agility_iq": 95,
+          "leadership_iq": 95,
+          "eq": 90
+        },
+        "risk": "low",
+        "actionType": "accountable_postmortem"
+      },
+      {
+        "key": "C",
+        "text": "Describe a failure, but attribute all fault entirely to incompetent junior team members or dishonest suppliers.",
+        "scores": {
+          "interview_iq": 30,
+          "eq": 25,
+          "leadership_iq": 25,
+          "teamwork_iq": 25
+        },
+        "risk": "high",
+        "actionType": "externalized_blame"
+      },
+      {
+        "key": "D",
+        "text": "Pick a fake flaw such as 'My failure was caring too much about work and delivering 3 days too early.'",
+        "scores": {
+          "interview_iq": 40,
+          "communication_iq": 40,
+          "eq": 35,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "cliché_humblebrag"
+      }
+    ],
+    "dimensionWeights": {
+      "interview_iq": 40,
+      "leadership_iq": 25,
+      "learning_agility_iq": 20,
+      "eq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Authentic executive presence is proven by ownership of failure and the rigor of subsequent institutional learning.",
+    "developmentInsight": "Own the failure directly; showcase diagnostic humility and how the experience forged sharper strategic reflexes.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 41,
+    "difficulty": 3,
+    "category": "Ethical",
+    "scenario": "In a hospital or healthcare administration software rollout, an analytics algorithm flags emergency room readmission risks, but clinical staff report that the interface requires 6 extra clicks per patient, slowing emergency triage.",
+    "question": "How do you resolve the friction between clinical workflow speed and predictive risk analytics?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandate that nurses and doctors complete every field under threat of disciplinary reprimand.",
+        "scores": {
+          "eq": 35,
+          "leadership_iq": 40,
+          "job_readiness_iq": 45,
+          "ethics_judgment_iq": 45
+        },
+        "risk": "high",
+        "actionType": "punitive_mandate"
+      },
+      {
+        "key": "B",
+        "text": "Deploy a rapid workflow shadow team to observe ER triage firsthand, redesign the UI to auto-populate existing vital stats, and reduce required inputs to a single high-priority alert.",
+        "scores": {
+          "problem_solving_iq": 95,
+          "critical_thinking_iq": 95,
+          "leadership_iq": 90,
+          "eq": 90
+        },
+        "risk": "low",
+        "actionType": "context_aware_redesign"
+      },
+      {
+        "key": "C",
+        "text": "Turn off the predictive risk model completely and abandon clinical analytics.",
+        "scores": {
+          "problem_solving_iq": 45,
+          "business_iq": 40,
+          "adaptability_iq": 40,
+          "aiq": 40
+        },
+        "risk": "moderate",
+        "actionType": "premature_abandonment"
+      },
+      {
+        "key": "D",
+        "text": "Advise clinicians to enter dummy data during emergencies and fix records later.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "critical_thinking_iq": 35,
+          "job_readiness_iq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "data_pollution"
+      }
+    ],
+    "dimensionWeights": {
+      "problem_solving_iq": 35,
+      "critical_thinking_iq": 30,
+      "eq": 20,
+      "ethics_judgment_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Technology implementations in mission-critical environments must adapt to frontline human workflows, not the other way around.",
+    "developmentInsight": "Observe frontline friction directly; eliminate redundant data entry before demanding clinical compliance.",
+    "industryTags": [
+      "Healthcare",
+      "IT",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 42,
+    "difficulty": 3,
+    "category": "Business",
+    "scenario": "Your financial risk model indicates that an emerging loan portfolio yields 18% annualized returns, but 42% of borrowers have non-standard credit histories concentrated in a single fluctuating regional industry.",
+    "question": "What risk-adjusted recommendation do you deliver to the investment committee?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Recommend doubling portfolio exposure immediately to capitalize on the 18% yields before competitors enter.",
+        "scores": {
+          "critical_thinking_iq": 35,
+          "business_iq": 40,
+          "ethics_judgment_iq": 40,
+          "iq": 45
+        },
+        "risk": "high",
+        "actionType": "unhedged_greed"
+      },
+      {
+        "key": "B",
+        "text": "Advise capping single-industry exposure, structuring dynamic loss reserves, and requiring stress-testing against regional downturn scenarios before expanding capital allocation.",
+        "scores": {
+          "critical_thinking_iq": 98,
+          "business_iq": 95,
+          "problem_solving_iq": 90,
+          "iq": 90
+        },
+        "risk": "low",
+        "actionType": "stress_tested_hedging"
+      },
+      {
+        "key": "C",
+        "text": "Recommend terminating the entire credit product line immediately due to regional concentration.",
+        "scores": {
+          "business_iq": 55,
+          "adaptability_iq": 50,
+          "critical_thinking_iq": 55,
+          "sales_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "overly_risk_averse"
+      },
+      {
+        "key": "D",
+        "text": "Change the regional classification tags in the model so the concentration appears dispersed.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "business_iq": 20,
+          "job_readiness_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "regulatory_fraud"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 40,
+      "business_iq": 35,
+      "problem_solving_iq": 15,
+      "iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Prudent capital management recognizes that outsized yield is invariably compensation for hidden correlation risk.",
+    "developmentInsight": "Always stress-test high yields against correlated regional shocks; institute exposure caps and capital buffers.",
+    "industryTags": [
+      "Finance",
+      "Banking",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "The regional commodity market plunges 30% two months later. Your pre-set exposure caps protected the institution from catastrophic defaults, but the executive sponsor asks whether to buy distressed assets now.",
+      "followUpQuestion": "How do you evaluate entering distressed assets in the aftermath?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Execute a disciplined valuation scan on high-quality collateralized tranches with a conservative margin of safety.",
+          "score": 95,
+          "trait": "calculated_contrarian"
+        },
+        {
+          "key": "B",
+          "text": "Panic and freeze all banking operations indefinitely.",
+          "score": 35,
+          "trait": "hyper_reactive"
+        },
+        {
+          "key": "C",
+          "text": "Buy everything blindly without analyzing underlying borrower liquidity.",
+          "score": 30,
+          "trait": "reckless_speculation"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "difficulty": 3,
+    "category": "Crisis",
+    "scenario": "A geopolitical disruption halts container shipments from your primary manufacturing supplier 3 weeks prior to the peak commercial holiday fulfillment window.",
+    "question": "What is your supply chain crisis mitigation strategy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Issue a blanket press release stating that holiday orders cannot be fulfilled this year.",
+        "scores": {
+          "communication_iq": 35,
+          "business_iq": 35,
+          "problem_solving_iq": 35,
+          "adaptability_iq": 40
+        },
+        "risk": "high",
+        "actionType": "premature_capitulation"
+      },
+      {
+        "key": "B",
+        "text": "Activate pre-vetted secondary domestic suppliers for critical components, prioritize fulfillment for committed high-margin backorders, and secure expedited regional air-freight buffers.",
+        "scores": {
+          "adaptability_iq": 95,
+          "problem_solving_iq": 95,
+          "business_iq": 90,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "multi_tier_resilience"
+      },
+      {
+        "key": "C",
+        "text": "Sue the primary shipping line for breach of contract while doing nothing about manufacturing.",
+        "scores": {
+          "critical_thinking_iq": 40,
+          "business_iq": 40,
+          "time_priority_iq": 40,
+          "adaptability_iq": 40
+        },
+        "risk": "high",
+        "actionType": "misplaced_retribution"
+      },
+      {
+        "key": "D",
+        "text": "Continue taking customer pre-orders and debiting cards while knowing goods may never arrive.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "job_readiness_iq": 25,
+          "business_iq": 30,
+          "sales_iq": 25
+        },
+        "risk": "high",
+        "actionType": "consumer_deception"
+      }
+    ],
+    "dimensionWeights": {
+      "adaptability_iq": 35,
+      "problem_solving_iq": 35,
+      "business_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Supply chain resilience depends on pre-contracted redundancy and rapid prioritization of high-value inventory flows.",
+    "developmentInsight": "In logistics disruptions, balance expedited transport costs against long-term brand equity and customer retention.",
+    "industryTags": [
+      "Logistics",
+      "Manufacturing",
+      "Retail",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 44,
+    "difficulty": 3,
+    "category": "Customer",
+    "scenario": "Mystery shopper audits reveal that while physical retail foot traffic is steady, in-store conversion has dropped 22% because customers use their smartphones to compare prices and buy online while standing in the aisles.",
+    "question": "How do you evolve the omnichannel retail strategy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Install cellular jammers inside stores to block customers from checking online prices.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "marketing_iq": 25,
+          "business_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "illegal_suppression"
+      },
+      {
+        "key": "B",
+        "text": "Embrace showrooming: introduce instant price-matching via mobile app, train store associates as consultative advisors, and offer seamless scan-and-deliver curbside options.",
+        "scores": {
+          "marketing_iq": 95,
+          "business_iq": 95,
+          "adaptability_iq": 90,
+          "creativity_iq": 90
+        },
+        "risk": "low",
+        "actionType": "omnichannel_integration"
+      },
+      {
+        "key": "C",
+        "text": "Ban customers from taking mobile phones out of their pockets inside stores.",
+        "scores": {
+          "sales_iq": 20,
+          "marketing_iq": 25,
+          "communication_iq": 30,
+          "business_iq": 25
+        },
+        "risk": "high",
+        "actionType": "hostile_policing"
+      },
+      {
+        "key": "D",
+        "text": "Close all physical stores immediately and convert into an online-only e-commerce shop.",
+        "scores": {
+          "business_iq": 50,
+          "critical_thinking_iq": 50,
+          "adaptability_iq": 55,
+          "problem_solving_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "hasty_retreat"
+      }
+    ],
+    "dimensionWeights": {
+      "marketing_iq": 40,
+      "business_iq": 35,
+      "adaptability_iq": 15,
+      "creativity_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Modern commerce integrates physical tactile immediacy with digital price transparency rather than fighting inevitable consumer behaviors.",
+    "developmentInsight": "Transform physical stores from mere distribution points into high-trust consultative experience hubs.",
+    "industryTags": [
+      "Retail",
+      "Marketing",
+      "Customer Service",
+      "Business"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 45,
+    "difficulty": 3,
+    "category": "Programming",
+    "scenario": "Your system is experiencing unpredictable latency spikes during flash sales. The monolith database is hitting 98% CPU utilization due to unbounded search queries running on unindexed text columns.",
+    "question": "What is the architecturally sound remediation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Purchase a 10x larger database server cluster regardless of cost.",
+        "scores": {
+          "programming_iq": 45,
+          "business_iq": 45,
+          "iq": 50,
+          "problem_solving_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "brute_hardware"
+      },
+      {
+        "key": "B",
+        "text": "Introduce a distributed read-replica caching layer (e.g. Redis), implement strict query pagination, and offload complex text searches to a dedicated indexing engine.",
+        "scores": {
+          "programming_iq": 98,
+          "iq": 95,
+          "problem_solving_iq": 95,
+          "critical_thinking_iq": 90
+        },
+        "risk": "low",
+        "actionType": "decoupled_search_architecture"
+      },
+      {
+        "key": "C",
+        "text": "Limit flash sales to 10 customers at a time.",
+        "scores": {
+          "business_iq": 35,
+          "sales_iq": 35,
+          "programming_iq": 45,
+          "problem_solving_iq": 40
+        },
+        "risk": "high",
+        "actionType": "commercial_throttle"
+      },
+      {
+        "key": "D",
+        "text": "Disable search functionality entirely during flash sale windows.",
+        "scores": {
+          "job_readiness_iq": 45,
+          "programming_iq": 50,
+          "problem_solving_iq": 40,
+          "business_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "degraded_utility"
+      }
+    ],
+    "dimensionWeights": {
+      "programming_iq": 45,
+      "iq": 30,
+      "problem_solving_iq": 15,
+      "business_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "System scalability requires decoupling read-heavy analytical search from transactional state stores via dedicated caching and indexing tiers.",
+    "developmentInsight": "Protect core databases by bounding queries and offloading search indexing to distributed read infrastructure.",
+    "industryTags": [
+      "IT",
+      "Engineering",
+      "E-commerce"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 46,
+    "difficulty": 3,
+    "category": "Learning",
+    "scenario": "A corporate training curriculum shows high course completion rates (94%) but when audited 60 days post-training, employees demonstrate zero measurable change in job workflow behaviors.",
+    "question": "How do you redesign the learning architecture for lasting behavioral retention?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Make the final multiple-choice test twice as long and increase the passing mark to 100%.",
+        "scores": {
+          "learning_agility_iq": 40,
+          "critical_thinking_iq": 40,
+          "job_readiness_iq": 45,
+          "iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "rote_intensification"
+      },
+      {
+        "key": "B",
+        "text": "Replace passive slide-deck training with scenario-based micro-simulations, on-the-job peer coaching, and 30-day practical project milestones with manager reinforcement.",
+        "scores": {
+          "learning_agility_iq": 98,
+          "critical_thinking_iq": 95,
+          "job_readiness_iq": 90,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "experiential_transfer_design"
+      },
+      {
+        "key": "C",
+        "text": "Mandate that employees re-watch the exact same video modules every 30 days.",
+        "scores": {
+          "learning_agility_iq": 35,
+          "time_priority_iq": 35,
+          "eq": 40,
+          "business_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "tedious_repetition"
+      },
+      {
+        "key": "D",
+        "text": "Cancel all professional development funding across the organization.",
+        "scores": {
+          "business_iq": 40,
+          "leadership_iq": 35,
+          "learning_agility_iq": 30,
+          "promotion_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "cynical_withdrawal"
+      }
+    ],
+    "dimensionWeights": {
+      "learning_agility_iq": 45,
+      "critical_thinking_iq": 25,
+      "job_readiness_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "True learning agility hinges on experiential simulation, immediate application in real environments, and institutional habit scaffolding.",
+    "developmentInsight": "Move beyond passive attendance metrics; measure learning by sustained on-the-job behavioral changes.",
+    "industryTags": [
+      "Education",
+      "HR",
+      "Corporate",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 47,
+    "difficulty": 3,
+    "category": "Workplace",
+    "scenario": "A corporate client hires your consulting team to evaluate whether to build a custom enterprise CRM or license an established SaaS solution. The internal IT team strongly favors building from scratch, but executive management needs launch within 4 months.",
+    "question": "How do you frame your strategic recommendation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Recommend building from scratch to please the internal IT team, regardless of the 4-month timeline.",
+        "scores": {
+          "critical_thinking_iq": 40,
+          "business_iq": 40,
+          "time_priority_iq": 40,
+          "leadership_iq": 45
+        },
+        "risk": "high",
+        "actionType": "stakeholder_appeasement"
+      },
+      {
+        "key": "B",
+        "text": "Present a rigorous Total Cost of Ownership (TCO) and Time-to-Value model: recommend licensing the SaaS platform for the immediate 4-month launch, with custom API integrations for competitive differentiation.",
+        "scores": {
+          "critical_thinking_iq": 95,
+          "business_iq": 95,
+          "problem_solving_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "objective_tco_framework"
+      },
+      {
+        "key": "C",
+        "text": "Tell executive management that their 4-month goal is delusional and advise them to postpone indefinitely.",
+        "scores": {
+          "communication_iq": 45,
+          "eq": 40,
+          "job_readiness_iq": 45,
+          "leadership_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "confrontational_bluntness"
+      },
+      {
+        "key": "D",
+        "text": "Flip a coin and write a 100-page justification after the choice is made.",
+        "scores": {
+          "ethics_judgment_iq": 25,
+          "critical_thinking_iq": 25,
+          "business_iq": 25,
+          "job_readiness_iq": 30
+        },
+        "risk": "high",
+        "actionType": "dishonest_rationalization"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 35,
+      "business_iq": 35,
+      "problem_solving_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Strategic advisory balances executive urgency with architectural sustainability through objective Total Cost of Ownership and Time-to-Value trade-offs.",
+    "developmentInsight": "Anchor build-versus-buy decisions in quantifiable time-to-market and lifetime maintenance overhead.",
+    "industryTags": [
+      "Consulting",
+      "IT",
+      "Management",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 48,
+    "difficulty": 3,
+    "category": "Communication",
+    "scenario": "A leaked internal email showing an executive joking inappropriately about a sensitive social topic is published by investigative journalists and begins trending nationally.",
+    "question": "What is the most effective corporate communications response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Claim that the executive's email account was hacked and deny all involvement.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "communication_iq": 25,
+          "critical_thinking_iq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "transparent_falsehood"
+      },
+      {
+        "key": "B",
+        "text": "Issue a swift, unreserved acknowledgment of the authentic email, take public responsibility without corporate deflections, announce immediate executive accountability, and reiterate company core values.",
+        "scores": {
+          "communication_iq": 95,
+          "ethics_judgment_iq": 95,
+          "leadership_iq": 90,
+          "eq": 90
+        },
+        "risk": "low",
+        "actionType": "transparent_accountability"
+      },
+      {
+        "key": "C",
+        "text": "Threaten legal defamation actions against every journalist reporting on the leak.",
+        "scores": {
+          "communication_iq": 35,
+          "business_iq": 35,
+          "eq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "streisand_combative"
+      },
+      {
+        "key": "D",
+        "text": "Stay completely silent for 14 days hoping the news cycle moves on to another story.",
+        "scores": {
+          "communication_iq": 45,
+          "leadership_iq": 40,
+          "eq": 45,
+          "marketing_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "vacuum_surrender"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 40,
+      "ethics_judgment_iq": 30,
+      "leadership_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "Public trust in high-visibility crises is salvaged through prompt, unequivocal truth-telling and demonstrated consequence management.",
+    "developmentInsight": "In reputational crises, speed of genuine accountability determines whether trust survives.",
+    "industryTags": [
+      "Media",
+      "PR",
+      "Corporate",
+      "Legal"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 49,
+    "difficulty": 3,
+    "category": "Workplace",
+    "scenario": "Following an acquisition, employees from the acquiring firm and the acquired startup form hostile silos, with rumors spreading that the startup staff will be phased out systematically.",
+    "question": "What cultural integration intervention creates genuine solidarity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Issue a stern company-wide email forbidding anyone from discussing cultural differences.",
+        "scores": {
+          "eq": 35,
+          "leadership_iq": 40,
+          "communication_iq": 40,
+          "teamwork_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "authoritarian_gag"
+      },
+      {
+        "key": "B",
+        "text": "Design blended cross-functional project pods with shared business objectives, host joint listening town halls with transparent integration roadmaps, and align incentive structures.",
+        "scores": {
+          "eq": 95,
+          "leadership_iq": 95,
+          "teamwork_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "systemic_integration"
+      },
+      {
+        "key": "C",
+        "text": "Immediately fire all middle managers from the startup to eliminate perceived resistance.",
+        "scores": {
+          "eq": 25,
+          "leadership_iq": 30,
+          "ethics_judgment_iq": 35,
+          "teamwork_iq": 25
+        },
+        "risk": "high",
+        "actionType": "cultural_purge"
+      },
+      {
+        "key": "D",
+        "text": "Do nothing because corporate cultures naturally merge smoothly over 3 to 5 years on their own.",
+        "scores": {
+          "leadership_iq": 45,
+          "critical_thinking_iq": 45,
+          "job_readiness_iq": 45,
+          "eq": 45
+        },
+        "risk": "moderate",
+        "actionType": "passive_decay"
+      }
+    ],
+    "dimensionWeights": {
+      "eq": 35,
+      "leadership_iq": 35,
+      "teamwork_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Merger integration succeeds through shared operational missions, transparent equity of opportunity, and deliberate cross-pollination of talent.",
+    "developmentInsight": "Build solidarity through joint stakes; unaddressed integration anxiety erodes acquired talent rapidly.",
+    "industryTags": [
+      "HR",
+      "Management",
+      "Corporate",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 50,
+    "difficulty": 3,
+    "category": "AI",
+    "scenario": "An automated resume screening model used by your recruiting firm shows a 35% lower recommendation rate for qualified female candidates in senior engineering roles due to historical hiring bias in training data.",
+    "question": "What governance action must be enforced immediately?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Continue using the model since artificial intelligence is mathematical and therefore immune to human bias.",
+        "scores": {
+          "aiq": 20,
+          "ethics_judgment_iq": 20,
+          "critical_thinking_iq": 25,
+          "iq": 30
+        },
+        "risk": "high",
+        "actionType": "algorithmic_blindness"
+      },
+      {
+        "key": "B",
+        "text": "Halt automated scoring for that cohort, audit training data weights and feature selection, implement bias mitigation algorithms, and mandate human review calibration.",
+        "scores": {
+          "aiq": 98,
+          "ethics_judgment_iq": 98,
+          "critical_thinking_iq": 95,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "ethical_algorithmic_governance"
+      },
+      {
+        "key": "C",
+        "text": "Manually add 50 bonus points to all female candidates without fixing the underlying model.",
+        "scores": {
+          "aiq": 45,
+          "ethics_judgment_iq": 45,
+          "critical_thinking_iq": 45,
+          "problem_solving_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "crude_patch"
+      },
+      {
+        "key": "D",
+        "text": "Delete all male resumes from the database until parity is achieved.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "critical_thinking_iq": 30,
+          "job_readiness_iq": 35,
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "arbitrary_distortion"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 40,
+      "ethics_judgment_iq": 40,
+      "critical_thinking_iq": 15,
+      "job_readiness_iq": 5
+    },
+    "timeRecommendation": 45,
+    "explanation": "AI governance requires vigilance against historical data bias; algorithmic accountability requires immediate remediation and structured auditing.",
+    "developmentInsight": "Mathematical models replicate historical inequities unless actively audited and counterweighted with debiasing frameworks.",
+    "industryTags": [
+      "IT",
+      "HR",
+      "Legal",
+      "AI"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "While the model is halted, the hiring division manager complains that recruitment velocity has slowed down and requests reopening the un-audited algorithm temporarily.",
+      "followUpQuestion": "How do you respond to the business velocity demand?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Hold the line on compliance: explain the severe legal, regulatory, and ethical exposure of deploying biased tools, while setting up an expedited human screening pod to clear the backlog.",
+          "score": 95,
+          "trait": "principled_resilience"
+        },
+        {
+          "key": "B",
+          "text": "Cave in and quietly turn the biased algorithm back on.",
+          "score": 25,
+          "trait": "ethical_collapse"
+        },
+        {
+          "key": "C",
+          "text": "Quit the company in protest without offering any interim recruiting solutions.",
+          "score": 40,
+          "trait": "impulsive_resignation"
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "difficulty": 3,
+    "category": "Ethical",
+    "scenario": "A client operates in a region with newly enacted consumer privacy regulations. They ask your software development agency to insert a tracking cookie without explicit user opt-in, claiming enforcement will take years.",
+    "question": "How do you steer the client toward compliance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Follow the client's instructions because the paying customer is always right.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "critical_thinking_iq": 35,
+          "business_iq": 35,
+          "job_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "subservient_violation"
+      },
+      {
+        "key": "B",
+        "text": "Refuse the non-compliant implementation, present the legal and financial exposure of non-compliance, and demonstrate how privacy-first consent banners enhance customer brand trust.",
+        "scores": {
+          "ethics_judgment_iq": 95,
+          "communication_iq": 95,
+          "business_iq": 90,
+          "leadership_iq": 85
+        },
+        "risk": "low",
+        "actionType": "value_grounded_compliance"
+      },
+      {
+        "key": "C",
+        "text": "Secretly implement the tracking cookie and bill the client double.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "job_readiness_iq": 20,
+          "critical_thinking_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "corrupt_collusion"
+      },
+      {
+        "key": "D",
+        "text": "Report the client to regulatory authorities anonymously within one hour without discussing it with them.",
+        "scores": {
+          "communication_iq": 45,
+          "eq": 40,
+          "business_iq": 45,
+          "leadership_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "premature_betrayal"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 45,
+      "communication_iq": 25,
+      "business_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Professional partners act as trusted advisors: protect clients from self-inflicted regulatory liability by reframing compliance as a strategic trust advantage.",
+    "developmentInsight": "Uphold regulatory integrity by demonstrating how privacy compliance shields long-term enterprise valuation.",
+    "industryTags": [
+      "Legal",
+      "IT",
+      "Consulting",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 52,
+    "difficulty": 3,
+    "category": "Workplace",
+    "scenario": "A production line batch of smart IoT devices exhibits a 1.8% component failure rate during 72-hour stress testing, just below the contract threshold of 2.0% allowable defects.",
+    "question": "What is the high-integrity quality decision before mass shipment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ship immediately since 1.8% is legally under the contract threshold of 2.0%.",
+        "scores": {
+          "critical_thinking_iq": 50,
+          "business_iq": 55,
+          "job_readiness_iq": 55,
+          "ethics_judgment_iq": 55
+        },
+        "risk": "moderate",
+        "actionType": "bare_minimum_compliance"
+      },
+      {
+        "key": "B",
+        "text": "Analyze the defect distribution: isolate the root component batch, verify whether failures accelerate exponentially after 100 hours in customer hands, and pause release if field failure risks are elevated.",
+        "scores": {
+          "problem_solving_iq": 95,
+          "critical_thinking_iq": 95,
+          "business_iq": 90,
+          "ethics_judgment_iq": 90
+        },
+        "risk": "low",
+        "actionType": "root_cause_durability"
+      },
+      {
+        "key": "C",
+        "text": "Ship the batch and disable logging on the devices so customers cannot prove the defect.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "business_iq": 20,
+          "risk": "high",
+          "job_readiness_iq": 20
+        },
+        "risk": "high",
+        "actionType": "willful_negligence"
+      },
+      {
+        "key": "D",
+        "text": "Scrap all 50,000 devices instantly without investigating what caused the failures.",
+        "scores": {
+          "business_iq": 40,
+          "problem_solving_iq": 45,
+          "time_priority_iq": 45,
+          "critical_thinking_iq": 45
+        },
+        "risk": "high",
+        "actionType": "reckless_waste"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 40,
+      "problem_solving_iq": 30,
+      "business_iq": 15,
+      "ethics_judgment_iq": 15
+    },
+    "timeRecommendation": 45,
+    "explanation": "Excellence in manufacturing distinguishes legal minimums from real-world reliability; analyze failure curves to protect brand longevity.",
+    "developmentInsight": "Investigate whether borderline metrics conceal catastrophic post-warranty failure curves.",
+    "industryTags": [
+      "Manufacturing",
+      "Engineering",
+      "Hardware",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 53,
+    "difficulty": 3,
+    "category": "Sales",
+    "scenario": "In a final contract review for a 7-figure enterprise deal, the client's procurement procurement director demands unlimited liability and 120-day payment terms before signing.",
+    "question": "What is your principled negotiation posture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sign immediately because losing a 7-figure deal will destroy your quarterly sales quota.",
+        "scores": {
+          "sales_iq": 40,
+          "business_iq": 35,
+          "critical_thinking_iq": 35,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "existential_concession"
+      },
+      {
+        "key": "B",
+        "text": "Maintain clear risk boundaries: respectfully explain that unlimited liability threatens company solvency, offer capped liability at 2x annual contract value, and trade 60-day terms for a structured discount or tiered milestones.",
+        "scores": {
+          "sales_iq": 98,
+          "business_iq": 98,
+          "critical_thinking_iq": 90,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "principled_value_trade"
+      },
+      {
+        "key": "C",
+        "text": "Walk away from the table in anger and accuse the procurement director of acting in bad faith.",
+        "scores": {
+          "sales_iq": 35,
+          "eq": 30,
+          "communication_iq": 35,
+          "business_iq": 40
+        },
+        "risk": "high",
+        "actionType": "emotional_rupture"
+      },
+      {
+        "key": "D",
+        "text": "Agree to unlimited liability verbally but write something different in the fine print.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "sales_iq": 20,
+          "business_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "fraudulent_misdirection"
+      }
+    ],
+    "dimensionWeights": {
+      "sales_iq": 40,
+      "business_iq": 35,
+      "communication_iq": 15,
+      "critical_thinking_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Sophisticated negotiators never trade away catastrophic structural risks (unlimited liability) for top-line revenue; trade value across multiple variables.",
+    "developmentInsight": "Anchor contract negotiations to balanced mutual risk parity; never let quota pressure compromise legal solvency.",
+    "industryTags": [
+      "Sales",
+      "Legal",
+      "Executive",
+      "Finance"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 54,
+    "difficulty": 3,
+    "category": "Ethical",
+    "scenario": "A routine security audit discovers that an employee in accounting clicked on a sophisticated phishing email 48 hours ago, and outbound beaconing has begun to an unknown external IP address.",
+    "question": "What is the immediate containment protocol?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Email the accounting employee asking if they remember downloading any strange files.",
+        "scores": {
+          "problem_solving_iq": 40,
+          "critical_thinking_iq": 40,
+          "job_readiness_iq": 40,
+          "time_priority_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "leisurely_inquiry"
+      },
+      {
+        "key": "B",
+        "text": "Isolate the compromised endpoint from the network instantly, revoke active session tokens, preserve forensic memory snapshots, block the external IP across firewalls, and invoke the incident response team.",
+        "scores": {
+          "problem_solving_iq": 98,
+          "critical_thinking_iq": 95,
+          "time_priority_iq": 95,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "rapid_containment"
+      },
+      {
+        "key": "C",
+        "text": "Wipe and reformat the computer immediately to destroy all traces of the virus before examining logs.",
+        "scores": {
+          "problem_solving_iq": 50,
+          "critical_thinking_iq": 45,
+          "job_readiness_iq": 50,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "forensic_destruction"
+      },
+      {
+        "key": "D",
+        "text": "Ignore it until Monday morning so the employee's weekend is not disturbed.",
+        "scores": {
+          "job_readiness_iq": 25,
+          "critical_thinking_iq": 25,
+          "time_priority_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "catastrophic_delay"
+      }
+    ],
+    "dimensionWeights": {
+      "problem_solving_iq": 40,
+      "critical_thinking_iq": 30,
+      "time_priority_iq": 20,
+      "job_readiness_iq": 10
+    },
+    "timeRecommendation": 40,
+    "explanation": "Cybersecurity containment requires surgical isolation without destroying forensic evidence: sever network connectivity and revoke credential tokens immediately.",
+    "developmentInsight": "Contain active intrusion instantly while preserving volatile memory artifacts for forensics.",
+    "industryTags": [
+      "Cybersecurity",
+      "IT",
+      "Finance",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 55,
+    "difficulty": 3,
+    "category": "Time & Priority",
+    "scenario": "Three critical path dependencies across different engineering teams converge into your delivery milestone next week, but Team B reports they are blocked by an API specification change made by Team A.",
+    "question": "How do you unblock the critical path?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tell Team B to figure it out with Team A on their own time.",
+        "scores": {
+          "leadership_iq": 40,
+          "time_priority_iq": 45,
+          "teamwork_iq": 45,
+          "problem_solving_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "abdication"
+      },
+      {
+        "key": "B",
+        "text": "Convene an immediate technical synchronizer session between Team A and B leads: freeze API contracts, establish a mock API interface for parallel development, and update critical path burndowns.",
+        "scores": {
+          "leadership_iq": 95,
+          "time_priority_iq": 95,
+          "problem_solving_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "interface_decoupling"
+      },
+      {
+        "key": "C",
+        "text": "Postpone the entire multi-department product launch by six months.",
+        "scores": {
+          "business_iq": 45,
+          "time_priority_iq": 45,
+          "leadership_iq": 45,
+          "adaptability_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "excessive_slippage"
+      },
+      {
+        "key": "D",
+        "text": "Order Team A to revert all modernizations and restore deprecated legacy protocols.",
+        "scores": {
+          "problem_solving_iq": 55,
+          "adaptability_iq": 50,
+          "critical_thinking_iq": 50,
+          "time_priority_iq": 60
+        },
+        "risk": "moderate",
+        "actionType": "regressive_fix"
+      }
+    ],
+    "dimensionWeights": {
+      "time_priority_iq": 40,
+      "problem_solving_iq": 30,
+      "leadership_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Complex project bottlenecks are resolved through contract freezing and architectural mocking, allowing dependent teams to continue development in parallel.",
+    "developmentInsight": "Unblock cross-team dependencies by decoupling work streams with standardized contract mocks.",
+    "industryTags": [
+      "IT",
+      "Engineering",
+      "Consulting",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "Team A's lead attends the sync but claims they cannot freeze the contract because user research is changing daily.",
+      "followUpQuestion": "How do you navigate continuous research flux during delivery sprints?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Version the API: freeze v1.0 for the impending launch, while queueing dynamic user research enhancements into a planned v1.1 sprint.",
+          "score": 95,
+          "trait": "architectural_statesmanship"
+        },
+        {
+          "key": "B",
+          "text": "Cancel all user research permanently.",
+          "score": 35,
+          "trait": "reactionary_blindness"
+        },
+        {
+          "key": "C",
+          "text": "Let Team B wait indefinitely until research stops changing.",
+          "score": 40,
+          "trait": "passive_paralysis"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "difficulty": 3,
+    "category": "Customer",
+    "scenario": "A long-time flagship client threatens to cancel their $200,000 annual subscription because a software bug caused their billing report to display incorrect currency symbols on their board presentation.",
+    "question": "How do you salvage the relationship and prevent churn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Send an automated link to the software terms of service showing that minor visual glitches are non-compensable.",
+        "scores": {
+          "sales_iq": 30,
+          "communication_iq": 35,
+          "eq": 30,
+          "business_iq": 35
+        },
+        "risk": "high",
+        "actionType": "legalistic_alienation"
+      },
+      {
+        "key": "B",
+        "text": "Have the VP or Account Director schedule an in-person meeting within 4 hours, present a formal root-cause correction, deploy a verified fix, and credit one month of service with dedicated concierge audit support.",
+        "scores": {
+          "sales_iq": 98,
+          "eq": 95,
+          "business_iq": 95,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "concierge_restoration"
+      },
+      {
+        "key": "C",
+        "text": "Offer to buy their board members a fruit basket.",
+        "scores": {
+          "sales_iq": 35,
+          "eq": 35,
+          "business_iq": 30,
+          "job_readiness_iq": 40
+        },
+        "risk": "high",
+        "actionType": "trivial_condescension"
+      },
+      {
+        "key": "D",
+        "text": "Tell the client they overreacted because currency symbols do not change numerical totals.",
+        "scores": {
+          "communication_iq": 25,
+          "eq": 20,
+          "sales_iq": 25,
+          "business_iq": 20
+        },
+        "risk": "high",
+        "actionType": "dismissive_arrogance"
+      }
+    ],
+    "dimensionWeights": {
+      "sales_iq": 40,
+      "eq": 35,
+      "business_iq": 15,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Enterprise retention under emotional escalation requires executive humility, transparent remediation, and tangible restitution proportional to customer embarrassment.",
+    "developmentInsight": "Recognize that enterprise churn is often triggered by customer loss of face in front of their stakeholders; restore their confidence first.",
+    "industryTags": [
+      "Sales",
+      "Customer Service",
+      "Corporate",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 57,
+    "difficulty": 3,
+    "category": "Business",
+    "scenario": "An early-stage startup has 5 months of cash runway left. Customer acquisition cost (CAC) is $450 while customer lifetime value (LTV) is currently $320.",
+    "question": "What strategic intervention must the leadership execute to avoid bankruptcy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Spend remaining reserves on expensive Super Bowl or billboard advertising to scale faster.",
+        "scores": {
+          "business_iq": 20,
+          "critical_thinking_iq": 25,
+          "iq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "accelerated_insolvency"
+      },
+      {
+        "key": "B",
+        "text": "Immediately pause paid acquisition channels with negative unit economics, analyze retention levers to expand LTV, focus on high-intent referral channels, and extend runway by trimming non-essential expenditures.",
+        "scores": {
+          "business_iq": 98,
+          "critical_thinking_iq": 95,
+          "problem_solving_iq": 90,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "unit_economic_turnaround"
+      },
+      {
+        "key": "C",
+        "text": "Hide the runway numbers from current investors and ask for more money without explaining unit metrics.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "business_iq": 25,
+          "job_readiness_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "deceptive_fundraising"
+      },
+      {
+        "key": "D",
+        "text": "Assume unit economics automatically fix themselves when user volume hits 1,000,000.",
+        "scores": {
+          "business_iq": 30,
+          "critical_thinking_iq": 35,
+          "iq": 35,
+          "problem_solving_iq": 30
+        },
+        "risk": "high",
+        "actionType": "delusional_scale"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 45,
+      "critical_thinking_iq": 30,
+      "problem_solving_iq": 15,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Startups survive by mastering unit economics: you cannot scale negative gross margins into profitability without fixing the fundamental LTV/CAC ratio.",
+    "developmentInsight": "Fix unit economics before pouring capital into customer acquisition; scale magnifies flaws, it doesn't cure them.",
+    "industryTags": [
+      "Startups",
+      "Finance",
+      "Business",
+      "Management"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 58,
+    "difficulty": 3,
+    "category": "Marketing",
+    "scenario": "An automated attribution platform credits 80% of all inbound e-commerce revenue to branded search ads, prompting marketing to shift 70% of the entire budget into bidding on their own company brand name.",
+    "question": "What critical marketing fallacy does this reflect?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is entirely correct because bidding on your own name is the only way to get sales.",
+        "scores": {
+          "marketing_iq": 35,
+          "critical_thinking_iq": 35,
+          "business_iq": 40,
+          "iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "attribution_naivety"
+      },
+      {
+        "key": "B",
+        "text": "It represents last-touch attribution cannibalization: users searching for the exact brand name were already intending to buy organically, resulting in paying for organic traffic without incremental lift.",
+        "scores": {
+          "marketing_iq": 98,
+          "critical_thinking_iq": 95,
+          "business_iq": 90,
+          "iq": 90
+        },
+        "risk": "low",
+        "actionType": "incrementality_analysis"
+      },
+      {
+        "key": "C",
+        "text": "It proves search ads should be completely eliminated across all channels.",
+        "scores": {
+          "marketing_iq": 45,
+          "critical_thinking_iq": 50,
+          "problem_solving_iq": 45,
+          "business_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "reactionary_elimination"
+      },
+      {
+        "key": "D",
+        "text": "It indicates that customers dislike social media and email marketing.",
+        "scores": {
+          "marketing_iq": 40,
+          "critical_thinking_iq": 40,
+          "iq": 45,
+          "problem_solving_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "non_sequitur"
+      }
+    ],
+    "dimensionWeights": {
+      "marketing_iq": 45,
+      "critical_thinking_iq": 30,
+      "business_iq": 15,
+      "iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Sophisticated growth marketing isolates incremental lift from baseline organic navigation; last-touch attribution often steals credit from brand equity.",
+    "developmentInsight": "Measure incrementality through geo-holdout tests rather than crediting search ads with pre-existing intent.",
+    "industryTags": [
+      "Marketing",
+      "E-commerce",
+      "Analytics",
+      "Startups"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 59,
+    "difficulty": 3,
+    "category": "Communication",
+    "scenario": "During an intense cross-border joint venture negotiation, your counterpart becomes visibly silent, takes prolonged pauses, and gives non-committal answers regarding timeline agreements.",
+    "question": "How do you interpret and navigate this diplomatic signal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fill the silence immediately by talking continuously and offering concessions to force an answer.",
+        "scores": {
+          "communication_iq": 40,
+          "eq": 40,
+          "sales_iq": 40,
+          "job_readiness_iq": 45
+        },
+        "risk": "high",
+        "actionType": "concession_panic"
+      },
+      {
+        "key": "B",
+        "text": "Respect the cultural cadence of silence: pause comfortably, reflectively summarize shared goals, and ask open-ended questions about their internal review milestones and consensus processes.",
+        "scores": {
+          "communication_iq": 95,
+          "eq": 95,
+          "sales_iq": 90,
+          "adaptability_iq": 90
+        },
+        "risk": "low",
+        "actionType": "cultural_cadence_mirroring"
+      },
+      {
+        "key": "C",
+        "text": "Pound on the table and demand an immediate yes-or-no commitment.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 25,
+          "leadership_iq": 30,
+          "sales_iq": 30
+        },
+        "risk": "high",
+        "actionType": "diplomatic_sabotage"
+      },
+      {
+        "key": "D",
+        "text": "End the negotiation abruptly and walk out of the room.",
+        "scores": {
+          "communication_iq": 35,
+          "eq": 30,
+          "adaptability_iq": 35,
+          "sales_iq": 35
+        },
+        "risk": "high",
+        "actionType": "immature_storming"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 40,
+      "eq": 35,
+      "adaptability_iq": 15,
+      "sales_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Cross-cultural and high-stakes negotiation requires comfort with silence: pauses often indicate thoughtful internal consultation rather than hostility.",
+    "developmentInsight": "Hold space for conversational pauses; never negotiate against yourself to fill awkward silence.",
+    "industryTags": [
+      "Consulting",
+      "Corporate",
+      "Sales",
+      "International"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 60,
+    "difficulty": 3,
+    "category": "Promotion",
+    "scenario": "You notice that your department's monthly reporting cycle consumes 40 hours of manual data collation across 6 analysts, yet executive leadership only reviews two headline summary charts.",
+    "question": "What initiative demonstrates senior promotional leadership?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Continue the 40 hours of manual work because 'that is how it has always been done.'",
+        "scores": {
+          "promotion_readiness_iq": 35,
+          "leadership_iq": 35,
+          "problem_solving_iq": 40,
+          "time_priority_iq": 35
+        },
+        "risk": "moderate",
+        "actionType": "bureaucratic_inertia"
+      },
+      {
+        "key": "B",
+        "text": "Author an automated live dashboard that aggregates the headline metrics in real-time, eliminating 80% of manual effort and liberating 32 analyst hours/week for strategic insight generation.",
+        "scores": {
+          "promotion_readiness_iq": 98,
+          "leadership_iq": 95,
+          "problem_solving_iq": 95,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "systemic_efficiency_leadership"
+      },
+      {
+        "key": "C",
+        "text": "Complain to the other analysts that the executives don't appreciate hard work.",
+        "scores": {
+          "eq": 35,
+          "communication_iq": 35,
+          "leadership_iq": 30,
+          "promotion_readiness_iq": 30
+        },
+        "risk": "high",
+        "actionType": "cynical_griping"
+      },
+      {
+        "key": "D",
+        "text": "Stop submitting the reports entirely without notifying anyone.",
+        "scores": {
+          "job_readiness_iq": 25,
+          "ethics_judgment_iq": 30,
+          "communication_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "insubordination"
+      }
+    ],
+    "dimensionWeights": {
+      "promotion_readiness_iq": 40,
+      "leadership_iq": 30,
+      "problem_solving_iq": 20,
+      "business_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Senior candidates stand out by identifying institutional waste and designing automated self-serve systems that free organizational cognitive capacity.",
+    "developmentInsight": "Transform routine reporting toil into automated visibility, freeing human capital for exploratory analytics.",
+    "industryTags": [
+      "Corporate",
+      "Finance",
+      "IT",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 61,
+    "difficulty": 4,
+    "category": "Leadership",
+    "scenario": "The highest revenue-generating salesperson in the company consistently insults junior staff members, refuses to log customer notes in CRM, and threatens to resign whenever reprimanded.",
+    "question": "What is your executive leadership decision?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Grant them complete immunity and tell junior staff to develop thicker skin because revenue is sacred.",
+        "scores": {
+          "leadership_iq": 30,
+          "eq": 30,
+          "ethics_judgment_iq": 35,
+          "teamwork_iq": 30
+        },
+        "risk": "high",
+        "actionType": "toxic_capitulation"
+      },
+      {
+        "key": "B",
+        "text": "Set an unequivocal behavioral boundary in a private executive meeting: convey that sustainable performance requires cultural integrity, establish non-negotiable team standards, and prepare an account succession plan if they refuse.",
+        "scores": {
+          "leadership_iq": 98,
+          "ethics_judgment_iq": 95,
+          "eq": 90,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "principled_cultural_governance"
+      },
+      {
+        "key": "C",
+        "text": "Slash their commission by 50% without warning in their next paycheck.",
+        "scores": {
+          "leadership_iq": 45,
+          "communication_iq": 40,
+          "legal_iq": 35,
+          "eq": 40
+        },
+        "risk": "high",
+        "actionType": "arbitrary_retaliation"
+      },
+      {
+        "key": "D",
+        "text": "Gossip about their behavior with other managers hoping peer pressure solves it.",
+        "scores": {
+          "leadership_iq": 30,
+          "communication_iq": 35,
+          "eq": 35,
+          "job_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "passive_corrosion"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "ethics_judgment_iq": 30,
+      "eq": 20,
+      "business_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "A culture is defined by the worst behavior leadership tolerates; allowing brilliant jerks destroys systemic retention and team morale.",
+    "developmentInsight": "Never hold culture hostage to individual output; establish explicit behavioral contracts with clear separation triggers.",
+    "industryTags": [
+      "Sales",
+      "Corporate",
+      "Management",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 62,
+    "difficulty": 4,
+    "category": "Business",
+    "scenario": "Your enterprise's legacy flagship product accounts for 75% of current profit but has entered a 6% annual decline, while a nascent AI-powered service is growing 150% annually but operates at a slight loss.",
+    "question": "How do you strategically allocate R&D and marketing capital?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pour 100% of capital into defending the legacy product to preserve the 75% profit margin at all costs.",
+        "scores": {
+          "business_iq": 40,
+          "critical_thinking_iq": 40,
+          "adaptability_iq": 35,
+          "innovative_iq": 35
+        },
+        "risk": "high",
+        "actionType": "innovators_dilemma_trap"
+      },
+      {
+        "key": "B",
+        "text": "Execute an 'Innovator's Dilemma' transition strategy: manage the legacy product for efficient cash-flow harvesting, while systematically reallocating capital to scale the AI service toward profitability and market dominance.",
+        "scores": {
+          "business_iq": 98,
+          "critical_thinking_iq": 95,
+          "adaptability_iq": 95,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "strategic_portfolio_transition"
+      },
+      {
+        "key": "C",
+        "text": "Immediately shut down the legacy product tomorrow and fire the staff who maintain it.",
+        "scores": {
+          "business_iq": 35,
+          "time_priority_iq": 30,
+          "leadership_iq": 35,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "revenue_suicide"
+      },
+      {
+        "key": "D",
+        "text": "Sell the entire company for scrap before anyone notices the 6% decline.",
+        "scores": {
+          "business_iq": 25,
+          "critical_thinking_iq": 25,
+          "leadership_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "defeatist_fire_sale"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 40,
+      "critical_thinking_iq": 30,
+      "adaptability_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Navigating the Innovator's Dilemma demands funding future growth curves using cash harvested from disciplined, efficient legacy operations.",
+    "developmentInsight": "Balance cash generation with future transformation; harvest mature lines to fuel hyper-growth assets.",
+    "industryTags": [
+      "Corporate",
+      "Finance",
+      "Strategy",
+      "Tech"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 63,
+    "difficulty": 4,
+    "category": "Critical Thinking",
+    "scenario": "An algorithmic stock trading or inventory replenishment model generates record profits for three quarters, but your mathematical inspection indicates it is exploiting a subtle regulatory loophole that could be closed by regulators next month.",
+    "question": "What is your fiduciary and ethical recommendation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conceal the vulnerability and continue trading at maximum volume until regulators discover it.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "critical_thinking_iq": 30,
+          "risk": "high",
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "willful_regulatory_risk"
+      },
+      {
+        "key": "B",
+        "text": "Brief executive leadership on the regulatory fragility: quantify the downside regulatory penalties, design an organic replacement model compliant with the anticipated rule change, and unwind dependent exposures gracefully.",
+        "scores": {
+          "critical_thinking_iq": 98,
+          "ethics_judgment_iq": 98,
+          "business_iq": 95,
+          "problem_solving_iq": 90
+        },
+        "risk": "low",
+        "actionType": "proactive_regulatory_hedging"
+      },
+      {
+        "key": "C",
+        "text": "Whistleblow to the press anonymously without letting internal leadership review the data first.",
+        "scores": {
+          "communication_iq": 45,
+          "eq": 40,
+          "leadership_iq": 45,
+          "business_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "premature_leak"
+      },
+      {
+        "key": "D",
+        "text": "Delete the trading model code so no one can prove profits came from the loophole.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "job_readiness_iq": 20,
+          "critical_thinking_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "evidence_destruction"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 40,
+      "ethics_judgment_iq": 35,
+      "business_iq": 15,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Regulatory arbitrage provides ephemeral profit coupled with catastrophic downside; robust leadership pivots toward durable, defensible competitive value.",
+    "developmentInsight": "Never mistake regulatory latency for sustainable alpha; prepare for inevitable regulatory convergence.",
+    "industryTags": [
+      "Finance",
+      "Legal",
+      "Banking",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 64,
+    "difficulty": 4,
+    "category": "Adaptability",
+    "scenario": "Following a corporate merger, your entire department is being shifted from an agile, decentralized product pod model into a matrixed, centralized functional hierarchy.",
+    "question": "How do you steer your teams through this structural upheaval?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Organize covert resistance meetings to sabotage the incoming matrix hierarchy.",
+        "scores": {
+          "adaptability_iq": 30,
+          "leadership_iq": 35,
+          "eq": 35,
+          "teamwork_iq": 35
+        },
+        "risk": "high",
+        "actionType": "organizational_sabotage"
+      },
+      {
+        "key": "B",
+        "text": "Map out the new governance workflows, identify potential communication latency in the matrix, establish informal cross-functional bridge channels, and coach teams on influencing across matrix lines.",
+        "scores": {
+          "adaptability_iq": 98,
+          "leadership_iq": 95,
+          "communication_iq": 95,
+          "eq": 90
+        },
+        "risk": "low",
+        "actionType": "matrix_empowerment"
+      },
+      {
+        "key": "C",
+        "text": "Resign immediately on the first day the announcement is made.",
+        "scores": {
+          "adaptability_iq": 40,
+          "job_readiness_iq": 40,
+          "problem_solving_iq": 40,
+          "leadership_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "avoidant_exit"
+      },
+      {
+        "key": "D",
+        "text": "Pretend nothing has changed and continue operating rogue pods.",
+        "scores": {
+          "adaptability_iq": 35,
+          "leadership_iq": 40,
+          "business_iq": 35,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "structural_denial"
+      }
+    ],
+    "dimensionWeights": {
+      "adaptability_iq": 40,
+      "leadership_iq": 30,
+      "communication_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Thriving in structural reorganizations requires cognitive agility: mastering matrix influence, lateral communication, and stakeholder orchestration.",
+    "developmentInsight": "In matrix transformations, trade direct hierarchical command for lateral relational influence.",
+    "industryTags": [
+      "Corporate",
+      "Management",
+      "HR",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 65,
+    "difficulty": 4,
+    "category": "AI",
+    "scenario": "Your enterprise plans to deploy autonomous AI agents capable of initiating vendor purchase orders up to $10,000 without human sign-off to accelerate supply replenishment.",
+    "question": "What governance architecture protects against rogue loops and cascading budget depletion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deploy the agents with zero restrictions because AI models are smarter than human buyers.",
+        "scores": {
+          "aiq": 20,
+          "critical_thinking_iq": 25,
+          "business_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "reckless_delegation"
+      },
+      {
+        "key": "B",
+        "text": "Implement tiered guardrails: daily aggregate spending ceilings, deterministic vendor verification checks, anomaly detection triggers on buying velocity, and mandatory human sign-off on non-standard SKU patterns.",
+        "scores": {
+          "aiq": 98,
+          "critical_thinking_iq": 98,
+          "business_iq": 95,
+          "problem_solving_iq": 95
+        },
+        "risk": "low",
+        "actionType": "defense_in_depth_governance"
+      },
+      {
+        "key": "C",
+        "text": "Restrict agent autonomy to $5 total purchases, making the tool useless for actual business operations.",
+        "scores": {
+          "aiq": 45,
+          "business_iq": 45,
+          "problem_solving_iq": 50,
+          "adaptability_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "crippling_caution"
+      },
+      {
+        "key": "D",
+        "text": "Require the CEO to manually approve every single 50-cent order created by the agent.",
+        "scores": {
+          "business_iq": 40,
+          "time_priority_iq": 35,
+          "leadership_iq": 40,
+          "aiq": 45
+        },
+        "risk": "moderate",
+        "actionType": "executive_bottleneck"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 40,
+      "critical_thinking_iq": 30,
+      "business_iq": 20,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Agentic autonomy demands defense-in-depth: rate limits, semantic guardrails, anomaly circuit breakers, and bounded blast radiuses.",
+    "developmentInsight": "Govern autonomous AI through automated rate-limiting thresholds and semantic circuit breakers before giving financial keys.",
+    "industryTags": [
+      "IT",
+      "Supply Chain",
+      "Finance",
+      "AI"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "During black swan market volatility, a supplier changes SKU syntax, triggering the anomaly circuit breaker and halting 12 critical orders.",
+      "followUpQuestion": "How do you handle this operational halt?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Approve the 12 orders manually via emergency human triage while tuning the agent's schema-drift tolerance for dynamic vendor naming.",
+          "score": 95,
+          "trait": "adaptive_incident_triage"
+        },
+        {
+          "key": "B",
+          "text": "Permanently dismantle the anomaly detection system.",
+          "score": 25,
+          "trait": "guardrail_destruction"
+        },
+        {
+          "key": "C",
+          "text": "Cancel all 12 orders and sever relationships with the supplier.",
+          "score": 35,
+          "trait": "disproportionate_severance"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "difficulty": 4,
+    "category": "Promotion",
+    "scenario": "You are invited to present your department's multi-year vision to the Board of Directors. The previous presenter went 25 minutes overtime, leaving you with only 8 minutes before the board adjourns.",
+    "question": "How do you master this compressed high-stakes executive interaction?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Try to rush through all 45 slides at triple speed while speaking breathlessly.",
+        "scores": {
+          "communication_iq": 35,
+          "promotion_readiness_iq": 35,
+          "eq": 35,
+          "time_priority_iq": 35
+        },
+        "risk": "high",
+        "actionType": "slide_rushing"
+      },
+      {
+        "key": "B",
+        "text": "Acknowledge the compressed timeframe with calm confidence, skip to the single core strategic unlock slide, state the decisive capital and growth thesis in 3 minutes, and open the remaining 5 minutes for board questions.",
+        "scores": {
+          "promotion_readiness_iq": 98,
+          "communication_iq": 98,
+          "leadership_iq": 95,
+          "eq": 95
+        },
+        "risk": "low",
+        "actionType": "executive_presence_synthesis"
+      },
+      {
+        "key": "C",
+        "text": "Refuse to speak and demand the board reschedule a special 2-hour session just for you.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 25,
+          "promotion_readiness_iq": 30,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "prima_donna_obstruction"
+      },
+      {
+        "key": "D",
+        "text": "Read the printed executive summary word for word with your eyes glued to the paper.",
+        "scores": {
+          "communication_iq": 45,
+          "eq": 45,
+          "promotion_readiness_iq": 45,
+          "leadership_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "unengaging_recital"
+      }
+    ],
+    "dimensionWeights": {
+      "promotion_readiness_iq": 40,
+      "communication_iq": 30,
+      "leadership_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Executive presence shines brightest in compression: distilling hours of strategic complexity into clear, calm, high-conviction decision frameworks under time pressure.",
+    "developmentInsight": "Demonstrate command by collapsing 45 slides into one definitive thesis and engaging board members in peer dialogue.",
+    "industryTags": [
+      "Corporate",
+      "Executive",
+      "Strategy",
+      "Management"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 67,
+    "difficulty": 4,
+    "category": "Ethical",
+    "scenario": "During an internal review, you uncover clear evidence that a division vice president has been falsifying safety inspection timestamps on industrial machinery to meet quarterly production bonuses.",
+    "question": "What is the responsible and legally sound escalation pathway?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Approach the VP privately and ask for a share of their bonus in exchange for remaining silent.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "job_readiness_iq": 15,
+          "risk": "high",
+          "leadership_iq": 15
+        },
+        "risk": "high",
+        "actionType": "criminal_blackmail"
+      },
+      {
+        "key": "B",
+        "text": "Document the forensic timestamp discrepancies with immutable logs, report directly via established corporate whistleblower/ombudsman channels and internal audit, and notify legal counsel to safeguard worker safety.",
+        "scores": {
+          "ethics_judgment_iq": 98,
+          "critical_thinking_iq": 95,
+          "leadership_iq": 90,
+          "job_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "forensic_whistleblowing"
+      },
+      {
+        "key": "C",
+        "text": "Post unverified allegations on public Reddit forums.",
+        "scores": {
+          "ethics_judgment_iq": 40,
+          "communication_iq": 35,
+          "job_readiness_iq": 40,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "reckless_exposure"
+      },
+      {
+        "key": "D",
+        "text": "Ignore it because industrial safety is outside your direct job description.",
+        "scores": {
+          "ethics_judgment_iq": 30,
+          "job_readiness_iq": 35,
+          "critical_thinking_iq": 35,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "moral_abdication"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 50,
+      "critical_thinking_iq": 25,
+      "leadership_iq": 15,
+      "job_readiness_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Safety and compliance fraud demands forensic documentation and unyielding escalation through official ombudsman and legal avenues to preserve human life and corporate governance.",
+    "developmentInsight": "When physical safety is compromised, bypass informal channels and file formal forensic reports with audit committees.",
+    "industryTags": [
+      "Manufacturing",
+      "Corporate",
+      "Legal",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 68,
+    "difficulty": 4,
+    "category": "Marketing",
+    "scenario": "An automated advertising algorithm inadvertently places your family-friendly consumer brand's banner ads adjacent to extremist propaganda videos on a video sharing platform, sparking an advertiser boycott movement.",
+    "question": "What decisive brand stewardship action do you execute?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blame the video platform entirely in aggressive press releases while keeping the ads running.",
+        "scores": {
+          "marketing_iq": 40,
+          "communication_iq": 40,
+          "business_iq": 40,
+          "eq": 45
+        },
+        "risk": "high",
+        "actionType": "defensive_blame"
+      },
+      {
+        "key": "B",
+        "text": "Immediately pause programmatic ad spend across the platform, initiate a full audit of brand safety exclusions and negative keyword lists, publish a transparent action plan, and condition ad resumption on third-party verification.",
+        "scores": {
+          "marketing_iq": 98,
+          "leadership_iq": 95,
+          "critical_thinking_iq": 90,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "brand_safety_audit"
+      },
+      {
+        "key": "C",
+        "text": "Change your brand logo color and hope nobody notices the ads.",
+        "scores": {
+          "marketing_iq": 30,
+          "critical_thinking_iq": 30,
+          "problem_solving_iq": 30,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "cosmetic_evasion"
+      },
+      {
+        "key": "D",
+        "text": "Retire all marketing forever and rely purely on word of mouth.",
+        "scores": {
+          "marketing_iq": 35,
+          "business_iq": 35,
+          "adaptability_iq": 35,
+          "problem_solving_iq": 35
+        },
+        "risk": "moderate",
+        "actionType": "drastic_overkill"
+      }
+    ],
+    "dimensionWeights": {
+      "marketing_iq": 45,
+      "leadership_iq": 25,
+      "business_iq": 20,
+      "critical_thinking_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Brand safety crises require immediate supply-side circuit breaking coupled with transparent inclusion protocols and third-party verification standards.",
+    "developmentInsight": "Pause programmatic ad spend immediately; re-enter only when rigorous negative exclusions and verification seals are established.",
+    "industryTags": [
+      "Marketing",
+      "Media",
+      "Corporate",
+      "PR"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 69,
+    "difficulty": 4,
+    "category": "Problem Solving",
+    "scenario": "Your company must migrate 50 million user records to a modern cloud database. A zero-downtime migration will take 6 months and cost $1.2M; a 4-hour scheduled maintenance window will take 3 weeks and cost $80,000.",
+    "question": "How do you evaluate this multi-dimensional trade-off?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Default automatically to zero-downtime because downtime is always unacceptable under any circumstances.",
+        "scores": {
+          "problem_solving_iq": 50,
+          "business_iq": 45,
+          "critical_thinking_iq": 50,
+          "time_priority_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "dogmatic_architecture"
+      },
+      {
+        "key": "B",
+        "text": "Conduct a business impact analysis: quantify customer revenue loss and SLA penalties during a 4-hour weekend window (e.g. $15,000) versus the $1.12M premium and 5-month delay, and present the high-ROI scheduled window with customer notice.",
+        "scores": {
+          "problem_solving_iq": 98,
+          "business_iq": 98,
+          "critical_thinking_iq": 95,
+          "time_priority_iq": 90
+        },
+        "risk": "low",
+        "actionType": "cost_benefit_tradeoff"
+      },
+      {
+        "key": "C",
+        "text": "Cancel the database migration and leave data on servers that are currently out of warranty.",
+        "scores": {
+          "problem_solving_iq": 35,
+          "business_iq": 35,
+          "risk": "high",
+          "critical_thinking_iq": 35
+        },
+        "risk": "high",
+        "actionType": "paralyzed_deferral"
+      },
+      {
+        "key": "D",
+        "text": "Execute the migration during peak Monday morning business hours without telling customers.",
+        "scores": {
+          "problem_solving_iq": 20,
+          "business_iq": 20,
+          "ethics_judgment_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "reckless_disruption"
+      }
+    ],
+    "dimensionWeights": {
+      "problem_solving_iq": 40,
+      "business_iq": 35,
+      "critical_thinking_iq": 15,
+      "time_priority_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Engineering pragmatism evaluates real dollar impact: spending $1.12M to avoid $15,000 in scheduled weekend inconvenience is an irresponsible allocation of company capital.",
+    "developmentInsight": "Quantify the real cost of downtime versus the cost of zero-downtime architecture; choose pragmatic economic trade-offs.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "Operations",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 70,
+    "difficulty": 4,
+    "category": "Teamwork",
+    "scenario": "You are tasked with leading an enterprise digital transformation initiative involving Product, Sales, Compliance, and Engineering, none of whom report to you hierarchically.",
+    "question": "How do you establish cohesive momentum without direct formal authority?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Order everyone to follow your commands and claim you speak directly on behalf of the CEO.",
+        "scores": {
+          "leadership_iq": 35,
+          "communication_iq": 35,
+          "eq": 30,
+          "teamwork_iq": 35
+        },
+        "risk": "high",
+        "actionType": "false_authority"
+      },
+      {
+        "key": "B",
+        "text": "Build relational trust: interview each departmental stakeholder to uncover their specific incentives and pain points, co-author a shared charter where everyone's wins are aligned, and institute transparent cross-functional steering cadence.",
+        "scores": {
+          "leadership_iq": 98,
+          "teamwork_iq": 98,
+          "communication_iq": 95,
+          "eq": 95
+        },
+        "risk": "low",
+        "actionType": "coalition_building"
+      },
+      {
+        "key": "C",
+        "text": "Do all the work yourself in isolation so you don't have to deal with other departments.",
+        "scores": {
+          "teamwork_iq": 40,
+          "leadership_iq": 35,
+          "time_priority_iq": 40,
+          "problem_solving_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "martyr_isolation"
+      },
+      {
+        "key": "D",
+        "text": "Send daily escalation emails to senior leadership complaining that peers are unresponsive.",
+        "scores": {
+          "teamwork_iq": 35,
+          "communication_iq": 35,
+          "eq": 30,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "chronic_escalation"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 35,
+      "teamwork_iq": 35,
+      "communication_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Influence without authority is the defining benchmark of senior leadership: aligning mutual incentives, establishing shared vision, and leading through coalition building.",
+    "developmentInsight": "Win horizontal alignment by mapping how your project solves the personal metrics of each functional leader.",
+    "industryTags": [
+      "Corporate",
+      "Management",
+      "Consulting",
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "Compliance stalls your shared charter for three weeks citing regulatory concerns that were already addressed in writing.",
+      "followUpQuestion": "How do you navigate Compliance's persistent hesitation?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Schedule a dedicated working session with Compliance counsel to walk through regulatory cross-walks clause-by-clause, co-drafting the protective clauses together.",
+          "score": 95,
+          "trait": "collaborative_consensus_builder"
+        },
+        {
+          "key": "B",
+          "text": "Bypass Compliance completely and launch without their sign-off.",
+          "score": 25,
+          "trait": "rogue_rebellion"
+        },
+        {
+          "key": "C",
+          "text": "Send a passive-aggressive email copying everyone's superiors.",
+          "score": 35,
+          "trait": "antagonistic_provocation"
+        }
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "difficulty": 4,
+    "category": "Crisis",
+    "scenario": "Your enterprise data center is hit by ransomware encrypting sensitive customer data, and the threat actor demands $5M in cryptocurrency within 24 hours while threatening public data release.",
+    "question": "What is your multi-dimensional executive response protocol?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pay the $5M immediately from company funds and keep the incident secret from regulators.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "critical_thinking_iq": 25,
+          "business_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "unverified_ransom_payment"
+      },
+      {
+        "key": "B",
+        "text": "Activate the cyber incident crisis committee: isolate systems, notify legal counsel, data protection authorities, and federal law enforcement, assess verified offline cold backups, and engage specialized forensic incident responders.",
+        "scores": {
+          "problem_solving_iq": 98,
+          "ethics_judgment_iq": 98,
+          "leadership_iq": 95,
+          "critical_thinking_iq": 95
+        },
+        "risk": "low",
+        "actionType": "rigorous_cyber_protocol"
+      },
+      {
+        "key": "C",
+        "text": "Issue a press release claiming that nothing happened and that all servers are operating normally.",
+        "scores": {
+          "communication_iq": 20,
+          "ethics_judgment_iq": 20,
+          "leadership_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "public_deception"
+      },
+      {
+        "key": "D",
+        "text": "Unplug every computer in the world connected to the company network and fire the CISO.",
+        "scores": {
+          "leadership_iq": 35,
+          "problem_solving_iq": 30,
+          "eq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "chaotic_panic"
+      }
+    ],
+    "dimensionWeights": {
+      "problem_solving_iq": 35,
+      "ethics_judgment_iq": 35,
+      "leadership_iq": 20,
+      "critical_thinking_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Ransomware crises demand adherence to legal, regulatory, and forensic protocols; never pay ransoms blindly or conceal breaches from statutory regulators.",
+    "developmentInsight": "Engage law enforcement and forensic negotiators while validating cold backups; prioritize statutory disclosure.",
+    "industryTags": [
+      "Cybersecurity",
+      "Corporate",
+      "Legal",
+      "Executive"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 72,
+    "difficulty": 4,
+    "category": "Sales",
+    "scenario": "Your company's largest account ($3.5M ARR) has issued an RFP (Request for Proposal) to market competitors after an internal executive sponsor champion leaves their firm.",
+    "question": "How do you execute a strategic account defense?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Offer an immediate 50% discount to stop them from evaluating competitors.",
+        "scores": {
+          "sales_iq": 45,
+          "business_iq": 40,
+          "critical_thinking_iq": 45,
+          "problem_solving_iq": 45
+        },
+        "risk": "high",
+        "actionType": "panic_discounting"
+      },
+      {
+        "key": "B",
+        "text": "Map the new stakeholder ecosystem immediately: uncover the incoming executive's strategic priorities, quantify the multi-million dollar ROI delivered over the past 3 years, and deliver a co-innovation roadmap aligned with their future charter.",
+        "scores": {
+          "sales_iq": 98,
+          "business_iq": 95,
+          "leadership_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "value_realignment_defense"
+      },
+      {
+        "key": "C",
+        "text": "Complain to their procurement department that conducting an RFP is unfair after years of loyalty.",
+        "scores": {
+          "sales_iq": 35,
+          "communication_iq": 35,
+          "eq": 30,
+          "job_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "entitled_complaint"
+      },
+      {
+        "key": "D",
+        "text": "Refuse to participate in the RFP on the grounds that your product is superior.",
+        "scores": {
+          "sales_iq": 30,
+          "business_iq": 30,
+          "leadership_iq": 35,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "arrogant_forfeiture"
+      }
+    ],
+    "dimensionWeights": {
+      "sales_iq": 40,
+      "business_iq": 30,
+      "leadership_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Account retention during sponsor turnover requires re-qualifying the account from scratch: anchor the value narrative to the new leadership's specific agenda.",
+    "developmentInsight": "Re-underwrite the account relationship with fresh strategic discovery; never rely on past laurels when leadership changes.",
+    "industryTags": [
+      "Sales",
+      "Consulting",
+      "Enterprise",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 73,
+    "difficulty": 4,
+    "category": "Learning",
+    "scenario": "Your software agency has focused on hospitality tech for 8 years, but a sudden market shift creates a massive urgent demand in healthcare life sciences compliance.",
+    "question": "How do you orchestrate rapid capability acquisition?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bid on multi-million dollar clinical trials projects today and fake your credentials.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "job_readiness_iq": 20,
+          "risk": "high",
+          "learning_agility_iq": 25
+        },
+        "risk": "high",
+        "actionType": "reckless_fraud"
+      },
+      {
+        "key": "B",
+        "text": "Recruit key clinical domain advisors, conduct an intensive 30-day compliance gap audit (HIPAA/GxP), partner with specialized auditors, and transition senior architects through intensive regulatory immersion.",
+        "scores": {
+          "learning_agility_iq": 98,
+          "adaptability_iq": 95,
+          "business_iq": 95,
+          "problem_solving_iq": 90
+        },
+        "risk": "low",
+        "actionType": "structured_capability_pivot"
+      },
+      {
+        "key": "C",
+        "text": "Reject all healthcare opportunities because changing domains is too risky.",
+        "scores": {
+          "adaptability_iq": 40,
+          "business_iq": 40,
+          "learning_agility_iq": 40,
+          "leadership_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "stagnation"
+      },
+      {
+        "key": "D",
+        "text": "Ask developers to skim Wikipedia articles on healthcare for 2 hours and call them certified experts.",
+        "scores": {
+          "learning_agility_iq": 30,
+          "critical_thinking_iq": 30,
+          "ethics_judgment_iq": 30,
+          "job_readiness_iq": 35
+        },
+        "risk": "high",
+        "actionType": "superficial_facade"
+      }
+    ],
+    "dimensionWeights": {
+      "learning_agility_iq": 40,
+      "adaptability_iq": 30,
+      "business_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Entering complex regulated verticals requires humility and institutional acceleration: pair seasoned internal problem solvers with authoritative domain compliance advisors.",
+    "developmentInsight": "Bridge domain chasms through targeted expert recruitment and rigorous compliance scaffolding.",
+    "industryTags": [
+      "Healthcare",
+      "Consulting",
+      "Strategy",
+      "Tech"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 74,
+    "difficulty": 4,
+    "category": "Time & Priority",
+    "scenario": "Executive leadership hands down 4 strategic priority initiatives for the year, but engineering capacity models prove the organization can only execute 2 with high quality without risking burnout and system degradation.",
+    "question": "How do you manage this executive prioritization challenge?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accept all 4 initiatives silently and force teams to work 70-hour weeks all year.",
+        "scores": {
+          "leadership_iq": 35,
+          "time_priority_iq": 30,
+          "eq": 30,
+          "teamwork_iq": 30
+        },
+        "risk": "high",
+        "actionType": "burnout_attrition"
+      },
+      {
+        "key": "B",
+        "text": "Present a capacity versus value matrix to the C-suite: demonstrate trade-offs in quality, security, and time-to-market, and recommend sequencing the top 2 initiatives in H1 while staging 3 and 4 in H2.",
+        "scores": {
+          "time_priority_iq": 98,
+          "leadership_iq": 95,
+          "business_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "strategic_sequencing"
+      },
+      {
+        "key": "C",
+        "text": "Publicly challenge the CEO in an all-hands meeting and call the executive staff disconnected from reality.",
+        "scores": {
+          "communication_iq": 35,
+          "eq": 30,
+          "job_readiness_iq": 35,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "hostile_insubordination"
+      },
+      {
+        "key": "D",
+        "text": "Start all 4 projects simultaneously and let them all finish half-baked and buggy.",
+        "scores": {
+          "time_priority_iq": 40,
+          "critical_thinking_iq": 40,
+          "business_iq": 40,
+          "problem_solving_iq": 40
+        },
+        "risk": "high",
+        "actionType": "diluted_mediocrity"
+      }
+    ],
+    "dimensionWeights": {
+      "time_priority_iq": 40,
+      "leadership_iq": 30,
+      "business_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Prioritization is about what you choose NOT to do right now; sequencing high-value projects prevents catastrophic institutional dilution.",
+    "developmentInsight": "Present capacity bottlenecks as sequencing choices rather than outright refusals.",
+    "industryTags": [
+      "Management",
+      "Strategy",
+      "Operations",
+      "IT"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 75,
+    "difficulty": 4,
+    "category": "Interview",
+    "scenario": "Your team consists entirely of analytical, risk-averse perfectionists. You are interviewing for a senior product lead to accelerate bold experimentation in an ambiguous new market.",
+    "question": "How do you evaluate candidates to avoid homophily bias?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hire the candidate who has the exact same background, personality, and credentials as the existing team.",
+        "scores": {
+          "critical_thinking_iq": 35,
+          "interview_iq": 35,
+          "creativity_iq": 35,
+          "eq": 40
+        },
+        "risk": "high",
+        "actionType": "homophily_groupthink"
+      },
+      {
+        "key": "B",
+        "text": "Design a behavioral rubric that explicitly scores cognitive diversity, tolerance for ambiguity, hypothesis-driven experimentation, and the courage to challenge established consensus.",
+        "scores": {
+          "interview_iq": 98,
+          "critical_thinking_iq": 95,
+          "creativity_iq": 90,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "diversity_calibrated_hiring"
+      },
+      {
+        "key": "C",
+        "text": "Pick the most eccentric candidate with zero qualifications just to be different.",
+        "scores": {
+          "interview_iq": 40,
+          "critical_thinking_iq": 40,
+          "business_iq": 40,
+          "problem_solving_iq": 45
+        },
+        "risk": "high",
+        "actionType": "random_hiring"
+      },
+      {
+        "key": "D",
+        "text": "Outsource the hiring decision to a lottery draw.",
+        "scores": {
+          "interview_iq": 20,
+          "job_readiness_iq": 20,
+          "critical_thinking_iq": 25,
+          "iq": 30
+        },
+        "risk": "high",
+        "actionType": "abdication"
+      }
+    ],
+    "dimensionWeights": {
+      "interview_iq": 40,
+      "critical_thinking_iq": 30,
+      "creativity_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Building resilient organizations requires deliberate cognitive diversity; hire for complementary perspectives that dismantle institutional blind spots.",
+    "developmentInsight": "Actively hire for skills and thinking styles missing from your current team roster.",
+    "industryTags": [
+      "HR",
+      "Executive",
+      "Management",
+      "Consulting"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 76,
+    "difficulty": 4,
+    "category": "Business",
+    "scenario": "Your team has built a new payment integration. Perfectionist engineers want another 3 months to achieve 99.999% theoretical reliability, while the current version is at 99.95% and every month of delay costs $400,000 in lost revenue.",
+    "question": "How do you arbitrate this tension?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delay launch for 3 months because anything less than five-nines perfection is a disgrace to engineering.",
+        "scores": {
+          "business_iq": 45,
+          "critical_thinking_iq": 45,
+          "time_priority_iq": 40,
+          "problem_solving_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "cost_blind_perfectionism"
+      },
+      {
+        "key": "B",
+        "text": "Calculate Cost of Delay: contrast the $1.2M revenue loss against the marginal SLA differential, establish automated canary deployments with rollback monitors, and launch now to capture value.",
+        "scores": {
+          "business_iq": 98,
+          "critical_thinking_iq": 95,
+          "time_priority_iq": 95,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "cost_of_delay_optimization"
+      },
+      {
+        "key": "C",
+        "text": "Launch immediately with zero testing or error monitoring.",
+        "scores": {
+          "risk": "high",
+          "business_iq": 35,
+          "critical_thinking_iq": 30,
+          "problem_solving_iq": 35
+        },
+        "risk": "high",
+        "actionType": "reckless_abandon"
+      },
+      {
+        "key": "D",
+        "text": "Fire the engineering team for having high standards.",
+        "scores": {
+          "eq": 25,
+          "leadership_iq": 25,
+          "teamwork_iq": 25,
+          "communication_iq": 30
+        },
+        "risk": "high",
+        "actionType": "hostile_management"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 45,
+      "critical_thinking_iq": 25,
+      "time_priority_iq": 20,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Sound business judgment optimizes for Cost of Delay: know when the marginal cost of incremental perfection exceeds its commercial risk reduction.",
+    "developmentInsight": "Evaluate engineering perfection through the economic lens of Cost of Delay.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "Strategy",
+      "Management"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 77,
+    "difficulty": 4,
+    "category": "Programming",
+    "scenario": "A legacy monolithic ERP system has become so brittle that adding a single custom field takes 4 weeks and triggers regression errors in unrelated modules.",
+    "question": "What architectural modernization strategy balances continuous business delivery with debt elimination?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Halt all business feature development for 18 months to perform a complete ground-up rewrite.",
+        "scores": {
+          "business_iq": 40,
+          "programming_iq": 50,
+          "time_priority_iq": 40,
+          "leadership_iq": 45
+        },
+        "risk": "high",
+        "actionType": "second_system_syndrome"
+      },
+      {
+        "key": "B",
+        "text": "Apply the Strangler Fig architectural pattern: gradually carve out distinct domain boundaries into modular microservices or APIs over time, maintaining continuous business delivery while retiring legacy components iteratively.",
+        "scores": {
+          "programming_iq": 98,
+          "business_iq": 95,
+          "critical_thinking_iq": 95,
+          "problem_solving_iq": 95
+        },
+        "risk": "low",
+        "actionType": "strangler_pattern_evolution"
+      },
+      {
+        "key": "C",
+        "text": "Continue patching spaghetti code with more conditional if-statements indefinitely.",
+        "scores": {
+          "programming_iq": 40,
+          "problem_solving_iq": 45,
+          "critical_thinking_iq": 45,
+          "time_priority_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "debt_compounding"
+      },
+      {
+        "key": "D",
+        "text": "Abandon the software and tell accounting to do everything on physical paper.",
+        "scores": {
+          "business_iq": 25,
+          "programming_iq": 30,
+          "adaptability_iq": 30,
+          "iq": 35
+        },
+        "risk": "high",
+        "actionType": "technological_surrender"
+      }
+    ],
+    "dimensionWeights": {
+      "programming_iq": 45,
+      "business_iq": 25,
+      "critical_thinking_iq": 20,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Successful legacy modernization avoids catastrophic 'big-bang' rewrites by deploying evolutionary patterns (like Strangler Fig) that replace systems incrementally.",
+    "developmentInsight": "Refactor legacy debt via iterative boundary extraction rather than high-risk multi-year rewrites.",
+    "industryTags": [
+      "IT",
+      "Engineering",
+      "Architecture",
+      "Operations"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 78,
+    "difficulty": 4,
+    "category": "Leadership",
+    "scenario": "The Heads of Product and Engineering have stopped speaking directly to each other, communicating only through hostile email threads and blocking each other's roadmap proposals.",
+    "question": "As their executive leader, what intervention restores operational harmony?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Allow the battle to play out to see which leader is stronger.",
+        "scores": {
+          "leadership_iq": 30,
+          "eq": 30,
+          "teamwork_iq": 30,
+          "business_iq": 35
+        },
+        "risk": "high",
+        "actionType": "social_darwinism"
+      },
+      {
+        "key": "B",
+        "text": "Convene an offsite mediation session: reset non-negotiable standards of executive professionalism, address root incentives and territorial boundaries, and tie both leaders' compensation bonuses to joint shared product outcomes.",
+        "scores": {
+          "leadership_iq": 98,
+          "eq": 95,
+          "teamwork_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "incentive_aligned_mediation"
+      },
+      {
+        "key": "C",
+        "text": "Promote one over the other without addressing the underlying conflict.",
+        "scores": {
+          "leadership_iq": 45,
+          "eq": 40,
+          "teamwork_iq": 40,
+          "communication_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "fanning_flames"
+      },
+      {
+        "key": "D",
+        "text": "Send both to separate overseas branches to keep them apart physically.",
+        "scores": {
+          "leadership_iq": 40,
+          "problem_solving_iq": 40,
+          "business_iq": 40,
+          "eq": 45
+        },
+        "risk": "moderate",
+        "actionType": "geographic_evasion"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "eq": 30,
+      "teamwork_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Executive turf wars stem from misaligned structural incentives; align organizational rewards to shared outcomes and enforce unyielding standards of mutual respect.",
+    "developmentInsight": "Defuse executive turf wars by coupling individual incentives directly to collective cross-functional success.",
+    "industryTags": [
+      "Executive",
+      "Management",
+      "Corporate",
+      "HR"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "One of the leaders agrees in the session, but resumes passive-aggressive subversion two weeks later by withholding roadmap documentation.",
+      "followUpQuestion": "What is your immediate consequence management response?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Execute the pre-established boundary protocol: issue a formal executive final written warning with immediate removal from the steering committee if compliance is not demonstrated within 48 hours.",
+          "score": 95,
+          "trait": "unflinching_accountability"
+        },
+        {
+          "key": "B",
+          "text": "Pretend you didn't notice the subversion.",
+          "score": 25,
+          "trait": "spineless_avoidance"
+        },
+        {
+          "key": "C",
+          "text": "Apologize to them and give them a special bonus.",
+          "score": 20,
+          "trait": "rewarding_toxicity"
+        }
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "difficulty": 4,
+    "category": "AI",
+    "scenario": "A development team begins using external generative AI code assistants to write proprietary cryptographic security modules, pasting internal architecture code into public cloud prompts.",
+    "question": "How do you govern generative AI engineering practices?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ignore the practice since developers write code faster this way.",
+        "scores": {
+          "aiq": 25,
+          "ethics_judgment_iq": 25,
+          "critical_thinking_iq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "ip_leakage_negligence"
+      },
+      {
+        "key": "B",
+        "text": "Institute clear enterprise AI policies: deploy on-premises or enterprise-contracted zero-retention LLM endpoints, establish data loss prevention (DLP) code gates, and require mandatory static analysis and peer security reviews for all AI-synthesized code.",
+        "scores": {
+          "aiq": 98,
+          "ethics_judgment_iq": 95,
+          "critical_thinking_iq": 95,
+          "programming_iq": 90
+        },
+        "risk": "low",
+        "actionType": "enterprise_ai_safeguarding"
+      },
+      {
+        "key": "C",
+        "text": "Confiscate all developer computers and disconnect the office from the internet forever.",
+        "scores": {
+          "aiq": 35,
+          "adaptability_iq": 30,
+          "business_iq": 30,
+          "problem_solving_iq": 35
+        },
+        "risk": "high",
+        "actionType": "reactionary_draconian"
+      },
+      {
+        "key": "D",
+        "text": "Order developers to change variable names before pasting confidential code into public web tools.",
+        "scores": {
+          "aiq": 40,
+          "critical_thinking_iq": 45,
+          "ethics_judgment_iq": 40,
+          "job_readiness_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "naive_obfuscation"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 40,
+      "ethics_judgment_iq": 30,
+      "critical_thinking_iq": 15,
+      "programming_iq": 15
+    },
+    "timeRecommendation": 50,
+    "explanation": "Enterprise AI enablement pairs productivity acceleration with stringent zero-data-retention agreements and automated secret scanning pipelines.",
+    "developmentInsight": "Never paste proprietary architectural logic into consumer AI services; provision enterprise-shielded endpoints.",
+    "industryTags": [
+      "IT",
+      "AI",
+      "Cybersecurity",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 80,
+    "difficulty": 4,
+    "category": "Communication",
+    "scenario": "During a live broadcast press interview, an aggressive journalist asks: 'Isn't it true that your company's latest restructuring is just a greedy cover for executive bonus hikes while abandoning loyal employees?'",
+    "question": "What communications pivot establishes command and credibility?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lose your temper, yell at the journalist, and storm out of the television studio.",
+        "scores": {
+          "communication_iq": 25,
+          "eq": 20,
+          "leadership_iq": 25,
+          "promotion_readiness_iq": 25
+        },
+        "risk": "high",
+        "actionType": "temperamental_meltdown"
+      },
+      {
+        "key": "B",
+        "text": "Acknowledge the emotional gravity of career transitions with empathy, pivot to facts: detail the executive compensation freezes implemented, explain the industry structural realities driving the shift, and share the comprehensive transition support packages provided.",
+        "scores": {
+          "communication_iq": 98,
+          "eq": 95,
+          "leadership_iq": 95,
+          "promotion_readiness_iq": 90
+        },
+        "risk": "low",
+        "actionType": "masterful_press_pivot"
+      },
+      {
+        "key": "C",
+        "text": "Answer 'No comment' and stare blankly into the camera for the remainder of the broadcast.",
+        "scores": {
+          "communication_iq": 35,
+          "eq": 35,
+          "job_readiness_iq": 40,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "stony_defiance"
+      },
+      {
+        "key": "D",
+        "text": "Make up a story about a philanthropic donation to deflect the question.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "communication_iq": 30,
+          "critical_thinking_iq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "deceptive_deflection"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 45,
+      "eq": 30,
+      "leadership_iq": 15,
+      "promotion_readiness_iq": 10
+    },
+    "timeRecommendation": 45,
+    "explanation": "Mastering adversarial media requires calm emotional poise: validate the underlying human concern, anchor to verifiable facts, and bridge to the strategic reality.",
+    "developmentInsight": "Under media interrogation, meet emotion with empathy and allegations with transparent data.",
+    "industryTags": [
+      "Media",
+      "PR",
+      "Executive",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 81,
+    "difficulty": 5,
+    "category": "Business",
+    "scenario": "Wall Street or private equity investors pressure your enterprise to cut long-term foundational R&D by 40% to beat this quarter's EBITDA earnings expectations by 2 cents per share.",
+    "question": "What is your fiduciary leadership stance as Chief Executive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cut R&D by 50% immediately to trigger an executive bonus payout this quarter.",
+        "scores": {
+          "business_iq": 30,
+          "ethics_judgment_iq": 30,
+          "critical_thinking_iq": 35,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "mercenary_short_termism"
+      },
+      {
+        "key": "B",
+        "text": "Defend sustainable enterprise valuation: clearly articulate the multi-year ROI and pipeline maturity of the R&D assets, identify operational efficiencies in non-core overhead instead, and communicate transparent guidance to long-term capital partners.",
+        "scores": {
+          "business_iq": 98,
+          "leadership_iq": 98,
+          "critical_thinking_iq": 95,
+          "ethics_judgment_iq": 90
+        },
+        "risk": "low",
+        "actionType": "long_term_fiduciary_stewardship"
+      },
+      {
+        "key": "C",
+        "text": "Falsify the quarterly accounting entries to make earnings look higher without cutting anything.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "business_iq": 15,
+          "critical_thinking_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "criminal_accounting"
+      },
+      {
+        "key": "D",
+        "text": "Send a public tweet insulting the intelligence of all financial analysts.",
+        "scores": {
+          "communication_iq": 25,
+          "eq": 20,
+          "leadership_iq": 25,
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "reckless_antagonism"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 40,
+      "leadership_iq": 35,
+      "critical_thinking_iq": 15,
+      "ethics_judgment_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "True executive stewardship protects long-term competitive moats against short-term market myopia through transparent investor communication and disciplined balance sheet management.",
+    "developmentInsight": "Never mortgage an enterprise's future innovation engine to satisfy ephemeral quarterly optics.",
+    "industryTags": [
+      "Executive",
+      "Finance",
+      "Strategy",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 82,
+    "difficulty": 5,
+    "category": "Leadership",
+    "scenario": "An aggressive activist hedge fund acquires an 8% stake and demands three board seats and the immediate spin-off and sale of your core digital infrastructure division.",
+    "question": "How does the Board of Directors navigate this activist challenge?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adopt an entrenched poison pill defense and refuse to speak to the activist fund.",
+        "scores": {
+          "leadership_iq": 45,
+          "business_iq": 50,
+          "communication_iq": 45,
+          "critical_thinking_iq": 50
+        },
+        "risk": "moderate",
+        "actionType": "dogmatic_entrenchment"
+      },
+      {
+        "key": "B",
+        "text": "Engage the activist in substantive strategic dialogue: evaluate their critique dispassionately with independent investment bankers, accelerate dormant value-creation initiatives, and present an optimized standalone plan to institutional shareholders.",
+        "scores": {
+          "leadership_iq": 98,
+          "business_iq": 98,
+          "critical_thinking_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "strategic_shareholder_engagement"
+      },
+      {
+        "key": "C",
+        "text": "Surrender immediately and sell the division at a discount to avoid conflict.",
+        "scores": {
+          "leadership_iq": 35,
+          "business_iq": 40,
+          "eq": 40,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "fiduciary_capitulation"
+      },
+      {
+        "key": "D",
+        "text": "Leak derogatory rumors about the activist fund manager to tabloid blogs.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "communication_iq": 25,
+          "eq": 25,
+          "leadership_iq": 25
+        },
+        "risk": "high",
+        "actionType": "unethical_smear"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "business_iq": 35,
+      "critical_thinking_iq": 15,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Activist challenges should be treated as rigorous strategic audits: extract legitimate operational insights while defending enduring shareholder value through proactive board governance.",
+    "developmentInsight": "Engage activists with rigorous analytical modeling; co-opt sound operational ideas while defending core strategic unity.",
+    "industryTags": [
+      "Executive",
+      "Board",
+      "Finance",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 83,
+    "difficulty": 5,
+    "category": "Leadership",
+    "scenario": "You take over as CEO of a 50-year-old market leader suffering from bureaucratic inertia, risk aversion, and declining innovation, where decisions require 14 layers of committee approvals.",
+    "question": "What systemic levers do you pull to awaken corporate agility?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add 5 more oversight committees to investigate why the existing committees are slow.",
+        "scores": {
+          "leadership_iq": 25,
+          "critical_thinking_iq": 30,
+          "problem_solving_iq": 30,
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "bureaucratic_parody"
+      },
+      {
+        "key": "B",
+        "text": "Dismantle redundant approval hierarchies, decentralize decision rights with clear spending limits, establish internal incubator sprint teams, reward courageous calculated failures, and tie executive metrics directly to innovation velocity.",
+        "scores": {
+          "leadership_iq": 98,
+          "adaptability_iq": 98,
+          "business_iq": 95,
+          "creativity_iq": 90
+        },
+        "risk": "low",
+        "actionType": "organizational_debureaucratization"
+      },
+      {
+        "key": "C",
+        "text": "Fire the entire company workforce and replace them with college freshers overnight.",
+        "scores": {
+          "leadership_iq": 25,
+          "eq": 20,
+          "business_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "catastrophic_cleansing"
+      },
+      {
+        "key": "D",
+        "text": "Put motivational posters about agility in all the hallways and change nothing else.",
+        "scores": {
+          "leadership_iq": 35,
+          "creativity_iq": 35,
+          "communication_iq": 35,
+          "job_readiness_iq": 35
+        },
+        "risk": "moderate",
+        "actionType": "cosmetic_theatrics"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "adaptability_iq": 30,
+      "business_iq": 20,
+      "creativity_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Cultural renewal requires structural deregulation: removing bureaucratic choke points, granting autonomy with accountability, and aligning incentives with bold calculated bets.",
+    "developmentInsight": "Culture follows structure: collapse hierarchical approval layers to foster entrepreneurial initiative.",
+    "industryTags": [
+      "Executive",
+      "Management",
+      "Strategy",
+      "HR"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 84,
+    "difficulty": 5,
+    "category": "Ethical",
+    "scenario": "Your automotive or medical device company discovers a 1-in-100,000 potential micro-defect that could cause intermittent failures under extreme environmental conditions. A worldwide recall will wipe out 80% of this year's company profits.",
+    "question": "What is your executive decision?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bury the internal safety report and set aside a legal settlement fund for future casualties.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "critical_thinking_iq": 20,
+          "risk": "high",
+          "leadership_iq": 15
+        },
+        "risk": "high",
+        "actionType": "criminal_negligence"
+      },
+      {
+        "key": "B",
+        "text": "Order an immediate global product recall and transparent customer advisory: prioritize human life unreservedly, cooperate with international regulatory agencies, and mobilize 24/7 service replacement logistics.",
+        "scores": {
+          "ethics_judgment_iq": 99,
+          "leadership_iq": 98,
+          "business_iq": 90,
+          "eq": 95
+        },
+        "risk": "low",
+        "actionType": "uncompromising_safety_stewardship"
+      },
+      {
+        "key": "C",
+        "text": "Recall products only in countries where consumer protection laws enforce criminal penalties.",
+        "scores": {
+          "ethics_judgment_iq": 25,
+          "business_iq": 30,
+          "critical_thinking_iq": 35,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "mercenary_selectivity"
+      },
+      {
+        "key": "D",
+        "text": "Blame the end-users for operating the equipment in extreme environmental conditions.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "communication_iq": 25,
+          "eq": 25,
+          "sales_iq": 20
+        },
+        "risk": "high",
+        "actionType": "victim_blaming"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 50,
+      "leadership_iq": 30,
+      "eq": 10,
+      "business_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "When human safety is at stake, ethical clarity is absolute: short-term financial solvency can be rebuilt, but compromised integrity and lost lives can never be recovered.",
+    "developmentInsight": "Never calculate human life in financial settlement spreadsheets; execute immediate, transparent remediation.",
+    "industryTags": [
+      "Healthcare",
+      "Automotive",
+      "Executive",
+      "Legal"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 85,
+    "difficulty": 5,
+    "category": "AI",
+    "scenario": "Your enterprise strategy envisions deploying agentic AI systems that will structurally automate 35% of existing knowledge-worker tasks across finance, legal, and operational analysis over the next 24 months.",
+    "question": "How do you lead a humane and value-creating organizational transition?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Carry out sudden mass layoffs with 24 hours notice to maximize instantaneous stock price pop.",
+        "scores": {
+          "eq": 20,
+          "leadership_iq": 25,
+          "ethics_judgment_iq": 25,
+          "business_iq": 35
+        },
+        "risk": "high",
+        "actionType": "predatory_disruption"
+      },
+      {
+        "key": "B",
+        "text": "Launch an Enterprise AI Reskilling Academy: transparently communicate the technological roadmap, design pathway bridges into high-value advisory, customer experience, and AI oversight roles, and provide structured outplacement and severance for surplus functions.",
+        "scores": {
+          "aiq": 98,
+          "leadership_iq": 98,
+          "ethics_judgment_iq": 95,
+          "eq": 95
+        },
+        "risk": "low",
+        "actionType": "responsible_ai_workforce_stewardship"
+      },
+      {
+        "key": "C",
+        "text": "Ban all AI tools across the enterprise to protect legacy jobs forever, ignoring competitor advancements.",
+        "scores": {
+          "aiq": 25,
+          "adaptability_iq": 25,
+          "business_iq": 30,
+          "critical_thinking_iq": 30
+        },
+        "risk": "high",
+        "actionType": "ostrich_strategy"
+      },
+      {
+        "key": "D",
+        "text": "Tell employees that AI is just a passing fad and that nothing will change.",
+        "scores": {
+          "communication_iq": 30,
+          "eq": 30,
+          "leadership_iq": 30,
+          "aiq": 35
+        },
+        "risk": "high",
+        "actionType": "deliberate_obfuscation"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 35,
+      "leadership_iq": 35,
+      "ethics_judgment_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Visionary executives champion technological leaps while honoring their workforce contract through aggressive reskilling, transparent roadmaps, and dignified transition safety nets.",
+    "developmentInsight": "Lead AI transformation through transparent workforce capability bridges rather than clandestine labor purges.",
+    "industryTags": [
+      "Executive",
+      "AI",
+      "HR",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "Six months into the reskilling program, an external investor criticizes the academy as 'wasteful social work' and demands accelerated headcount cuts to boost quarterly operating margin.",
+      "followUpQuestion": "How do you defend the human capital investment to the board?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Present retention data showing that retrained domain experts deploying AI deliver 3x higher product accuracy than raw entry-level contractors, proving higher enterprise lifetime value.",
+          "score": 98,
+          "trait": "visionary_statesman"
+        },
+        {
+          "key": "B",
+          "text": "Fold immediately and terminate the academy tomorrow.",
+          "score": 25,
+          "trait": "opportunistic_collapse"
+        },
+        {
+          "key": "C",
+          "text": "Ignore the board entirely and refuse to answer their emails.",
+          "score": 30,
+          "trait": "governance_obstruction"
+        }
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "difficulty": 5,
+    "category": "Crisis",
+    "scenario": "A sudden collapse of a major regional banking partner freezes 60% of your company's operational working capital 5 days before worldwide payroll is due for 12,000 employees.",
+    "question": "What is your rapid liquidity mobilization sequence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Skip payroll silently and hope employees do not notice their bank balances on payday.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "leadership_iq": 20,
+          "communication_iq": 25,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "fraudulent_omission"
+      },
+      {
+        "key": "B",
+        "text": "Form an emergency Treasury War Room: activate secondary credit facilities, negotiate emergency liquidity backstops with syndicate banks, liquidate high-grade short-term treasuries, and maintain transparent, daily employee communications.",
+        "scores": {
+          "problem_solving_iq": 98,
+          "leadership_iq": 98,
+          "business_iq": 95,
+          "communication_iq": 90
+        },
+        "risk": "low",
+        "actionType": "crisis_liquidity_orchestration"
+      },
+      {
+        "key": "C",
+        "text": "File for immediate corporate liquidation without trying to access secondary credit.",
+        "scores": {
+          "business_iq": 35,
+          "critical_thinking_iq": 35,
+          "leadership_iq": 35,
+          "problem_solving_iq": 35
+        },
+        "risk": "high",
+        "actionType": "hasty_surrender"
+      },
+      {
+        "key": "D",
+        "text": "Ask employees to donate their personal savings back to the company.",
+        "scores": {
+          "ethics_judgment_iq": 20,
+          "eq": 20,
+          "leadership_iq": 20,
+          "business_iq": 20
+        },
+        "risk": "high",
+        "actionType": "exploitative_desperation"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "problem_solving_iq": 30,
+      "business_iq": 20,
+      "communication_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Treasury crises test operational contingency depth: executing multi-channel liquidity syndication while maintaining transparent human leadership prevents organizational panic.",
+    "developmentInsight": "Maintain secondary emergency liquidity conduits; communicate with transparent empathy while executing treasury backstops.",
+    "industryTags": [
+      "Finance",
+      "Executive",
+      "Banking",
+      "Crisis"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 87,
+    "difficulty": 5,
+    "category": "Business",
+    "scenario": "Your company has the opportunity to acquire an emerging competitor for $400M. The target's founders demand complete independence from corporate oversight and exemption from your enterprise compliance standards.",
+    "question": "How do you govern this acquisition?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accept all founder demands unconditionally because buying market share is all that counts.",
+        "scores": {
+          "critical_thinking_iq": 30,
+          "ethics_judgment_iq": 30,
+          "business_iq": 35,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "unmitigated_liability_absorption"
+      },
+      {
+        "key": "B",
+        "text": "Structure a balanced governance framework: protect their entrepreneurial culture and product autonomy, but mandate strict adherence to universal financial, legal, security, and safety compliance baselines.",
+        "scores": {
+          "business_iq": 98,
+          "critical_thinking_iq": 95,
+          "leadership_iq": 95,
+          "ethics_judgment_iq": 90
+        },
+        "risk": "low",
+        "actionType": "balanced_post_merger_governance"
+      },
+      {
+        "key": "C",
+        "text": "Break off all talks immediately and launch a campaign to drive the startup into bankruptcy.",
+        "scores": {
+          "business_iq": 45,
+          "eq": 40,
+          "leadership_iq": 45,
+          "ethics_judgment_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "vindictive_aggression"
+      },
+      {
+        "key": "D",
+        "text": "Sign the contract promising independence, then fire the founders the day after closing.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "leadership_iq": 20,
+          "eq": 20,
+          "business_iq": 25
+        },
+        "risk": "high",
+        "actionType": "bad_faith_duplicity"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 40,
+      "leadership_iq": 30,
+      "critical_thinking_iq": 20,
+      "ethics_judgment_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Post-merger integration requires protecting the target's creative vitality while establishing unbending fiduciary and ethical compliance guardrails.",
+    "developmentInsight": "Differentiate operational autonomy from fiduciary compliance: protect creative freedom while anchoring risk governance.",
+    "industryTags": [
+      "M&A",
+      "Strategy",
+      "Executive",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 88,
+    "difficulty": 5,
+    "category": "Promotion",
+    "scenario": "As CEO planning to retire in 24 months, you have two exceptional internal candidates: one is a operational genius who commands deep employee loyalty; the other is a visionary technologist who can out-innovate competitors.",
+    "question": "What is your succession preparation strategy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pick your personal favorite now and tell the other candidate to leave the firm.",
+        "scores": {
+          "leadership_iq": 40,
+          "eq": 40,
+          "promotion_readiness_iq": 45,
+          "critical_thinking_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "premature_alienation"
+      },
+      {
+        "key": "B",
+        "text": "Design a 2-year leadership crucible: rotate both into cross-functional development areas (giving the technologist operational P&L responsibility and the operator global strategic partnerships), while building an aligned executive team that pairs their strengths.",
+        "scores": {
+          "promotion_readiness_iq": 98,
+          "leadership_iq": 98,
+          "eq": 95,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "crucible_succession_architecture"
+      },
+      {
+        "key": "C",
+        "text": "Refuse to ever retire and remain CEO until you are 95 years old.",
+        "scores": {
+          "leadership_iq": 30,
+          "adaptability_iq": 25,
+          "promotion_readiness_iq": 30,
+          "critical_thinking_iq": 35
+        },
+        "risk": "high",
+        "actionType": "monarchical_entrenchment"
+      },
+      {
+        "key": "D",
+        "text": "Let them engage in covert political warfare to see who survives.",
+        "scores": {
+          "leadership_iq": 25,
+          "teamwork_iq": 20,
+          "eq": 25,
+          "ethics_judgment_iq": 25
+        },
+        "risk": "high",
+        "actionType": "destructive_gladiatorial"
+      }
+    ],
+    "dimensionWeights": {
+      "promotion_readiness_iq": 40,
+      "leadership_iq": 35,
+      "eq": 15,
+      "business_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "The ultimate test of leadership is succession: developing well-rounded successors through deliberate cross-domain stretch rotations that safeguard institutional continuity.",
+    "developmentInsight": "The best leaders build organizations that outlast them by actively developing multidimensional successors.",
+    "industryTags": [
+      "Executive",
+      "Governance",
+      "HR",
+      "Leadership"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 89,
+    "difficulty": 5,
+    "category": "Critical Thinking",
+    "scenario": "Rising trade tensions indicate that your primary international manufacturing market may face 50% tariffs and technology export restrictions within 18 months.",
+    "question": "What strategic decoupling thesis do you present to the Board?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lobby politicians frantically and assume global geopolitical trends will reverse themselves.",
+        "scores": {
+          "critical_thinking_iq": 40,
+          "adaptability_iq": 40,
+          "business_iq": 40,
+          "leadership_iq": 45
+        },
+        "risk": "moderate",
+        "actionType": "wishful_thinking"
+      },
+      {
+        "key": "B",
+        "text": "Formulate a 'China+1' or regionalized nearshoring diversification roadmap: establish redundant manufacturing hubs in secondary markets, secure localized supply contracts, and re-architect product hardware to utilize trade-compliant silicon.",
+        "scores": {
+          "critical_thinking_iq": 98,
+          "business_iq": 98,
+          "adaptability_iq": 95,
+          "problem_solving_iq": 90
+        },
+        "risk": "low",
+        "actionType": "geopolitical_diversification"
+      },
+      {
+        "key": "C",
+        "text": "Immediately burn down all existing international facilities tomorrow to make a political statement.",
+        "scores": {
+          "critical_thinking_iq": 20,
+          "business_iq": 20,
+          "risk": "high",
+          "leadership_iq": 20
+        },
+        "risk": "high",
+        "actionType": "irrational_vandalism"
+      },
+      {
+        "key": "D",
+        "text": "Smuggle components illegally through shell companies to evade tariffs.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "critical_thinking_iq": 15,
+          "risk": "high",
+          "job_readiness_iq": 20
+        },
+        "risk": "high",
+        "actionType": "criminal_evasion"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 40,
+      "business_iq": 35,
+      "adaptability_iq": 15,
+      "problem_solving_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Global enterprises must build geopolitical resilience: shifting from fragile single-region hyper-efficiency to regionalized supply redundancy.",
+    "developmentInsight": "Build structural multi-region redundancy before geopolitical sanctions freeze single-source supply chains.",
+    "industryTags": [
+      "Operations",
+      "Manufacturing",
+      "Executive",
+      "Strategy"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 90,
+    "difficulty": 5,
+    "category": "Creativity",
+    "scenario": "A decentralized open-source technology threatens to eliminate the proprietary software lock-in that generates $1B in high-margin recurring licensing fees for your enterprise.",
+    "question": "How do you reinvent your corporate moat?",
+    "options": [
+      {
+        "key": "A",
+        "text": "File patent infringement lawsuits against every open-source contributor you can locate.",
+        "scores": {
+          "critical_thinking_iq": 30,
+          "creativity_iq": 30,
+          "business_iq": 35,
+          "marketing_iq": 30
+        },
+        "risk": "high",
+        "actionType": "anti_developer_litigation"
+      },
+      {
+        "key": "B",
+        "text": "Embrace open-source leadership: open-core your base protocol to capture global developer mindshare, while building enterprise moats around secure managed orchestration, proprietary compliance modules, and mission-critical SLAs.",
+        "scores": {
+          "creativity_iq": 98,
+          "business_iq": 98,
+          "adaptability_iq": 95,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "open_core_ecosystem_pivot"
+      },
+      {
+        "key": "C",
+        "text": "Pretend open-source code cannot perform in real enterprise environments and do nothing.",
+        "scores": {
+          "business_iq": 35,
+          "critical_thinking_iq": 35,
+          "adaptability_iq": 35,
+          "iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "willful_denial"
+      },
+      {
+        "key": "D",
+        "text": "Delete your company's GitHub account and forbid engineers from reading open code.",
+        "scores": {
+          "creativity_iq": 25,
+          "adaptability_iq": 25,
+          "leadership_iq": 25,
+          "programming_iq": 30
+        },
+        "risk": "high",
+        "actionType": "reactionary_insularity"
+      }
+    ],
+    "dimensionWeights": {
+      "creativity_iq": 40,
+      "business_iq": 35,
+      "adaptability_iq": 15,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "When open ecosystems commoditize proprietary code, market leaders pivot their moats to developer ecosystems, enterprise security, and operational reliability.",
+    "developmentInsight": "Monetize the ecosystem around open protocols rather than fruitlessly litigating against open developer momentum.",
+    "industryTags": [
+      "IT",
+      "Tech",
+      "Executive",
+      "Strategy"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": {
+      "triggerOption": "B",
+      "complication": "Six months after open-sourcing the base protocol, a competing cloud giant forks your project and begins offering it as a bare-bones hosted service at 80% discount.",
+      "followUpQuestion": "How do you defend your business model against cloud provider forking?",
+      "followUpOptions": [
+        {
+          "key": "A",
+          "text": "Innovate aggressively on developer experience, deep enterprise workflow integrations, and proprietary governance tooling that bare cloud infrastructure cannot match.",
+          "score": 98,
+          "trait": "ecosystem_innovator"
+        },
+        {
+          "key": "B",
+          "text": "Revert the license to closed source and sue all users.",
+          "score": 30,
+          "trait": "community_alienation"
+        },
+        {
+          "key": "C",
+          "text": "Shut down the business.",
+          "score": 20,
+          "trait": "total_surrender"
+        }
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "difficulty": 5,
+    "category": "EQ",
+    "scenario": "A secular decline in demand forces your company to eliminate 1,500 roles across 4 countries. How you handle this announcement will define your organizational reputation for decades.",
+    "question": "What principles govern the execution of this restructuring?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deactivate all badges at midnight on Sunday and send a generic termination email with no severance details.",
+        "scores": {
+          "eq": 15,
+          "leadership_iq": 20,
+          "communication_iq": 20,
+          "ethics_judgment_iq": 20
+        },
+        "risk": "high",
+        "actionType": "callous_cruelty"
+      },
+      {
+        "key": "B",
+        "text": "Deliver the message personally as CEO: take direct responsibility without hiding behind macroeconomic euphemisms, provide above-market severance and extended healthcare, establish active job placement networks, and hold live town halls for remaining teams.",
+        "scores": {
+          "eq": 98,
+          "leadership_iq": 98,
+          "communication_iq": 95,
+          "ethics_judgment_iq": 95
+        },
+        "risk": "low",
+        "actionType": "dignified_human_stewardship"
+      },
+      {
+        "key": "C",
+        "text": "Have mid-level managers execute the firing while you take a vacation on a private yacht.",
+        "scores": {
+          "eq": 10,
+          "leadership_iq": 15,
+          "communication_iq": 15,
+          "ethics_judgment_iq": 15
+        },
+        "risk": "high",
+        "actionType": "abject_cowardice"
+      },
+      {
+        "key": "D",
+        "text": "Deny that any layoffs are occurring while quietly firing 50 people every day for a year.",
+        "scores": {
+          "communication_iq": 25,
+          "eq": 25,
+          "ethics_judgment_iq": 25,
+          "leadership_iq": 25
+        },
+        "risk": "high",
+        "actionType": "prolonged_water_torture"
+      }
+    ],
+    "dimensionWeights": {
+      "eq": 40,
+      "leadership_iq": 30,
+      "communication_iq": 20,
+      "ethics_judgment_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Executive character is revealed during hardship: treating departing employees with generosity, transparency, and dignity preserves institutional honor.",
+    "developmentInsight": "Own restructuring decisions directly; never offload personal executive accountability to impersonal algorithms or subordinates.",
+    "industryTags": [
+      "Executive",
+      "HR",
+      "Leadership",
+      "Corporate"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 92,
+    "difficulty": 5,
+    "category": "Ethical",
+    "scenario": "A foreign government official indicates that your company will win a $200M infrastructure concession if you route a $2M 'advisory facilitation fee' through an offshore consulting entity.",
+    "question": "What is your unequivocal executive mandate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pay the $2M fee immediately because foreign business customs require facilitation payments.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "job_readiness_iq": 15,
+          "risk": "high",
+          "critical_thinking_iq": 20
+        },
+        "risk": "high",
+        "actionType": "criminal_foreign_bribery"
+      },
+      {
+        "key": "B",
+        "text": "Flatly reject the proposal: uphold strict Foreign Corrupt Practices Act (FCPA) and anti-bribery standards, mandate that all tenders proceed solely through official public procurement channels, and report the solicitation to legal counsel.",
+        "scores": {
+          "ethics_judgment_iq": 99,
+          "leadership_iq": 98,
+          "critical_thinking_iq": 95,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "uncompromising_anti_corruption"
+      },
+      {
+        "key": "C",
+        "text": "Ask if the official will accept $1M instead to reduce the cost.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "business_iq": 15,
+          "critical_thinking_iq": 15,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "brazen_negotiated_bribery"
+      },
+      {
+        "key": "D",
+        "text": "Transfer the funds in cash via personal luggage.",
+        "scores": {
+          "ethics_judgment_iq": 5,
+          "job_readiness_iq": 10,
+          "risk": "high",
+          "leadership_iq": 10
+        },
+        "risk": "high",
+        "actionType": "felonious_smuggling"
+      }
+    ],
+    "dimensionWeights": {
+      "ethics_judgment_iq": 50,
+      "leadership_iq": 30,
+      "critical_thinking_iq": 10,
+      "business_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Integrity is indivisible: paying bribes corrupts an institution's soul and incurs devastating international criminal prosecution regardless of revenue size.",
+    "developmentInsight": "Zero tolerance for foreign bribery; no commercial contract is worth compromising legal and ethical sovereignty.",
+    "industryTags": [
+      "Executive",
+      "Legal",
+      "International",
+      "Infrastructure"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 93,
+    "difficulty": 5,
+    "category": "Critical Thinking",
+    "scenario": "Your enterprise has spent $120M over 4 years developing a custom manufacturing automation system. Independent testing reveals modern external robotic platforms can now be bought off-the-shelf for $15M that perform 2x faster than your system.",
+    "question": "How do you resolve the sunk cost dilemma?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Continue spending $30M/year on the custom system because throwing away $120M would look embarrassing to prior leadership.",
+        "scores": {
+          "critical_thinking_iq": 25,
+          "business_iq": 30,
+          "problem_solving_iq": 30,
+          "leadership_iq": 30
+        },
+        "risk": "high",
+        "actionType": "sunk_cost_trap"
+      },
+      {
+        "key": "B",
+        "text": "Overcome the sunk cost fallacy: ruthlessly terminate the in-house development project, salvage reusable sensor algorithms and patents, transition to the superior $15M platform, and redirect capital toward core market expansion.",
+        "scores": {
+          "critical_thinking_iq": 99,
+          "business_iq": 98,
+          "leadership_iq": 95,
+          "problem_solving_iq": 90
+        },
+        "risk": "low",
+        "actionType": "rational_capital_reallocation"
+      },
+      {
+        "key": "C",
+        "text": "Hide the test results from the board of directors so no one finds out about the $15M platform.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "critical_thinking_iq": 20,
+          "business_iq": 20,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "fiduciary_fraud"
+      },
+      {
+        "key": "D",
+        "text": "Buy the competitor company and burn down their factory to stop their platform from existing.",
+        "scores": {
+          "ethics_judgment_iq": 10,
+          "business_iq": 15,
+          "leadership_iq": 15,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "criminal_megalomania"
+      }
+    ],
+    "dimensionWeights": {
+      "critical_thinking_iq": 45,
+      "business_iq": 35,
+      "problem_solving_iq": 10,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Mastery of capital discipline requires discarding sunk costs: evaluate decisions solely based on future marginal cash flows and operational effectiveness.",
+    "developmentInsight": "Sunk capital is gone forever; allocate tomorrow's dollars strictly against tomorrow's highest marginal returns.",
+    "industryTags": [
+      "Executive",
+      "Operations",
+      "Finance",
+      "Strategy"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 94,
+    "difficulty": 5,
+    "category": "Communication",
+    "scenario": "An industrial plant malfunction releases a non-toxic but foul-smelling cloud over a metropolitan area of 500,000 residents. Social media rumors claim the cloud contains lethal neurotoxins.",
+    "question": "How do you lead the emergency public broadcast?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hide inside the facility and send a junior intern to read a prepared legalese statement.",
+        "scores": {
+          "communication_iq": 20,
+          "leadership_iq": 20,
+          "eq": 20,
+          "ethics_judgment_iq": 25
+        },
+        "risk": "high",
+        "actionType": "executive_cowardice"
+      },
+      {
+        "key": "B",
+        "text": "Stand before cameras immediately alongside public health officials: state verified atmospheric readings transparently, explain what chemical was released and its exact health profile, apologize unreservedly for the distress, and open independent air-monitoring stations.",
+        "scores": {
+          "communication_iq": 99,
+          "leadership_iq": 98,
+          "eq": 95,
+          "ethics_judgment_iq": 90
+        },
+        "risk": "low",
+        "actionType": "transparent_crisis_leadership"
+      },
+      {
+        "key": "C",
+        "text": "Claim that the citizens are imagining the smell and that the air has never been cleaner.",
+        "scores": {
+          "communication_iq": 15,
+          "eq": 15,
+          "leadership_iq": 15,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "gaslighting_populace"
+      },
+      {
+        "key": "D",
+        "text": "Announce that the plant is shutting down permanently and leaving the country tonight.",
+        "scores": {
+          "communication_iq": 30,
+          "business_iq": 30,
+          "problem_solving_iq": 30,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "reactive_abdication"
+      }
+    ],
+    "dimensionWeights": {
+      "communication_iq": 45,
+      "leadership_iq": 30,
+      "eq": 15,
+      "ethics_judgment_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "In public emergencies, vacuum invites panic: step forward immediately, anchor communications to verified science, collaborate with civic authorities, and demonstrate relentless empathy.",
+    "developmentInsight": "Defeat dangerous rumors by flooding the public domain with verified independent scientific telemetry.",
+    "industryTags": [
+      "Executive",
+      "PR",
+      "Government",
+      "Environmental"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 95,
+    "difficulty": 5,
+    "category": "Adaptability",
+    "scenario": "Your multinational organization faces intense talent attrition because competitor firms offer flexible hybrid work while your regional directors demand a rigid 5-day in-office mandate.",
+    "question": "How do you architect an enduring future-ready workplace model?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Threaten to fire anyone who mentions remote work ever again.",
+        "scores": {
+          "adaptability_iq": 20,
+          "leadership_iq": 25,
+          "eq": 25,
+          "business_iq": 30
+        },
+        "risk": "high",
+        "actionType": "draconian_inflexibility"
+      },
+      {
+        "key": "B",
+        "text": "Architect an Outcome-Based Operating Model: establish purposeful office hubs for collaborative innovation and client workshops, permit distributed asynchronous execution for deep work, and evaluate talent strictly on impact rather than physical seat presence.",
+        "scores": {
+          "adaptability_iq": 98,
+          "leadership_iq": 98,
+          "eq": 95,
+          "business_iq": 90
+        },
+        "risk": "low",
+        "actionType": "outcome_based_hybrid_architecture"
+      },
+      {
+        "key": "C",
+        "text": "Close all offices permanently and never allow employees to see each other in person.",
+        "scores": {
+          "adaptability_iq": 50,
+          "leadership_iq": 50,
+          "teamwork_iq": 55,
+          "eq": 55
+        },
+        "risk": "moderate",
+        "actionType": "polar_overcorrection"
+      },
+      {
+        "key": "D",
+        "text": "Install surveillance software on every laptop to track mouse movements every 30 seconds.",
+        "scores": {
+          "eq": 15,
+          "leadership_iq": 20,
+          "ethics_judgment_iq": 20,
+          "adaptability_iq": 25
+        },
+        "risk": "high",
+        "actionType": "surveillance_distrust"
+      }
+    ],
+    "dimensionWeights": {
+      "adaptability_iq": 40,
+      "leadership_iq": 30,
+      "eq": 15,
+      "business_iq": 15
+    },
+    "timeRecommendation": 50,
+    "explanation": "The future of work is not about where desks sit, but how trust and autonomy are governed: evaluate talent on measurable business impact, not performative office presence.",
+    "developmentInsight": "Replace performative presenteeism with rigorous objective outcome evaluation.",
+    "industryTags": [
+      "Executive",
+      "HR",
+      "Corporate",
+      "Management"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 96,
+    "difficulty": 5,
+    "category": "Sales",
+    "scenario": "Your enterprise software has relied on direct sales, but growth has hit a plateau at $100M ARR. Channel partners and systems integrators refuse to resell your product because your direct sales force repeatedly poaches their deals.",
+    "question": "How do you rebuild trust and ignite an indirect partner ecosystem?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Continue poaching partner deals because direct revenue carries higher margins.",
+        "scores": {
+          "sales_iq": 35,
+          "business_iq": 35,
+          "leadership_iq": 35,
+          "ethics_judgment_iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "channel_conflict_blindness"
+      },
+      {
+        "key": "B",
+        "text": "Institute ironclad Rules of Engagement: introduce Deal Registration protections, compensate direct sales reps equally for partner-originated deals, and dedicate professional services margin to external certified partners.",
+        "scores": {
+          "sales_iq": 98,
+          "business_iq": 98,
+          "leadership_iq": 95,
+          "teamwork_iq": 90
+        },
+        "risk": "low",
+        "actionType": "ecosystem_alignment_governance"
+      },
+      {
+        "key": "C",
+        "text": "Ban third-party partners and hire 1,000 junior cold-callers.",
+        "scores": {
+          "sales_iq": 40,
+          "business_iq": 35,
+          "time_priority_iq": 40,
+          "problem_solving_iq": 40
+        },
+        "risk": "high",
+        "actionType": "regressive_bloat"
+      },
+      {
+        "key": "D",
+        "text": "Sue the systems integrators for promoting competitive products.",
+        "scores": {
+          "sales_iq": 25,
+          "communication_iq": 25,
+          "business_iq": 30,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "destructive_litigation"
+      }
+    ],
+    "dimensionWeights": {
+      "sales_iq": 40,
+      "business_iq": 35,
+      "leadership_iq": 15,
+      "teamwork_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Scaling past $100M ARR requires ecosystem leverage: align internal sales commissions so your direct sales force champions partner success instead of fighting over deals.",
+    "developmentInsight": "Neutralize channel conflict by aligning direct sales incentives to celebrate partner co-selling.",
+    "industryTags": [
+      "Sales",
+      "Strategy",
+      "Executive",
+      "Partnerships"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 97,
+    "difficulty": 5,
+    "category": "Promotion",
+    "scenario": "You are establishing the assessment criteria to select the next Chief Operating Officer (COO) from among 4 accomplished Senior Vice Presidents.",
+    "question": "What capability profile reflects true C-suite readiness?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Select whoever has worked at the company for the longest number of consecutive years.",
+        "scores": {
+          "promotion_readiness_iq": 35,
+          "critical_thinking_iq": 35,
+          "leadership_iq": 40,
+          "iq": 40
+        },
+        "risk": "moderate",
+        "actionType": "tenure_fallacy"
+      },
+      {
+        "key": "B",
+        "text": "Evaluate candidates on strategic synthesis, cross-functional organizational influence, crisis composure, talent magnetism, and the capacity to balance capital discipline with ambitious innovation.",
+        "scores": {
+          "promotion_readiness_iq": 99,
+          "leadership_iq": 98,
+          "critical_thinking_iq": 95,
+          "business_iq": 95
+        },
+        "risk": "low",
+        "actionType": "holistic_executive_evaluation"
+      },
+      {
+        "key": "C",
+        "text": "Choose whoever screams the loudest in boardroom disagreements to ensure toughness.",
+        "scores": {
+          "leadership_iq": 25,
+          "eq": 20,
+          "communication_iq": 25,
+          "promotion_readiness_iq": 25
+        },
+        "risk": "high",
+        "actionType": "toxic_machismo"
+      },
+      {
+        "key": "D",
+        "text": "Have the board draw names out of a hat to keep it fair.",
+        "scores": {
+          "promotion_readiness_iq": 15,
+          "critical_thinking_iq": 20,
+          "job_readiness_iq": 20,
+          "leadership_iq": 20
+        },
+        "risk": "high",
+        "actionType": "abdication"
+      }
+    ],
+    "dimensionWeights": {
+      "promotion_readiness_iq": 40,
+      "leadership_iq": 35,
+      "critical_thinking_iq": 15,
+      "business_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "C-Suite readiness transcends functional mastery: it requires system-level orchestration, emotional equilibrium under existential uncertainty, and inspiring collective belief.",
+    "developmentInsight": "Promote leaders based on system-level synthesis and cultural stewardship, not functional tenure alone.",
+    "industryTags": [
+      "Executive",
+      "HR",
+      "Corporate",
+      "Board"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 98,
+    "difficulty": 5,
+    "category": "AI",
+    "scenario": "Frontier technological disruptions (quantum computing, autonomous neuro-interfaces) loom on a 5-to-10 year horizon, threatening to break current data encryption standards across your financial enterprise.",
+    "question": "What anticipatory technology leadership do you demonstrate?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ignore the horizon because 5-to-10 years is someone else's problem.",
+        "scores": {
+          "aiq": 30,
+          "critical_thinking_iq": 30,
+          "business_iq": 35,
+          "leadership_iq": 35
+        },
+        "risk": "high",
+        "actionType": "strategic_procrastination"
+      },
+      {
+        "key": "B",
+        "text": "Establish a Post-Quantum Cryptography transition taskforce: audit all encrypted enterprise assets, pilot quantum-resistant cryptographic algorithms, and collaborate with standard bodies (NIST) to future-proof customer trust.",
+        "scores": {
+          "aiq": 98,
+          "critical_thinking_iq": 98,
+          "leadership_iq": 95,
+          "programming_iq": 90
+        },
+        "risk": "low",
+        "actionType": "proactive_frontier_defense"
+      },
+      {
+        "key": "C",
+        "text": "Spend $500M buying experimental quantum computers before having any use case.",
+        "scores": {
+          "aiq": 45,
+          "business_iq": 40,
+          "critical_thinking_iq": 40,
+          "time_priority_iq": 45
+        },
+        "risk": "high",
+        "actionType": "frivolous_speculation"
+      },
+      {
+        "key": "D",
+        "text": "Stop encrypting customer data altogether so there is nothing for quantum computers to break.",
+        "scores": {
+          "ethics_judgment_iq": 5,
+          "aiq": 10,
+          "risk": "high",
+          "critical_thinking_iq": 10
+        },
+        "risk": "high",
+        "actionType": "absurd_negligence"
+      }
+    ],
+    "dimensionWeights": {
+      "aiq": 40,
+      "critical_thinking_iq": 30,
+      "leadership_iq": 15,
+      "programming_iq": 15
+    },
+    "timeRecommendation": 50,
+    "explanation": "Frontier technology stewardship involves proactively upgrading fundamental infrastructure against horizon risks long before the disruption becomes an existential crisis.",
+    "developmentInsight": "Upgrade systemic security foundations proactively; cryptographic migrations require multi-year lead times.",
+    "industryTags": [
+      "IT",
+      "Finance",
+      "AI",
+      "Executive"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 99,
+    "difficulty": 5,
+    "category": "Business",
+    "scenario": "A well-capitalized tech giant enters your core market, offering heavily subsidized free services to capture market share. Your gross margin is 65% while theirs is effectively negative.",
+    "question": "How do you defend and grow your enterprise without burning out your treasury?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Offer all your products 100% free and burn through your entire cash reserves in 6 months.",
+        "scores": {
+          "business_iq": 30,
+          "critical_thinking_iq": 35,
+          "leadership_iq": 35,
+          "risk": "high"
+        },
+        "risk": "high",
+        "actionType": "treasury_exhaustion"
+      },
+      {
+        "key": "B",
+        "text": "Shift competition from subsidized commodity pricing to deeply embedded mission-critical workflows: deepen custom enterprise integrations, offer guaranteed high-touch SLAs, and deliver specialized compliance features that horizontal giants cannot support.",
+        "scores": {
+          "business_iq": 99,
+          "critical_thinking_iq": 98,
+          "sales_iq": 95,
+          "leadership_iq": 90
+        },
+        "risk": "low",
+        "actionType": "vertical_differentiation_moat"
+      },
+      {
+        "key": "C",
+        "text": "Surrender immediately and declare bankruptcy on day one.",
+        "scores": {
+          "business_iq": 20,
+          "leadership_iq": 20,
+          "critical_thinking_iq": 25,
+          "problem_solving_iq": 20
+        },
+        "risk": "high",
+        "actionType": "instant_surrender"
+      },
+      {
+        "key": "D",
+        "text": "Run smear ads claiming the competitor's executives are aliens.",
+        "scores": {
+          "communication_iq": 10,
+          "ethics_judgment_iq": 10,
+          "marketing_iq": 15,
+          "eq": 15
+        },
+        "risk": "high",
+        "actionType": "bizarre_defamation"
+      }
+    ],
+    "dimensionWeights": {
+      "business_iq": 45,
+      "critical_thinking_iq": 30,
+      "sales_iq": 15,
+      "leadership_iq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "Never fight a capital war on a subsidized giant's terms: retreat from commodity pricing and construct unassailable vertical integration moats.",
+    "developmentInsight": "Counter subsidized horizontal competitors with deep vertical specialization and irreplaceable workflow integration.",
+    "industryTags": [
+      "Executive",
+      "Strategy",
+      "Finance",
+      "Sales"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  },
+  {
+    "id": 100,
+    "difficulty": 5,
+    "category": "Leadership",
+    "scenario": "As you reflect on the totality of your leadership legacy and institution-building journey, what foundational philosophy best encapsulates enduring organizational excellence?",
+    "question": "What philosophy anchors your leadership legacy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximalist extraction: extract every possible dollar from customers and employees as fast as possible.",
+        "scores": {
+          "ethics_judgment_iq": 15,
+          "leadership_iq": 20,
+          "business_iq": 25,
+          "eq": 20
+        },
+        "risk": "high",
+        "actionType": "predatory_extraction"
+      },
+      {
+        "key": "B",
+        "text": "A Legacy of Values and the Future of Learning: building institutions anchored in unwavering integrity, relentless curiosity, empowering human potential, and creating compounding value for generations.",
+        "scores": {
+          "leadership_iq": 100,
+          "ethics_judgment_iq": 100,
+          "learning_agility_iq": 100,
+          "eq": 98
+        },
+        "risk": "low",
+        "actionType": "enduring_stewardship_legacy"
+      },
+      {
+        "key": "C",
+        "text": "Risk avoidance: keeping everything completely stagnant so nothing ever goes wrong.",
+        "scores": {
+          "leadership_iq": 35,
+          "adaptability_iq": 30,
+          "creativity_iq": 30,
+          "business_iq": 35
+        },
+        "risk": "moderate",
+        "actionType": "stagnant_timidity"
+      },
+      {
+        "key": "D",
+        "text": "Personal glorification: ensuring your statue is placed in the lobby and your name is on every building.",
+        "scores": {
+          "leadership_iq": 30,
+          "eq": 25,
+          "ethics_judgment_iq": 30,
+          "communication_iq": 35
+        },
+        "risk": "high",
+        "actionType": "narcissistic_monument"
+      }
+    ],
+    "dimensionWeights": {
+      "leadership_iq": 40,
+      "ethics_judgment_iq": 30,
+      "learning_agility_iq": 20,
+      "eq": 10
+    },
+    "timeRecommendation": 50,
+    "explanation": "True greatness in leadership is measured not by personal monuments, but by the resilience of the values and human growth left in your wake.",
+    "developmentInsight": "SarlaYash Mission: Legacy of Values. Future of Learning. Measure how you think, work, adapt, and grow.",
+    "industryTags": [
+      "All"
+    ],
+    "ageSuitability": [
+      "All"
+    ],
+    "stageSuitability": [
+      "All"
+    ],
+    "microScenario": null
+  }
+];

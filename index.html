@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-text-size="normal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>360° PLACEMENT &amp; INDUSTRY IQ Powered By Kapil</title>
+    <meta name="description" content="The World's Most Comprehensive Offline Career &amp; Industry Readiness Assessment. 100 Real Professional Decisions across 20 Intelligence Dimensions.">
+    <meta name="theme-color" content="#090d16">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css">
+</head>
+<body>
+
+    <!-- APP HEADER -->
+    <header class="app-header" role="banner">
+        <div class="header-inner">
+            <button type="button" class="brand-wrapper" id="btn-nav-home" aria-label="Go to Home Screen">
+                <span class="brand-icon">🚀</span>
+                <div class="brand-text">
+                    <h1>360° PLACEMENT &amp; INDUSTRY IQ</h1>
+                    <div class="powered-by">Powered By Kapil &bull; SarlaYash Mission</div>
+                </div>
+            </button>
+            <div class="header-controls">
+                <button type="button" class="btn btn-sm btn-secondary hidden" id="btn-nav-my-report" aria-label="View My Latest Report">
+                    📊 My Report
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary" id="btn-nav-history" aria-label="View Assessment History">
+                    📜 History
+                </button>
+                <button type="button" class="btn btn-sm btn-icon" id="btn-toggle-theme" aria-label="Toggle Dark and Light Mode">
+                    ☀️ Light
+                </button>
+                <button type="button" class="btn btn-sm btn-secondary" id="btn-nav-settings" aria-label="Open Settings">
+                    ⚙️
+                </button>
+                <button type="button" class="btn btn-sm btn-accent" id="btn-install-pwa" aria-label="Download App for Offline Use">
+                    ⬇️ Install
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN APP CONTAINER -->
+    <main class="app-container" role="main">
+
+        <!-- ===============================================================
+             VIEW 1: HOME & ONBOARDING (Sections 1, 15, 16)
+             =============================================================== -->
+        <section id="view-home" class="app-view active-view" aria-labelledby="home-heading">
+            <div class="hero-section">
+                <div class="hero-pill">✨ The World's Most Comprehensive Offline Career Assessment</div>
+                <h2 id="home-heading" class="hero-title">360° PLACEMENT &amp; INDUSTRY IQ</h2>
+                <p class="hero-tagline">
+                    "Don't Just Measure What You Know. Measure How You Think, Work, Adapt &amp; Grow."
+                </p>
+                <p class="hero-mission">
+                    SarlaYash Mission &bull; Legacy Of Values. Future Of Learning.
+                </p>
+            </div>
+
+            <!-- Profile & Domain Advisor Input Card -->
+            <div class="profile-card">
+                <h3 class="card-title">👤 Candidate Profile &amp; Smart Domain Advisor</h3>
+                <p class="card-subtitle">
+                    Enter your details. The built-in offline advisor will automatically analyze your profile and calibrate the most relevant assessment decisions.
+                </p>
+
+                <form id="form-user-profile" onsubmit="event.preventDefault();">
+                    <div class="form-grid">
+                        <div class="form-group full-span">
+                            <label for="input-user-name" class="form-label">Full Name</label>
+                            <input type="text" id="input-user-name" class="form-input" placeholder="e.g. Alex Sharma" required autocomplete="name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-domain" class="form-label">Primary Career Domain</label>
+                            <select id="select-domain" class="form-select">
+                                <option value="Technology" selected>Technology / Engineering</option>
+                                <option value="Finance">Finance &amp; Banking</option>
+                                <option value="Marketing">Marketing &amp; Media</option>
+                                <option value="Sales">Sales &amp; Business Development</option>
+                                <option value="HR">Human Resources &amp; People</option>
+                                <option value="Healthcare">Healthcare &amp; Life Sciences</option>
+                                <option value="Education">Education &amp; Academic</option>
+                                <option value="Operations">Operations &amp; Supply Chain</option>
+                                <option value="Government">Government &amp; Public Policy</option>
+                                <option value="Corporate">General Management / Consulting</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-current-stage" class="form-label">Current Career Stage</label>
+                            <select id="select-current-stage" class="form-select">
+                                <option value="School Student">School Student (Under 18)</option>
+                                <option value="College Student" selected>College Student</option>
+                                <option value="Intern">Intern / Trainee</option>
+                                <option value="Fresher">Recent Graduate / Fresher</option>
+                                <option value="Working Professional">Working Professional</option>
+                                <option value="Manager">Team Lead / Manager</option>
+                                <option value="Entrepreneur">Entrepreneur / Founder</option>
+                                <option value="Career Switcher">Career Switcher</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-age-group" class="form-label">Age Group</label>
+                            <select id="select-age-group" class="form-select">
+                                <option value="Under 15">Under 15</option>
+                                <option value="15-18">15–18</option>
+                                <option value="18-21" selected>18–21</option>
+                                <option value="22-25">22–25</option>
+                                <option value="26-30">26–30</option>
+                                <option value="31-40">31–40</option>
+                                <option value="41-50">41–50</option>
+                                <option value="50+">50+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-experience" class="form-label">Years of Experience</label>
+                            <select id="select-experience" class="form-select">
+                                <option value="0" selected>0 years (Entry / Fresher)</option>
+                                <option value="1-2">1–2 years</option>
+                                <option value="3-5">3–5 years</option>
+                                <option value="6-10">6–10 years</option>
+                                <option value="10+">10+ years</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Domain Advisor Recommendation Box -->
+                    <div id="advisor-recommendation-box" class="mt-4">
+                        <div class="advisor-card">
+                            <div class="advisor-badge">🎯 Advisor Ready</div>
+                            <h3 class="advisor-title">Technology &amp; Systems Architecture Track</h3>
+                            <p class="advisor-desc">
+                                Calibrated for computational reasoning, AI ethics, system trade-offs, and collaborative engineering dynamics.
+                            </p>
+                            <div class="advisor-actions">
+                                <button type="button" class="btn btn-primary" id="btn-start-domain-track-init" onclick="window.app.startAssessment('domain')">
+                                    🚀 Launch Technology Track (30 Decisions)
+                                </button>
+                                <button type="button" class="btn btn-accent" id="btn-start-full-track-init" onclick="window.app.startAssessment('full')">
+                                    ⭐ Take Master 360° Comprehensive (Full 100 Decisions)
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Core Pillars Overview Preview -->
+            <div class="hero-pillars-preview">
+                <h3 class="card-title text-center">The 5 Core Readiness Pillars</h3>
+                <div class="pillars-preview-grid">
+                    <div class="preview-box">
+                        <div class="icon">🧠</div>
+                        <h4>Cognitive Readiness</h4>
+                        <p>Logic, structured thinking, critical hypothesis testing, and learning agility.</p>
+                    </div>
+                    <div class="preview-box">
+                        <div class="icon">🤝</div>
+                        <h4>People Readiness</h4>
+                        <p>Emotional intelligence, executive empathy, authentic communication, and leadership.</p>
+                    </div>
+                    <div class="preview-box">
+                        <div class="icon">🤖</div>
+                        <h4>Digital Readiness</h4>
+                        <p>Responsible AI fluency, computational logic, and technology adaptability.</p>
+                    </div>
+                    <div class="preview-box">
+                        <div class="icon">⚖️</div>
+                        <h4>Professional Readiness</h4>
+                        <p>Fiduciary ethics, workplace etiquette, time allocation, and interview mastery.</p>
+                    </div>
+                    <div class="preview-box">
+                        <div class="icon">🚀</div>
+                        <h4>Growth Readiness</h4>
+                        <p>Strategic maturity, business acumen, commercial positioning, and innovation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home Actions -->
+            <div class="text-center mt-4 mb-4" style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                <button type="button" class="btn btn-secondary" onclick="window.app.showView('view-about')">
+                    ℹ️ How It Works &amp; Philosophy
+                </button>
+                <button type="button" class="btn btn-secondary" onclick="window.app.showHistoryView()">
+                    📜 View Past Attempts
+                </button>
+            </div>
+        </section>
+
+        <!-- ===============================================================
+             VIEW 2: ASSESSMENT SCREEN (Section 17)
+             =============================================================== -->
+        <section id="view-assessment" class="app-view" aria-labelledby="assessment-scenario-heading">
+            <div class="assessment-header">
+                <div class="progress-meta">
+                    <span id="assessment-progress-label">Decision 1 of 100 (1%)</span>
+                    <span id="question-timer-display" class="timer-tag">00:00 (Rec: 45s)</span>
+                </div>
+                <div class="progress-bar-container" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="1">
+                    <div class="progress-bar-fill" id="assessment-progress-fill"></div>
+                </div>
+                <div class="question-indicators">
+                    <div class="badge-tag" id="question-domain-badge">
+                        <span class="d-icon">🧠</span> Problem-Solving IQ
+                    </div>
+                    <div class="badge-tag" id="question-difficulty-badge">
+                        Level 1 — Foundation
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scenario & Decision Card -->
+            <div class="question-card">
+                <div class="scenario-title">Real Workplace Scenario</div>
+                <div id="question-scenario-text" class="scenario-text">
+                    Loading professional scenario...
+                </div>
+                <div id="question-decision-prompt" class="decision-prompt">
+                    What is your immediate course of action?
+                </div>
+
+                <!-- 4 Options -->
+                <div id="question-options-container" class="options-grid">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+
+            <!-- Navigation Controls -->
+            <div class="assessment-nav">
+                <button type="button" class="btn btn-secondary" id="btn-question-prev">
+                    ← Previous
+                </button>
+                <button type="button" class="btn btn-primary" id="btn-question-next" disabled>
+                    Next Decision →
+                </button>
+            </div>
+        </section>
+
+        <!-- ===============================================================
+             MODAL: ADAPTIVE MICRO-SCENARIO (Section 11)
+             =============================================================== -->
+        <div id="micro-scenario-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="ms-title">
+            <div class="modal-content">
+                <div class="modal-badge">⚡ Adaptive Micro-Scenario</div>
+                <h3 id="ms-title" class="modal-title">Scenario Complication</h3>
+                <div id="ms-prompt-text" class="modal-body">
+                    Following your initial decision, unexpected resistance occurs...
+                </div>
+                <div id="ms-question-text" class="modal-question">
+                    How do you navigate this follow-up challenge?
+                </div>
+                <div id="ms-options-container" class="ms-options-list">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- ===============================================================
+             VIEW 3: ASSESSMENT COMPLETE SCREEN (Section 44)
+             =============================================================== -->
+        <section id="view-assessment-complete" class="app-view">
+            <div class="complete-hero">
+                <div class="complete-icon">🎯</div>
+                <h2 class="complete-title">ASSESSMENT COMPLETE</h2>
+                <div class="complete-quote">
+                    <strong>100 decisions.</strong><br>
+                    <strong>20 intelligence dimensions.</strong><br>
+                    <strong>1 unified professional profile.</strong>
+                </div>
+                <button type="button" class="btn btn-accent btn-lg" id="btn-reveal-my-report" style="font-size: 1.15rem; padding: 16px 36px;">
+                    ✨ GENERATE MY COMPREHENSIVE REPORT
+                </button>
+            </div>
+        </section>
+
+        <!-- ===============================================================
+             VIEW 4: FULL REPORT VIEW (Sections 21 to 32)
+             =============================================================== -->
+        <section id="view-report" class="app-view" aria-labelledby="report-title-heading">
+            <!-- Report Actions Bar -->
+            <div class="report-header-card">
+                <div class="report-candidate-meta">
+                    <h2 id="report-title-heading"><span id="report-candidate-name">Alex Sharma</span></h2>
+                    <p id="report-candidate-stage">College Student &bull; Technology</p>
+                    <div class="meta-chips">
+                        <span class="chip">ID: <code id="report-assessment-id">SY-360-IQ-2026-XXXXXX</code></span>
+                        <span class="chip">Completed: <span id="report-date">Sept 24, 2026</span></span>
+                        <span class="chip">Offline Cryptographic Verified</span>
+                    </div>
+                </div>
+                <div class="report-action-buttons">
+                    <button type="button" class="btn btn-primary btn-sm" id="btn-report-download-pdf">
+                        📄 Download PDF
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm" id="btn-report-share">
+                        🔗 Share
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm" id="btn-report-history">
+                        📜 History
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm" id="btn-report-retake">
+                        🔄 Retake
+                    </button>
+                </div>
+            </div>
+
+            <!-- Executive Snapshot Hero (Section 19) -->
+            <div class="score-hero-card">
+                <div class="score-hero-num" id="report-index-value">84</div>
+                <div class="score-hero-label">INDUSTRY READINESS INDEX</div>
+                <div class="score-hero-sub">
+                    <span id="report-profile-title">Professional Growth Profile</span> &bull; <strong id="report-profile-band">Advanced Readiness</strong>
+                </div>
+            </div>
+
+            <!-- 5 Readiness Pillars (Section 19) -->
+            <div class="pillars-container">
+                <h3 class="section-heading">🏛️ 5 Core Readiness Pillars</h3>
+                <div class="pillars-grid">
+                    <div class="pillar-row">
+                        <div class="pillar-meta">
+                            <span>🧠 Cognitive Readiness</span>
+                            <span id="pillar-cog-score">82/100</span>
+                        </div>
+                        <div class="pillar-bar-bg"><div class="pillar-bar-fill" id="pillar-cog-bar" style="background: var(--color-iq);"></div></div>
+                    </div>
+                    <div class="pillar-row">
+                        <div class="pillar-meta">
+                            <span>🤝 People Readiness</span>
+                            <span id="pillar-peo-score">85/100</span>
+                        </div>
+                        <div class="pillar-bar-bg"><div class="pillar-bar-fill" id="pillar-peo-bar" style="background: var(--color-eq);"></div></div>
+                    </div>
+                    <div class="pillar-row">
+                        <div class="pillar-meta">
+                            <span>🤖 Digital Readiness</span>
+                            <span id="pillar-dig-score">88/100</span>
+                        </div>
+                        <div class="pillar-bar-bg"><div class="pillar-bar-fill" id="pillar-dig-bar" style="background: var(--color-aiq);"></div></div>
+                    </div>
+                    <div class="pillar-row">
+                        <div class="pillar-meta">
+                            <span>⚖️ Professional Readiness</span>
+                            <span id="pillar-pro-score">86/100</span>
+                        </div>
+                        <div class="pillar-bar-bg"><div class="pillar-bar-fill" id="pillar-pro-bar" style="background: var(--color-job-readiness);"></div></div>
+                    </div>
+                    <div class="pillar-row">
+                        <div class="pillar-meta">
+                            <span>🚀 Growth Readiness</span>
+                            <span id="pillar-gro-score">80/100</span>
+                        </div>
+                        <div class="pillar-bar-bg"><div class="pillar-bar-fill" id="pillar-gro-bar" style="background: var(--color-promotion);"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 20-Dimension Radar Chart (Section 21) -->
+            <div class="radar-section">
+                <h3 class="section-heading">🌐 20-Dimension Intelligence Radar</h3>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;">
+                    Interactive multidimensional spectrum mapping all 20 professional competencies.
+                </p>
+                <div class="radar-chart-box" id="radar-svg-container">
+                    <!-- SVG rendered dynamically -->
+                </div>
+            </div>
+
+            <!-- Your Professional DNA (Section 30) -->
+            <div class="dna-card">
+                <div class="dna-badge">🧬 Your Professional DNA</div>
+                <h3 class="dna-title" id="dna-primary-title">The Structured Problem Solver</h3>
+                <p class="dna-tagline" id="dna-primary-tagline">
+                    Excels in breaking chaotic ambiguity into systematic, hypothesis-driven execution frameworks.
+                </p>
+                <ul class="dna-traits-list" id="dna-traits-list">
+                    <!-- Injected by JS -->
+                </ul>
+                <div class="dna-secondary">
+                    <strong>Secondary Heuristic Pattern:</strong> <span id="dna-secondary-title">The Adaptive Builder</span>
+                </div>
+                <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 10px;">
+                    <em>Notice: This represents an assessment profile of observed decision-making heuristics, not a psychological or medical diagnosis.</em>
+                </p>
+            </div>
+
+            <!-- Career Weather Map (Section 31) -->
+            <div class="sim-container">
+                <h3 class="section-heading">🌤️ Career Weather Map (All 20 Dimensions)</h3>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
+                    🟢 Strong (80-100) &bull; 🟡 Developing (65-79) &bull; 🟠 Watch (50-64) &bull; 🔴 Priority Focus (&lt;50)
+                </p>
+                <div class="weather-grid" id="weather-map-grid">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+
+            <!-- Top 5 Strengths & Top 5 Development Areas (Sections 23 & 24) -->
+            <div class="form-grid mb-4">
+                <div class="profile-card" style="margin: 0;">
+                    <h3 class="card-title">🌟 Top 5 Strength Signals</h3>
+                    <p class="card-subtitle">Validated by consistent scenario decision patterns.</p>
+                    <div class="strengths-grid" id="top-strengths-list">
+                        <!-- Injected by JS -->
+                    </div>
+                </div>
+
+                <div class="profile-card" style="margin: 0;">
+                    <h3 class="card-title">🎯 Top 5 Development Opportunities</h3>
+                    <p class="card-subtitle">Highest leverage growth vectors for rapid progression.</p>
+                    <div class="dev-grid" id="top-developments-list">
+                        <!-- Injected by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Gap Bridge (Section 32) -->
+            <div class="sim-container">
+                <h3 class="section-heading">🌉 Unique Skill Gap Bridge</h3>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 14px;">
+                    Continuous development loop: Current Baseline → Target Standard → Practical Action → Practice Loop → Reassessment.
+                </p>
+                <div id="skill-gap-bridge-container">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+
+            <!-- Career Simulation (Section 25) -->
+            <div class="sim-container">
+                <h3 class="section-heading">🔮 Career Simulation: "What Happens If You Enter The Workplace Tomorrow?"</h3>
+                <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 16px;">
+                    <em>Simulation based on assessment responses — not a prediction or employment guarantee.</em>
+                </p>
+                <div class="sim-timeline">
+                    <div class="sim-node">
+                        <h4>First 30 Days</h4>
+                        <p><strong>Potential Strengths:</strong> <span id="sim-day30-strengths">...</span></p>
+                        <p style="margin-top: 4px;"><strong>Potential Challenges:</strong> <span id="sim-day30-challenges">...</span></p>
+                    </div>
+                    <div class="sim-node">
+                        <h4>First 90 Days</h4>
+                        <p><strong>Likely Development Opportunities:</strong> <span id="sim-day90-opps">...</span></p>
+                    </div>
+                    <div class="sim-node">
+                        <h4>First 6 Months</h4>
+                        <p><strong>Professional Growth Signals:</strong> <span id="sim-month6-signals">...</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 20-Domain Full Score Cards (Section 4 & 12) -->
+            <div class="sim-container">
+                <h3 class="section-heading">🌈 20-Dimension Comprehensive Score Cards</h3>
+                <div class="domains-grid" id="domain-score-cards-grid">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+
+            <!-- Specialized Reports (Sections 26, 27, 28, 29) -->
+            <div class="form-grid mb-4">
+                <div class="profile-card" style="margin: 0;">
+                    <h3 class="card-title">💼 Job Readiness Report</h3>
+                    <div class="data-table-grid">
+                        <div class="data-row-card"><span class="d-label">Interview Readiness:</span> <div class="d-val" id="jr-interview">85/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Resume Readiness:</span> <div class="d-val" id="jr-resume">84/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Communication:</span> <div class="d-val" id="jr-comm">88/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Workplace Behaviour:</span> <div class="d-val" id="jr-workplace">86/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Problem Solving:</span> <div class="d-val" id="jr-problem">90/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Professionalism:</span> <div class="d-val" id="jr-pro">92/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Learning Agility:</span> <div class="d-val" id="jr-learning">85/100</div></div>
+                        <div class="data-row-card"><span class="d-label">AI Readiness:</span> <div class="d-val" id="jr-ai">89/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Team Readiness:</span> <div class="d-val" id="jr-team">84/100</div></div>
+                    </div>
+                </div>
+
+                <div class="profile-card" style="margin: 0;">
+                    <h3 class="card-title">🚀 Promotion &amp; AI Readiness</h3>
+                    <h4 style="font-size: 0.95rem; margin-bottom: 8px;">Promotion Readiness Profile:</h4>
+                    <div class="data-table-grid" style="margin-bottom: 16px;">
+                        <div class="data-row-card"><span class="d-label">Ownership:</span> <div class="d-val" id="pr-ownership">88/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Strategic Thinking:</span> <div class="d-val" id="pr-strategic">90/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Business Impact:</span> <div class="d-val" id="pr-impact">85/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Influence:</span> <div class="d-val" id="pr-influence">82/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Leadership:</span> <div class="d-val" id="pr-leadership">88/100</div></div>
+                    </div>
+                    <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;" id="pr-verdict">
+                        Your responses indicate stronger signals in strategic problem solving and cross-functional leadership.
+                    </p>
+
+                    <h4 style="font-size: 0.95rem; margin-bottom: 8px;">AI Readiness Score: <span id="air-overall" style="color: var(--color-aiq);">89/100</span></h4>
+                    <div class="data-table-grid">
+                        <div class="data-row-card"><span class="d-label">AI Awareness:</span> <div class="d-val" id="air-awareness">90/100</div></div>
+                        <div class="data-row-card"><span class="d-label">AI Judgement:</span> <div class="d-val" id="air-judgement">88/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Prompt Thinking:</span> <div class="d-val" id="air-prompt">86/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Verification:</span> <div class="d-val" id="air-verification">92/100</div></div>
+                        <div class="data-row-card"><span class="d-label">AI Ethics:</span> <div class="d-val" id="air-ethics">94/100</div></div>
+                        <div class="data-row-card"><span class="d-label">Human+AI Collab:</span> <div class="d-val" id="air-collab">87/100</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transferable Skills Index (Section 29) -->
+            <div class="sim-container">
+                <h3 class="section-heading">🌐 Industry Transferability Index</h3>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">
+                    Capability-transfer index: measures how strongly your decision heuristics translate across diverse sectors.
+                </p>
+                <div class="pillars-grid" id="tsi-grid">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+
+            <!-- Anti-Gaming & Time Intelligence Audit (Sections 9, 10, 11) -->
+            <div class="sim-container">
+                <h3 class="section-heading">🛡️ Anti-Gaming &amp; Time Intelligence Audit</h3>
+                <div class="comp-hero-delta">
+                    <div class="delta-box">
+                        <span class="d-label">Consistency Score</span>
+                        <div class="d-val" id="ag-consistency-score">92/100</div>
+                    </div>
+                    <div class="delta-box">
+                        <span class="d-label">Authenticity Score</span>
+                        <div class="d-val" id="ag-authenticity-score">94/100</div>
+                    </div>
+                    <div class="delta-box">
+                        <span class="d-label">Decision Speed Index</span>
+                        <div class="d-val" id="ti-speed-index">88/100</div>
+                    </div>
+                    <div class="delta-box">
+                        <span class="d-label">Average Pacing</span>
+                        <div class="d-val" id="ti-avg-time">32s / decision</div>
+                    </div>
+                </div>
+
+                <div class="comp-narrative">
+                    <h4>Response Pattern Insights:</h4>
+                    <p id="ag-insight-text">
+                        Your response pattern demonstrates authentic professional pragmatism, reflecting real-world prioritization over idealized textbook answers.
+                    </p>
+                    <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 8px;">
+                        &bull; <strong>Decision Stability:</strong> <span id="ag-stability">High Stability</span><br>
+                        &bull; <strong>Risk Orientation:</strong> <span id="ag-risk">Balanced &amp; Calculated</span><br>
+                        &bull; <strong>Response Confidence:</strong> <span id="ag-confidence">High Executive Confidence</span><br>
+                        &bull; <strong>Pacing Rhythm:</strong> <span id="ti-pacing">Optimal professional cadence</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Offline QR Verification Stamp (Section 36) -->
+            <div class="qr-stamp-box">
+                <div id="report-qr-code-slot"></div>
+                <div class="qr-caption">
+                    <strong>Generated Offline by 360° Placement &amp; Industry IQ</strong><br>
+                    SarlaYash Mission &bull; Legacy Of Values. Future Of Learning.<br>
+                    Cryptographic local verification token.
+                </div>
+            </div>
+        </section>
+
+        <!-- ===============================================================
+             VIEW 5: HISTORY & ATTEMPT COMPARISON VIEW (Sections 33 & 34)
+             =============================================================== -->
+        <section id="view-history" class="app-view" aria-labelledby="history-heading">
+            <div class="profile-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 8px;">
+                    <div>
+                        <h2 id="history-heading" class="card-title">📜 Offline Assessment History</h2>
+                        <p class="card-subtitle" style="margin-bottom: 0;">
+                            Retake comparisons, score trajectories, and decision movement across attempts.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-sm" id="btn-export-history-json">
+                        💾 Export JSON Backup
+                    </button>
+                </div>
+
+                <!-- Attempts List -->
+                <div id="history-attempts-list">
+                    <!-- Injected by JS -->
+                </div>
+
+                <!-- Attempt Comparison Output (What Changed?) -->
+                <div id="comparison-results-section" class="hidden">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===============================================================
+             VIEW 6: SETTINGS & PRIVACY (Sections 41 & 48)
+             =============================================================== -->
+        <section id="view-settings" class="app-view" aria-labelledby="settings-heading">
+            <div class="settings-card">
+                <h2 id="settings-heading" class="card-title">⚙️ Application Settings</h2>
+                <p class="card-subtitle">Customize audio, accessibility typography, and data privacy.</p>
+
+                <div class="setting-item">
+                    <div class="setting-label">
+                        <strong>🔊 Sound Engine</strong>
+                        <p>Subtle procedural audio chimes for question load and option selection.</p>
+                    </div>
+                    <label class="switch" aria-label="Toggle Sound Effects">
+                        <input type="checkbox" id="toggle-setting-sound" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="setting-item">
+                    <div class="setting-label">
+                        <strong>🔤 Text Accessibility Sizing</strong>
+                        <p>Large text mode for enhanced legibility.</p>
+                    </div>
+                    <select id="select-setting-text-size" class="form-select" style="width: auto;">
+                        <option value="normal" selected>Normal (16px)</option>
+                        <option value="large">Large (18px)</option>
+                        <option value="xlarge">Extra Large (21px)</option>
+                    </select>
+                </div>
+
+                <div class="setting-item">
+                    <div class="setting-label">
+                        <strong>📜 Reset Assessment History</strong>
+                        <p>Erase past score reports while keeping your profile info.</p>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-sm" id="btn-reset-history">
+                        Reset History
+                    </button>
+                </div>
+
+                <div class="setting-item">
+                    <div class="setting-label">
+                        <strong style="color: #ef4444;">🗑️ Delete All My Data</strong>
+                        <p>Completely wipe all offline profiles, history, and preferences from this device.</p>
+                    </div>
+                    <button type="button" class="btn btn-danger btn-sm" id="btn-delete-all-data">
+                        Delete All Data
+                    </button>
+                </div>
+
+                <!-- Section 41 Privacy Disclosure -->
+                <div class="privacy-box mt-4">
+                    <strong>🛡️ Privacy Assurance:</strong><br>
+                    Your assessment data is stored locally on this device unless you choose to share or export it. No external servers or analytics trackers are used.
+                </div>
+            </div>
+        </section>
+
+        <!-- ===============================================================
+             VIEW 7: ABOUT & METHODOLOGY (Section 49 & 50)
+             =============================================================== -->
+        <section id="view-about" class="app-view" aria-labelledby="about-heading">
+            <div class="profile-card">
+                <h2 id="about-heading" class="card-title">📖 About 360° Placement &amp; Industry IQ</h2>
+                <div class="complete-quote" style="text-align: left; margin: 16px 0; font-size: 1.05rem;">
+                    <strong>A SarlaYash Mission Initiative.</strong><br>
+                    <em>Legacy Of Values. Future Of Learning.</em>
+                </div>
+
+                <p style="margin-bottom: 14px; color: var(--text-secondary);">
+                    Designed to help learners and professionals understand their current capabilities, identify development opportunities, and build stronger career readiness across 20 distinct dimensions of intelligence.
+                </p>
+
+                <div class="advisor-card" style="margin: 20px 0;">
+                    <h3 style="font-size: 1.15rem; font-weight: 800; margin-bottom: 8px;">The Core Product Philosophy</h3>
+                    <p style="font-size: 1.05rem; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">
+                        "This didn't test what I memorized. It tested how I actually think."
+                    </p>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                        Conventional MCQ exams assess static factual recall. In contrast, 360° Placement &amp; Industry IQ simulates a full, realistic day in your professional life—confronting you with high-stakes resource trade-offs, cross-functional misalignment, ethical dilemmas, and strategic pivots.
+                    </p>
+                </div>
+
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin: 16px 0 8px;">Offline Architecture</h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 14px;">
+                    100% offline. Zero network dependencies, zero trackers, zero advertisements. Once saved to your device, the questions, multidimensional scoring algorithms, radar chart generation, audio engine, and PDF export function seamlessly with or without internet connectivity.
+                </p>
+
+                <button type="button" class="btn btn-primary" onclick="window.app.showView('view-home')">
+                    ← Return to Home
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer" role="contentinfo">
+        <div>360° PLACEMENT &amp; INDUSTRY IQ &bull; Powered By Kapil &bull; SarlaYash Mission</div>
+        <div style="font-size: 0.78rem; margin-top: 4px; color: var(--text-muted);">
+            Legacy Of Values. Future Of Learning. &bull; 100% Offline Progressive Web Application
+        </div>
+    </footer>
+
+    <!-- PRINT & OFFLINE PDF RENDER AREA (Section 35) -->
+    <div id="printable-report-area" aria-hidden="true"></div>
+
+    <!-- SCRIPTS -->
+    <script src="js/questions-data.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/qrcode.js"></script>
+    <script src="js/scoring.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/pdf.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

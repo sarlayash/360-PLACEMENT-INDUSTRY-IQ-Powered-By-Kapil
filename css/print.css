@@ -1,0 +1,364 @@
+/* ==========================================================================
+   360° PLACEMENT & INDUSTRY IQ - Print & PDF Stylesheet
+   Powered by SarlaYash Mission - Legacy Of Values. Future Of Learning.
+   ========================================================================== */
+
+#printable-report-area {
+    display: none;
+}
+
+@media print {
+    /* Hide all web UI chrome */
+    body {
+        background: #ffffff !important;
+        color: #0f172a !important;
+        font-size: 11pt !important;
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .app-header,
+    .app-footer,
+    .app-container,
+    .modal-overlay,
+    .btn,
+    .header-controls {
+        display: none !important;
+    }
+
+    #printable-report-area {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .print-document {
+        width: 100% !important;
+        max-width: 800px !important;
+        margin: 0 auto !important;
+    }
+
+    .print-page {
+        page-break-after: always;
+        padding: 24px;
+        min-height: 98vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .print-page:last-child {
+        page-break-after: avoid;
+    }
+
+    .print-brand-badge {
+        font-size: 12pt;
+        font-weight: 800;
+        color: #2563eb;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+
+    .print-title {
+        font-size: 24pt;
+        font-weight: 900;
+        margin-bottom: 4px;
+        color: #0f172a;
+    }
+
+    .print-subtitle {
+        font-size: 13pt;
+        font-weight: 600;
+        color: #475569;
+        margin-bottom: 4px;
+    }
+
+    .print-tagline {
+        font-size: 11pt;
+        font-style: italic;
+        color: #64748b;
+        margin-bottom: 16px;
+    }
+
+    .print-candidate-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 20px;
+    }
+
+    .print-info-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 16px;
+        font-size: 10pt;
+    }
+
+    .print-info-grid .label {
+        color: #64748b;
+    }
+
+    .print-qr-slot {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .print-qr-caption {
+        font-size: 7.5pt;
+        color: #64748b;
+        margin-top: 4px;
+    }
+
+    .print-section {
+        margin-bottom: 16px;
+    }
+
+    .print-heading {
+        font-size: 13pt;
+        font-weight: 800;
+        color: #0f172a;
+        border-bottom: 2px solid #e2e8f0;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .print-subheading {
+        font-size: 11pt;
+        font-weight: 800;
+        color: #1e293b;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    .print-score-hero {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: #f1f5f9;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        padding: 16px 20px;
+        margin-bottom: 14px;
+    }
+
+    .hero-score-val {
+        font-size: 38pt;
+        font-weight: 900;
+        color: #2563eb;
+        line-height: 1;
+    }
+
+    .hero-title {
+        font-size: 13pt;
+        font-weight: 800;
+        color: #0f172a;
+    }
+
+    .hero-sub {
+        font-size: 10pt;
+        color: #475569;
+    }
+
+    .print-pillars-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .pillar-box {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .p-title {
+        font-size: 8pt;
+        font-weight: 700;
+        color: #475569;
+        margin-bottom: 4px;
+    }
+
+    .p-val {
+        font-size: 12pt;
+        font-weight: 800;
+        color: #0f172a;
+    }
+
+    .dna-box {
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        padding: 14px;
+        font-size: 10pt;
+    }
+
+    .dna-box h3 {
+        font-size: 12pt;
+        font-weight: 800;
+        color: #6d28d9;
+        margin-bottom: 4px;
+    }
+
+    .dna-tagline {
+        color: #334155;
+        margin-bottom: 6px;
+    }
+
+    .dna-notice {
+        font-size: 8.5pt;
+        color: #64748b;
+        margin-top: 8px;
+    }
+
+    .print-header-mini {
+        display: flex;
+        justify-content: space-between;
+        font-size: 8.5pt;
+        color: #64748b;
+        border-bottom: 1px solid #e2e8f0;
+        padding-bottom: 6px;
+        margin-bottom: 14px;
+    }
+
+    .print-radar-wrapper {
+        text-align: center;
+        max-width: 380px;
+        margin: 0 auto 12px;
+    }
+
+    .print-radar-wrapper svg {
+        max-height: 280px;
+    }
+
+    .print-weather-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 6px;
+        margin-bottom: 16px;
+    }
+
+    .print-weather-pill {
+        border: 1px solid #cbd5e1;
+        border-radius: 4px;
+        padding: 4px 6px;
+        font-size: 7.5pt;
+        display: flex;
+        justify-content: space-between;
+        background: #ffffff;
+    }
+
+    .print-domains-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .print-domain-card {
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+        padding: 6px 10px;
+        background: #ffffff;
+        font-size: 8pt;
+    }
+
+    .print-domain-header {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+    }
+
+    .print-domain-band {
+        font-size: 7pt;
+        color: #64748b;
+    }
+
+    .print-domain-summary {
+        font-size: 7pt;
+        color: #475569;
+    }
+
+    .print-sim-box {
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 6px;
+        padding: 12px;
+        margin-bottom: 14px;
+        font-size: 9pt;
+    }
+
+    .sim-notice {
+        font-size: 8pt;
+        color: #64748b;
+        margin-bottom: 8px;
+    }
+
+    .sim-phase {
+        margin-bottom: 6px;
+    }
+
+    .print-columns-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 14px;
+    }
+
+    .print-item {
+        font-size: 8.5pt;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #f1f5f9;
+        padding-bottom: 6px;
+    }
+
+    .print-desc {
+        color: #334155;
+        margin-top: 2px;
+    }
+
+    .print-plan-box {
+        background: #f1f5f9;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-size: 7.5pt;
+        margin-top: 4px;
+    }
+
+    .ai-summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+        font-size: 8.5pt;
+        background: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-radius: 6px;
+        padding: 8px;
+    }
+
+    .print-methodology-box {
+        font-size: 8pt;
+        color: #64748b;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 8px;
+        margin-top: 10px;
+    }
+
+    .print-footer {
+        display: flex;
+        justify-content: space-between;
+        font-size: 8pt;
+        color: #94a3b8;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 8px;
+        margin-top: auto;
+    }
+}
